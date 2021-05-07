@@ -37,6 +37,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 Every contribution is welcome!
 
 Here is a list of users who contributed to this repository:
+
 <a href="https://github.com/italia/wizard-italia/graphs/contributors">
   <img src="https://contributors-img.web.app/image?repo=italia/wizard-italia" />
 </a>
