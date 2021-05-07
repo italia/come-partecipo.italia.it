@@ -7,37 +7,161 @@ root:
       content:
         - label: "Leggi e contribuisci alle linee guida"
           content: |
-            "# Docs Italia"
-            "# Forum Italia"
+            # Docs Italia
+
+            https://docs.italia.it
+
+            # Forum Italia
+
+            https://forum.italia.it
+
+        - label: "Racconta la tua storia sui blog del Dipartimento di Trasformazione Digitale"
+          content: |
+            Un esempio può essere utile a molti
+            (Mail) -> Blog
+
         - label: "Amplia le competenze tecniche del tuo team"
           content: |
-            "# Docs Italia"
-            "# Forum Italia"
-        - label: "Amplia le competenze tecniche del tuo team"
+            Docs Italia (linee guida consolidate)
+
+        - label: "Lavori in una scuola o comune?"
           content: |
-            "# Docs Italia (linee guida consolidate)"
+            Scopri e adotta i modelli
+
+        - label: "Metti a disposizione il tuo software con licenza aperta"
+          content: |
+            https://developers.italia.it/it/riuso/pubblicazione
+
+        - label: "Scopri la cultura del progetto digitale per la Pubblica Amministrazione"
+          content: |
+            I kit per capire
+
         - label: "Gestisci un progetto digitale pubblico?"
           question: ""
           content:
-            - label: "Metti in catalogo la soluzione in uso nella tua PA"
+            - label: "Metti in catalogo la soluzione in uso nella tua Pubblica Amministrazione"
               content: |
-                "https://developers.italia.it/it/riuso/pubblicazione"
+                https://developers.italia.it/it/riuso/pubblicazione
+
             - label: "Scopri il modello di acquisizione e riuso del software pubblico e aiutaci a migliorarlo"
               content: |
-                "https://docs.italia.it/TODO"
+                https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/index.html
 
+            - label: "Adegua le licenze d'uso dei tuoi servizi digitali alle migliori pratiche"
+              content: |
+                https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/riuso-software/licenze-aperte-e-scelta-di-una-licenza.html#scelta-di-una-licenza
+
+            - label: "Scopri gli allegati tecnici per gestire i tuoi fornitori"
+              content: |
+                https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/index.html
+
+            - label: "Scopri come riusare e personalizzare un software a catalogo"
+              content: |
+                https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/riuso-software/riuso-di-un-software-o-utilizzo-di-un-software-open-source.html
+
+        - label: "Scopri il software libero disponibile per la tua Pubblica Amministrazione"
+          content: |
+            https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/riuso-software/riuso-di-un-software-o-utilizzo-di-un-software-open-source.html
 
     - label: "Progettazione o design"
       question: "Hai già usato i nostri strumenti?"
       content:
-        - label: "Sì"
-          content: TODO
         - label: "No"
-          content: TODO
+          content:
+            - label: "Scopri le linee guida per progettare nel pubblico"
+              content: |
+                Linee guida AgID
 
-    - label: "Sviluppo software e DevOps"
+            - label: "Scopri come fare ricerca e avviare un progetto con il piede giusto"
+              content: |
+                I kit per capire
+
+            - label: "Scopri gli strumenti per costruire un'interfaccia"
+              content: |
+                Hai già fatto una ricerca sui bisogni dei tuoi utenti? Ecco i kit per fare
+
+            - label: "Insegni in una scuola di design?"
+              content: |
+                Proponi ai tuoi studenti un progetto migliorativo che abbia un impatto
+                sulla comunità
+                (mail)
+
+        - label: "Sì"
+          content:
+            - label: "Proponi modifiche ai nostri strumenti"
+              content: |
+                link slack, github
+
+            - label: |
+                Racconta sui blog del Dipartimento per la Trasformazione Digitale
+                la storia di un processo a cui hai partecipato"
+              content: |
+                (mail)
+
+            - label: "Insegni in una scuola di design?"
+              content: |
+                Proponi ai tuoi studenti un progetto migliorativo che abbia un impatto
+                sulla comunità
+                (mail)
+
+            - label: "Hai notato dei difetti o delle opportunità nei nostri strumenti?"
+              content: |
+                Scrivici
+                (mail)
+
+    - label: "Sviluppo software o DevOps"
       question: ""
       content:
         - label: "Contribuisci a migliorare gli SDK e le piattaforme pubbliche"
+          content:
+            - label: "Contribuisci agli SDK di SPID"
+              content:
+                - label: "Vai al portale sviluppatore"
+                  content: |
+                    https://developers.italia.it/it/spid
+
+                - label: "Scopri l'introduzione ai concetti principali"
+                  content: |
+                    https://docs.italia.it/italia/spid/spid-regole-tecniche/it/stabile/single-sign-on.html
+
+                - label: "Contribuisci alle issue non risolte"
+                  content: |
+                    (link)
+
+            - label: "Contribuisci ai kit di sviluppo web"
+              content: |
+                Sito designers web devkit
+
+        - label: "Leggi la Guida allo sviluppo e gestione di software open source e aiutaci a migliorarla"
           content: |
-            TODO
+            https://docs.italia.it/italia/developers-italia/guida-sviluppo-gestione-software-libero/it/stabile/sviluppatori.html
+
+        - label: "Leggi come realizzare API pubbliche e interoperabilità e aiutaci a migliorare le raccomandazioni!"
+          content: |
+            https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/index.html
+
+        - label: "Partecipa alle community"
+          content: |
+            # Forum Italia
+            https://forum.italia.it
+
+            # Slack
+            https://slack.developers.italia.it
+
+            # GitHub
+            https://github.com/italia/awesome-italia
+
+        - label: "Segnala software libero che può essere utile alla Pubblica Amministrazione"
+          content: |
+            Aggiungilo al catalogo del riuso
+
+            https://developers.italia.it/it/riuso/pubblicazione
+
+    - label: "Racconta la tua storia sui blog del Dipartimento di Trasformazione Digitale"
+      content: |
+        Scrivici
+        (mail)
+
+    - label: "Comunica un progetto"
+      content: |
+        AgID comunica PA
