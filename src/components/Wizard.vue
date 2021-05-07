@@ -31,10 +31,15 @@
 </template>
 
 <script>
+import treeObj from '@/configuration/tree.yaml';
+
 export default {
-  name: 'HelloWorld',
+  name: 'Wizard',
   props: {
     msg: String
+  },
+  mounted() {
+    console.log(treeObj)
   }
 }
 </script>
