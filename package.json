@@ -8,6 +8,8 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@earthtone/vue-markdown-lite": "^0.2.3",
+    "@oruga-ui/oruga": "^0.3.6",
     "core-js": "^3.6.5",
     "vue": "^2.6.11"
   },
