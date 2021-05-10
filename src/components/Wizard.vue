@@ -51,7 +51,9 @@ export default {
     activeStep: function (newStep, oldStep) {
       if (newStep < oldStep) {
         this.setChoice(this.choices[newStep])
-        this.choices = this.choices.slice(0, newStep + 1)
+        setTimeout(() => {
+          this.choices = this.choices.slice(0, newStep + 1)
+        }, 300);
       }
     }
   },
@@ -65,8 +67,10 @@ export default {
         this.reply = currentChoice.content
       } else {
         this.choices.push(currentChoice)
-        this.activeStep = this.choices.length - 1
         this.setChoice(currentChoice)
+        setTimeout(() => {
+          this.activeStep = this.choices.length - 1
+        }, 300);
       }
     }
   }
