@@ -11,8 +11,8 @@
       <h1>{{ currentChoice.question }}</h1>
     </div>
     <div class="choices">
-      <div class="choice-container" v-for="possibleChoice in currentChoice.content" :key="possibleChoice.label">
-        <o-button @click="selectChoice(possibleChoice)" :variant="possibleChoice.content === reply ? 'primary' : 'outlined'">
+      <div class="choice-container" v-for="(possibleChoice, index) in currentChoice.content" :key="possibleChoice.label">
+        <o-button @click="selectChoice(possibleChoice, index)" :variant="index === replyIndex ? 'primary' : 'outlined'">
           {{possibleChoice.label}}
         </o-button>
       </div>
@@ -37,7 +37,8 @@ export default {
       activeStep: 0,
       choices: [],
       currentChoice: null,
-      reply: null
+      reply: null,
+      replyIndex: -1
     }
   },
   mounted() {
@@ -58,10 +59,13 @@ export default {
     setChoice(choice) {
       this.currentChoice = choice
       this.reply = null
+      this.replyIndex = -1
     },
-    selectChoice(currentChoice) {
+    selectChoice(currentChoice, replyIndex) {
+      this.replyIndex = -1
       if (!Array.isArray(currentChoice.content)) {
         this.reply = currentChoice.content
+        this.replyIndex = replyIndex
       } else {
         this.choices.push(currentChoice)
         this.setChoice(currentChoice)
