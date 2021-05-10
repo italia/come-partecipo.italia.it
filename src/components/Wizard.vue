@@ -4,7 +4,10 @@
       <h1>Welcome Wizard! 🧙🏻‍♂️</h1>
     </div>
     <o-steps :has-navigation="false" v-model="activeStep">
-      <o-step-item :value="index" v-for="(madeChoice, index) in choices" :key="index" :label="madeChoice.label">
+      <o-step-item
+        :value="index" v-for="(madeChoice, index) in choices"
+        :key="index"
+        :label="index < choices.length - 1 ? choices[index + 1].label : ''">
       </o-step-item>
     </o-steps>
     <div class="question">
@@ -36,28 +39,31 @@ export default {
     return {
       activeStep: 0,
       choices: [],
-      currentChoice: null,
       reply: null,
       replyIndex: -1
     }
   },
   mounted() {
-    this.setChoice(treeObj.root)
-    this.choices.push(this.currentChoice)
+    this.resetReply()
+    this.choices.push(treeObj.root)
   },
   watch: {
     activeStep: function (newStep, oldStep) {
       if (newStep < oldStep) {
-        this.setChoice(this.choices[newStep])
+        this.resetReply()
         setTimeout(() => {
           this.choices = this.choices.slice(0, newStep + 1)
         }, 300);
       }
     }
   },
+  computed: {
+    currentChoice() {
+      return this.choices[this.choices.length - 1]
+    }
+  },
   methods: {
-    setChoice(choice) {
-      this.currentChoice = choice
+    resetReply() {
       this.reply = null
       this.replyIndex = -1
     },
@@ -68,7 +74,7 @@ export default {
         this.replyIndex = replyIndex
       } else {
         this.choices.push(currentChoice)
-        this.setChoice(currentChoice)
+        this.resetReply()
         setTimeout(() => {
           this.activeStep = this.choices.length - 1
         }, 300);
