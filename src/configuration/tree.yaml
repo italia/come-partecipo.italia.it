@@ -1,6 +1,6 @@
 root:
   label: ""
-  question: "Quali competenze puoi portare"
+  question: "Quali competenze puoi portare?"
   content:
     - label: "Gestione di progetti digitali o di servizi pubblici"
       question: ""
