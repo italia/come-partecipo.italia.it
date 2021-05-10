@@ -47,5 +47,9 @@
 }
 
 .step-link {
-  cursor: not-allowed
+  pointer-events: none;
+}
+
+.step-link-clickable {
+  pointer-events: all;
 }
