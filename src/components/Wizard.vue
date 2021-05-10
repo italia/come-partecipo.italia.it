@@ -46,6 +46,18 @@ export default {
   mounted() {
     this.resetReply()
     this.choices.push(treeObj.root)
+
+    history.pushState({ choices: this.choices, activeStep: this.activeStep }, '')
+
+    window.onpopstate = (event) => {
+      if (!event.state) {
+        return
+      }
+
+      this.choices = event.state.choices
+      this.activeStep = event.state.activeStep
+    };
+
   },
   watch: {
     activeStep: function (newStep, oldStep) {
@@ -77,6 +89,7 @@ export default {
         this.resetReply()
         setTimeout(() => {
           this.activeStep = this.choices.length - 1
+          history.pushState({ choices: this.choices, activeStep: this.activeStep }, '')
         }, 300);
       }
     }
