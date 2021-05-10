@@ -5,7 +5,7 @@
 }
 
 .step-divider {
-  background: linear-gradient(to left, #b5b5b5 50%, var(--primary) 50%);
+  background: linear-gradient(to left, var(--light) 50%, var(--primary) 50%);
   background-size: 200% 100%;
   background-position: right bottom;
   content: " ";
@@ -18,21 +18,9 @@
   top: 30%;
 }
 
-/*
-background: linear-gradient(to left, $steps-color 50%, $steps-active-color 50%);
-background-size: 200% 100%;
-background-position: right bottom;
-// This will contain the divider
-content: " ";
-display: block;
-position: absolute;
-bottom: 0;
-left: -50%;
-width: 100%; */
-
 .step-animated .step-divider {
   transition-property: background;
-  transition-duration: 450ms;
+  transition-duration: 150ms;
   transition-timing-function: ease-out;
 }
 
@@ -40,6 +28,7 @@ width: 100%; */
   color: var(--primary);
   background-color: var(--white);
   border-color: var(--primary);
+  border-width: 2px;
 }
 
 .steps-nav-item-active .step-divider {
