@@ -10,16 +10,18 @@
       </o-step-item>
     </o-steps>
     <h1>{{ currentChoice.question }}</h1>
-    <div class="choices">
-      <div v-for="(possibleChoice, index) in currentChoice.content" :key="possibleChoice.label">
-        <o-button class="choice" @click="selectChoice(possibleChoice, index)" :variant="index === replyIndex ? 'primary' : 'outline-primary'">
-          {{possibleChoice.label}}
-        </o-button>
+
+    <div class="container">
+      <div class="choices">
+        <div v-for="(possibleChoice, index) in currentChoice.content" :key="possibleChoice.label">
+          <o-button class="choice" @click="selectChoice(possibleChoice, index)" :variant="index === replyIndex ? 'primary' : 'outline-primary'">
+            {{possibleChoice.label}}
+          </o-button>
+        </div>
       </div>
-    </div>
-    <div class="reply alert alert-success" role="alert" v-if="reply">
-      <h4 class="alert-heading">Risposta</h4>
-      <vue-markdown-lite>{{reply}}</vue-markdown-lite>
+      <div class="reply alert alert-success" role="alert" v-if="reply">
+        <vue-markdown-lite>{{reply}}</vue-markdown-lite>
+      </div>
     </div>
   </div>
 </template>
@@ -98,7 +100,7 @@ a {
   margin-top: 0.8rem;
 }
 .choices {
-  margin-top: 0.8rem;
+  margin-top: 4rem;
 }
 .choice {
   margin-bottom: 0.2rem;
