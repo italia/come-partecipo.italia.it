@@ -1,26 +1,24 @@
 <template>
   <div class="wizard" v-if="currentChoice">
-    <div class="title">
-      <h1>Welcome Wizard! 🧙🏻‍♂️</h1>
-    </div>
-    <o-steps :has-navigation="false" v-model="activeStep">
+    <o-steps :has-navigation="false" v-model="activeStep" v-if="choices.length > 1">
       <o-step-item
         :value="index" v-for="(madeChoice, index) in choices"
         :key="index"
+        :step="index + 1"
+        :clickable="index < choices.length - 1"
         :label="index < choices.length - 1 ? choices[index + 1].label : ''">
       </o-step-item>
     </o-steps>
-    <div class="question">
-      <h1>{{ currentChoice.question }}</h1>
-    </div>
+    <h1>{{ currentChoice.question }}</h1>
     <div class="choices">
-      <div class="choice-container" v-for="(possibleChoice, index) in currentChoice.content" :key="possibleChoice.label">
-        <o-button @click="selectChoice(possibleChoice, index)" :variant="index === replyIndex ? 'primary' : 'outlined'">
+      <div v-for="(possibleChoice, index) in currentChoice.content" :key="possibleChoice.label">
+        <o-button class="choice" @click="selectChoice(possibleChoice, index)" :variant="index === replyIndex ? 'primary' : 'outline-primary'">
           {{possibleChoice.label}}
         </o-button>
       </div>
     </div>
-    <div class="reply" v-if="reply">
+    <div class="reply alert alert-success" role="alert" v-if="reply">
+      <h4 class="alert-heading">Risposta</h4>
       <vue-markdown-lite>{{reply}}</vue-markdown-lite>
     </div>
   </div>
@@ -85,9 +83,6 @@ export default {
 </script>
 
 <style scoped>
-h3 {
-  margin: 40px 0 0;
-}
 ul {
   list-style-type: none;
   padding: 0;
@@ -100,9 +95,13 @@ a {
   color: #42b983;
 }
 .reply {
-  background: green;
-  color: white;
-  padding: 0.8rem;
-  margin-top: 0.5rem;
+  margin-top: 0.8rem;
+}
+.choices {
+  margin-top: 0.8rem;
+}
+.choice {
+  margin-bottom: 0.2rem;
+  width: 500px;
 }
 </style>

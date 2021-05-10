@@ -1,0 +1,62 @@
+/* Steps */
+
+.step-marker {
+  z-index: 10;
+}
+
+.step-divider {
+  background: linear-gradient(to left, #b5b5b5 50%, var(--primary) 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  content: " ";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: -50%;
+  width: 100%;
+  height: 5px;
+  top: 30%;
+}
+
+/*
+background: linear-gradient(to left, $steps-color 50%, $steps-active-color 50%);
+background-size: 200% 100%;
+background-position: right bottom;
+// This will contain the divider
+content: " ";
+display: block;
+position: absolute;
+bottom: 0;
+left: -50%;
+width: 100%; */
+
+.step-animated .step-divider {
+  transition-property: background;
+  transition-duration: 450ms;
+  transition-timing-function: ease-out;
+}
+
+.steps-nav-item-active .step-marker {
+  color: var(--primary);
+  background-color: var(--white);
+  border-color: var(--primary);
+}
+
+.steps-nav-item-active .step-divider {
+  background: none;
+  background: var(--primary);
+}
+
+.steps-nav-item-previous .step-marker {
+  background: var(--primary);
+  color: var(--white);
+}
+
+.steps-nav-item-previous .step-divider {
+  background: none;
+  background: var(--primary);
+}
+
+.step-link {
+  cursor: not-allowed
+}
