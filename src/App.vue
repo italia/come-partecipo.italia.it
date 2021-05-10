@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Wizard msg="Welcome Wizard! 🧙🏻‍♂️"/>
+    <Wizard />
   </div>
 </template>
 

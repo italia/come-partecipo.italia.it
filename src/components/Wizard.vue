@@ -1,7 +1,7 @@
 <template>
   <div class="wizard" v-if="currentChoice">
     <div class="title">
-      <h1>{{ msg }}</h1>
+      <h1>Welcome Wizard! 🧙🏻‍♂️</h1>
     </div>
     <o-steps :has-navigation="false" v-model="activeStep">
       <o-step-item :value="index" v-for="(madeChoice, index) in choices" :key="index" :label="madeChoice.label">
@@ -31,9 +31,6 @@ export default {
   name: 'Wizard',
   components: {
     'vue-markdown-lite': VueMarkdownLite
-  },
-  props: {
-    msg: String
   },
   data () {
     return {
