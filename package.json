@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@earthtone/vue-markdown-lite": "^0.2.3",
+    "@fontsource/titillium-web": "^4.3.0",
     "@oruga-ui/oruga": "^0.3.6",
     "bootstrap-italia": "^1.4.3",
     "core-js": "^3.6.5",

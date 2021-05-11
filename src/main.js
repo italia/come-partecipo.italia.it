@@ -3,6 +3,7 @@ import App from './App.vue'
 
 
 import {Button, Steps, Config} from '@oruga-ui/oruga'
+import "@fontsource/titillium-web"
 import '@oruga-ui/oruga/dist/oruga.css'
 import 'bootstrap-italia/dist/css/bootstrap-italia.min.css'
 import './styles/global.css'

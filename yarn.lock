@@ -910,6 +910,11 @@
     markdown-it "^12.0.3"
     vue "^2.6.11"
 
+"@fontsource/titillium-web@^4.3.0":
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/@fontsource/titillium-web/-/titillium-web-4.3.0.tgz#4d72cddec4424fac1b56690cf954c2821c9e7086"
+  integrity sha512-Lofp+ZnjNmXnE3wA+nfXru0h8OFNx5N/9uBf5mfyDfjqZE7V7WkrIp3w088ymbZ+pun5kTCO/JXFfs9ShDNWlQ==
+
 "@hapi/address@2.x.x":
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/@hapi/address/-/address-2.1.4.tgz#5d67ed43f3fd41a69d4b9ff7b56e7c0d1d0a81e5"
