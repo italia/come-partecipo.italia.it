@@ -27,6 +27,15 @@
             {{possibleChoice.label}}
           </o-button>
         </div>
+
+        <o-button
+          v-if="activeStep > 0"
+          class="choice"
+          variant="outline-primary"
+          @click="goBack()"
+        >
+          ⇦ Indietro
+        </o-button>
       </div>
       <div class="reply alert alert-success" role="alert" v-if="reply">
         <vue-markdown-lite>{{reply}}</vue-markdown-lite>
@@ -84,6 +93,9 @@ export default {
     }
   },
   methods: {
+    goBack() {
+      window.history.back()
+    },
     resetReply() {
       this.reply = null
       this.replyIndex = -1
