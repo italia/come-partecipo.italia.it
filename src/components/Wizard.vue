@@ -1,6 +1,11 @@
 <template>
   <div class="wizard" v-if="currentChoice">
-    <o-steps :has-navigation="false" v-model="activeStep" v-if="choices.length > 1">
+    <o-steps
+      v-if="choices.length > 1"
+      v-model="activeStep"
+      :has-navigation="false"
+      class="steps"
+    >
       <o-step-item
         :value="index" v-for="(madeChoice, index) in choices"
         :key="index"
@@ -113,11 +118,14 @@ li {
 a {
   color: #42b983;
 }
+.steps {
+  margin-bottom: 4rem;
+}
 .reply {
   margin-top: 0.8rem;
 }
 .choices {
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 .choice {
   text-align: left;
