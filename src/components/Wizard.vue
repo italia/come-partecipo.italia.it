@@ -17,29 +17,36 @@
     <h1>{{ currentChoice.question }}</h1>
 
     <div class="container">
-      <div class="choices">
+      <div
+        v-if="!isLeaf(currentChoice)"
+        class="choices"
+      >
         <div v-for="(possibleChoice, index) in currentChoice.content" :key="possibleChoice.label">
           <o-button
             class="choice col-12 col-xl-6 col-lg-6"
+            variant="primary"
             @click="selectChoice(possibleChoice, index)"
-            :variant="index === replyIndex ? 'primary' : 'outline-primary'"
           >
             {{possibleChoice.label}}
           </o-button>
         </div>
+      </div>
 
-        <o-button
-          v-if="activeStep > 0"
-          class="choice"
-          variant="outline-primary"
-          @click="goBack()"
-        >
-          ⇦ Indietro
-        </o-button>
+      <div v-else>
+        <h1>{{ currentChoice.label }}</h1>
+        <div class="reply alert alert-success" role="alert">
+          <vue-markdown-lite>{{ currentChoice.content }}</vue-markdown-lite>
+        </div>
       </div>
-      <div class="reply alert alert-success" role="alert" v-if="reply">
-        <vue-markdown-lite>{{reply}}</vue-markdown-lite>
-      </div>
+
+      <o-button
+        v-if="activeStep > 0"
+        class="choice col-12 col-xl-6 col-lg-6"
+        variant="outline-primary"
+        @click="goBack()"
+      >
+        ⇦ Indietro
+      </o-button>
     </div>
   </div>
 </template>
@@ -57,12 +64,9 @@ export default {
     return {
       activeStep: 0,
       choices: [],
-      reply: null,
-      replyIndex: -1
     }
   },
   mounted() {
-    this.resetReply()
     this.choices.push(treeObj.root)
 
     history.pushState({ choices: this.choices, activeStep: this.activeStep }, '')
@@ -80,7 +84,6 @@ export default {
   watch: {
     activeStep: function (newStep, oldStep) {
       if (newStep < oldStep) {
-        this.resetReply()
         setTimeout(() => {
           this.choices = this.choices.slice(0, newStep + 1)
         }, 300);
@@ -96,23 +99,15 @@ export default {
     goBack() {
       window.history.back()
     },
-    resetReply() {
-      this.reply = null
-      this.replyIndex = -1
+    isLeaf(node) {
+      return typeof(node.content) === 'string'
     },
-    selectChoice(currentChoice, replyIndex) {
-      this.replyIndex = -1
-      if (!Array.isArray(currentChoice.content)) {
-        this.reply = currentChoice.content
-        this.replyIndex = replyIndex
-      } else {
-        this.choices.push(currentChoice)
-        this.resetReply()
-        setTimeout(() => {
-          this.activeStep = this.choices.length - 1
-          history.pushState({ choices: this.choices, activeStep: this.activeStep }, '')
-        }, 300);
-      }
+    selectChoice(currentChoice) {
+      this.choices.push(currentChoice)
+      setTimeout(() => {
+        this.activeStep = this.choices.length - 1
+        history.pushState({ choices: this.choices, activeStep: this.activeStep }, '')
+      }, 300);
     }
   }
 }
