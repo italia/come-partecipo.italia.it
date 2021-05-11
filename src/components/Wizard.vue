@@ -151,4 +151,8 @@ export default {
 .reply {
   background-color: #dce9f5;
 }
+.choice.btn-outline-primary:hover {
+  background-color: #dce9f5;
+  color: #06c;
+}
 </style>
