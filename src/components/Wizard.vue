@@ -14,7 +14,11 @@
     <div class="container">
       <div class="choices">
         <div v-for="(possibleChoice, index) in currentChoice.content" :key="possibleChoice.label">
-          <o-button class="choice" @click="selectChoice(possibleChoice, index)" :variant="index === replyIndex ? 'primary' : 'outline-primary'">
+          <o-button
+            class="choice col-12 col-xl-6 col-lg-6"
+            @click="selectChoice(possibleChoice, index)"
+            :variant="index === replyIndex ? 'primary' : 'outline-primary'"
+          >
             {{possibleChoice.label}}
           </o-button>
         </div>
@@ -116,7 +120,7 @@ a {
   margin-top: 4rem;
 }
 .choice {
-  margin-bottom: 0.2rem;
-  width: 500px;
+  text-align: left;
+  margin: 8px;
 }
 </style>
