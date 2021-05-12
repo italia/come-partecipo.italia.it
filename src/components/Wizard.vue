@@ -12,7 +12,7 @@
       </ol>
     </nav>
 
-    <h1 v-if="currentChoice.comment" class="h5">{{ currentChoice.comment }}<br /><br /></h1>
+    <p v-if="currentChoice.comment" class="h5 pb-4">{{ currentChoice.comment }}</p>
     <h1 class="h3">{{ currentChoice.question }}</h1>
 
     <div class="container">
