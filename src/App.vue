@@ -37,6 +37,7 @@
                               class="list-item"
                               href="https://designers.italia.it"
                               target="_blank"
+                              aria-label="Sito di Designers Italia (collegamento esterno)"
                             >
                               Designers
                             </a>
@@ -46,6 +47,7 @@
                               class="list-item"
                               href="https://developers.italia.it"
                               target="_blank"
+                              aria-label="Sito di Developers Italia (collegamento esterno)"
                             >
                               Developers
                             </a>
