@@ -70,8 +70,7 @@
                             Come partecipo
                           </div>
                           <div class="small no_toc d-none d-md-block mb-0">
-                            Scopri come contribuire alle community Designers e
-                            Developers
+                            Scopri come contribuire al miglioramento dei servizi pubblici digitali del Paese
                           </div>
                         </div>
                       </a>
@@ -115,7 +114,7 @@
               Per segnalazioni ed eventuali suggerimenti sull'accessibilità del
               sito, scrivi a
               <a
-                class="text-decoration-none font-weight-semibold text-white"
+                class="font-weight-semibold text-white"
                 href="mailto:accessibilita@innovazione.gov.it"
                 aria-label="accessibilita@innovazione.gov.it"
               >
@@ -172,5 +171,11 @@ export default {
 main {
   text-align: center;
   color: #2c3e50;
+}
+article.reply > h2 {
+  font-size: 1.555rem;
+}
+article.reply > h3 {
+  font-size: 1.333rem;
 }
 </style>
