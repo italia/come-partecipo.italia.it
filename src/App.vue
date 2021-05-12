@@ -24,11 +24,6 @@
                         aria-controls="menu"
                       >
                         <span>Dipartimento per la Trasformazione Digitale</span>
-                        <svg class="icon">
-                          <use
-                            xlink:href="/bootstrap-italia/dist/svg/sprite.svg#it-expand"
-                          ></use>
-                        </svg>
                       </a>
 
                       <div class="link-list-wrapper collapse" id="menu">
@@ -71,7 +66,7 @@
                       <a href="/">
                         <svg class="icon">
                           <use
-                            xlink:href="/bootstrap-italia/dist/svg/sprite.svg#it-code-circle"
+                            :xlink:href="`${require('@/assets/sprite.svg')}#it-designers-italia`"
                           ></use>
                         </svg>
 
