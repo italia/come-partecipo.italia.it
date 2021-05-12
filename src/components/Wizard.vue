@@ -29,9 +29,7 @@
       </ul>
       <div v-else>
         <h1 class="h3">{{ currentChoice.label }}</h1>
-        <div class="reply col-12 col-xl-6 col-lg-6 mx-auto">
-          <vue-markdown-lite>{{ currentChoice.content }}</vue-markdown-lite>
-        </div>
+        <vue-markdown-lite class="reply my-2 p-5">{{ currentChoice.content }}</vue-markdown-lite>
       </div>
 
       <o-button
@@ -124,9 +122,6 @@ export default {
 .steps {
   margin-bottom: 4rem;
 }
-.reply {
-  margin-top: 0.8rem;
-}
 ul.choices {
   margin-top: 2rem;
   list-style-type: none;
@@ -138,6 +133,7 @@ ul.choices {
 }
 .reply {
   background-color: #dce9f5;
+  text-align: left;
 }
 .choice.btn-outline-primary:hover {
   background-color: #dce9f5;
