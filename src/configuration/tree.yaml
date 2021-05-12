@@ -3,6 +3,7 @@ root:
   comment: |
      Benvenuta/o!
      
+     
      Ci fa piacere che tu voglia contribuire al miglioramento dei servizi pubblici digitali del Paese.
   question: "Qual è il tuo talento?"
   content:
@@ -91,9 +92,10 @@ root:
           comment: "Migliorare i servizi pubblici digitali è un'attività che coinvolge tutti"
           question: "Hai del software che può essere utile alla PA?"
           content:
-          - label: "Sì! Mi piacerebbe condividerlo nel catalogo di Developers Italia"
+          - label: "Sì! Mi piacerebbe metterlo a disposizione della PA"
             content: |
-              Metti a disposizione del pubblico il tuo software con licenza aperta. Scopri come su...
+              Metti a disposizione del pubblico il tuo software con licenza aperta e
+              includilo nel catalogo di Developers Italia. Scopri come su...
               <https://developers.italia.it/it/riuso/pubblicazione>
 
     - label: "Sono un esperto di progettazione e design"
