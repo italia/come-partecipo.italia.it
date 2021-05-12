@@ -198,7 +198,7 @@ root:
             content: |
               <https://docs.italia.it/italia/developers-italia/guida-sviluppo-gestione-software-libero/it/stabile/sviluppatori.html>
 
-          - label: "Voglio sapere come realizzare API pubbliche e interoperabilità e migliorare le raccomandazioni!"
+          - label: "Voglio sapere come realizzare API pubbliche e come funziona il modello di interoperabilità!"
             content: |
               <https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/index.html>
 
