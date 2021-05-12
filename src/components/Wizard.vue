@@ -38,7 +38,7 @@
         variant="secondary"
         @click="goBack()"
       >
-        ⇦ Indietro
+        <o-icon class="icon icon-white" icon="arrow-left-circle"></o-icon> Indietro
       </o-button>
       <o-button
         v-if="isLeaf(currentChoice)"
@@ -46,7 +46,7 @@
         variant="primary"
         @click="restart()"
       >
-        Ricomincia
+        <o-icon class="icon icon-white" icon="restore"></o-icon> Ricomincia
       </o-button>
     </div>
   </div>

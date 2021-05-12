@@ -64,12 +64,7 @@
                   <div class="it-header-center-content-wrapper">
                     <div class="it-brand-wrapper ">
                       <a href="/">
-                        <svg class="icon">
-                          <use
-                            :xlink:href="`${require('@/assets/sprite.svg')}#it-designers-italia`"
-                          ></use>
-                        </svg>
-
+                        <o-icon class="icon" icon="designers-italia"></o-icon>
                         <div class="it-brand-text">
                           <div class="h5 font-weight-bold no_toc mb-0">
                             Come partecipo
