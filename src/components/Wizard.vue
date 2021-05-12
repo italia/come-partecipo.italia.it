@@ -12,20 +12,21 @@
     <h1 class="h3">{{ currentChoice.question }}</h1>
 
     <div class="container">
-      <div
+      <ul
         v-if="!isLeaf(currentChoice)"
         class="choices"
+        aria-label="Scegli una delle opzioni seguenti:"
       >
-        <div v-for="(possibleChoice, index) in currentChoice.content" :key="possibleChoice.label">
+        <li v-for="(possibleChoice, index) in currentChoice.content" :key="possibleChoice.label">
           <o-button
             class="choice col-12 col-xl-6 col-lg-6"
             variant="outline-primary"
             @click="selectChoice(possibleChoice, index)"
-          >
+            >
             {{possibleChoice.label}}
           </o-button>
-        </div>
-      </div>
+        </li>
+      </ul>
       <div v-else>
         <div class="reply col-12 col-xl-6 col-lg-6 mx-auto">
           <vue-markdown-lite>{{ currentChoice.content }}</vue-markdown-lite>
@@ -122,8 +123,10 @@ export default {
 .reply {
   margin-top: 0.8rem;
 }
-.choices {
+ul.choices {
   margin-top: 2rem;
+  list-style-type: none;
+  padding-left: 0;
 }
 .choice {
   text-align: left;
