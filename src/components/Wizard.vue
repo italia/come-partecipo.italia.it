@@ -39,7 +39,6 @@
         </div>
       </div>
       <div v-else>
-        <h1>{{ currentChoice.label }}</h1>
         <div class="reply col-12 col-xl-6 col-lg-6 mx-auto">
           <vue-markdown-lite>{{ currentChoice.content }}</vue-markdown-lite>
         </div>
