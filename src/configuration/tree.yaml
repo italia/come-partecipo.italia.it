@@ -33,6 +33,24 @@ root:
               Scopri gli allegati tecnici delle Linee guida per lo sviluppo e la manutenzione del software
               <https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/index.html>
 
+          - label: "Vorrei integrare la mia piattaforma con il sistema di Single SignOn Nazionale ed Europeo"
+            content:
+
+            - label: "SPID - Sistema Pubblico di Identità Digitale"
+              content: |
+                Scopri la documentazione e tutte le risorse dedicate a SPID
+                <https://developers.italia.it/it/spid/>
+
+            - label: "CIE - Carta d'Identità Elettronica"
+              content: |
+                Scopri la documentazione e tutte le risorse dedicate a CIE
+                <https://developers.italia.it/it/cie/>
+
+            - label: "eIDAS"
+              content: |
+                Scopri come abilitare la tua piattaforma a eIDAS
+                <https://www.agid.gov.it/it/piattaforme/nodo-eidas-italiano>
+
           - label: "Vorrei adeguare le licenze d'uso dei miei servizi digitali alle migliori pratiche"
             content: |
               <https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/riuso-software/licenze-aperte-e-scelta-di-una-licenza.html#scelta-di-una-licenza>
