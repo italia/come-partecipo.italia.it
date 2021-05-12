@@ -94,7 +94,6 @@
       <Wizard />
     </main>
 
-    <footer class="it-footer">
     <footer class="it-footer pt-5">
       <div class="it-footer-main">
         <div class="container text-center text-md-left">
