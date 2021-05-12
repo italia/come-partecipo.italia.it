@@ -1,13 +1,20 @@
 root:
   label: ""
-  question: "Quali competenze puoi portare per contribuire alla trasformazione digitale del Paese?"
+  comment: |
+     Benvenuta/o!
+     
+     Siamo contenti che tu voglia contribuire al miglioramento dei servizi pubblici digitali del Paese.
+  question: "Quale è il tuo talento?"
   content:
     - label: "Gestisco progetti digitali o mi occupo di servizi pubblici"
       question: "Gestisci un progetto digitale pubblico?"
       content:
         - label: "Sì, gestisco un progetto digitale pubblico!"
+          question: "Cosa preferiresti fare?"
           content:
-          - label: "Metti in catalogo la soluzione in uso nella tua Pubblica Amministrazione"
+          - label: Hai del software 
+          
+          - label: "Metto in catalogo la soluzione in uso nella tua Pubblica Amministrazione"
             content: |
               <a href="https://developers.italia.it/it/riuso/pubblicazione"
                  target="_blank"
@@ -15,7 +22,7 @@ root:
                  Pubblicazione di software per la pubblica amministrazione 🔗
               </a>
 
-          - label: "Scopri il modello di acquisizione e riuso del software pubblico e aiutaci a migliorarlo"
+          - label: "Approfondisco il modello di acquisizione e riuso del software pubblico e migliorarlo"
             content: |
               <https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/index.html>
           - label: |
@@ -128,7 +135,7 @@ root:
           question: "Quale di queste attività preferisci?"
           content:
           - label: "Mi piace lavorare su SDK e voglio supportare SPID"
-            question: "Quanto conosci di su SPID?"
+            question: "Quanto conosci di SPID?"
             content:
               - label: "Vai al portale sviluppatore"
                 content: |
@@ -189,3 +196,9 @@ root:
       content:
         - label: "Un esempio può di aiuto a molti... Racconta la tua storia sui blog del Dipartimento di Trasformazione Digitale"
         - label: "Come comunicare un progetto (?)"
+    - label: "Nessuna delle precedenti"
+      content: |
+        Ci dispiace che tu non abbia trovato niente di utile.
+        Nel tempo miglioreremo e amplieremo questo strumento.
+        ## Hai idee per noi?
+        Scrivici a contatti@developers.italia.it
