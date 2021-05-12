@@ -55,9 +55,9 @@ root:
               la storia di un processo a cui hai partecipato"
         - label: "No / Non gestico ancora un progetto digitale pubblico"
           comment: "Ci sono molte cose che puoi fare, anche se non gestisci direttamente un servizio!"
-          question: "Con cosa puoi aiutarci di più?"
+          question: "Cosa preferiresti fare?"
           content:
-          - label: "Leggi e contribuisci alle linee guida"
+          - label: "Vorrei approfondire le linee guida di sviluppo tecnico"
             content: |
               ## Docs Italia
               <a href="https://docs.italia.it/"
@@ -68,30 +68,32 @@ root:
               ## Forum Italia
               <https://forum.italia.it>
 
-          - label: "Vorrei supportare il mio team a conoscere meglio il contesto in cui operiamo"
+          - label: "Vorrei supportare il mio team ad accrescere le proprie competenze"
             content: |
               Docs Italia (linee guida consolidate)
 
-          - label: "Lavori in una scuola o comune?"
-            content: |
-              Scopri e adotta i modelli
-
-          - label: "Metti a disposizione il tuo software con licenza aperta"
-            content: |
-              <https://developers.italia.it/it/riuso/pubblicazione>
-
-          - label: "Scopri la cultura del progetto digitale per la Pubblica Amministrazione"
+          - label: "Voglio approfondire la cultura del progetto digitale per la Pubblica Amministrazione"
             content: |
               I kit per capire
 
-          - label: "Scopri il software libero disponibile per la tua Pubblica Amministrazione"
+          - label: "Lavoro in una scuola o comune e mi interessa il vostro lavoro sui modelli"
+            content: |
+              Scopri e adotta i modelli
+
+          - label: "Lavoro in un'amministrazione che adotta software open source"
+            content: |
+              <https://developers.italia.it/it/riuso/pubblicazione>
+
+          - label: "Mi piacerebbe sfogliare il catalogo del software libero disponibile per la tua Pubblica Amministrazione"
             content: |
               <https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/riuso-software/riuso-di-un-software-o-utilizzo-di-un-software-open-source.html>
         - label: "No, ma gestisco progetti digitali privati"
-          question: "Puoi mettere a disposizione del pubblico il tuo software con licenza aperta?"
+          comment: "Migliorare i servizi pubblici digitali è un'attività che coinvolge tutti"
+          question: "Hai del software che può essere utile alla PA?"
           content:
-          - label: "Sì!"
+          - label: "Sì! Mi piacerebbe condividerlo nel catalogo di Developers Italia"
             content: |
+              Metti a disposizione del pubblico il tuo software con licenza aperta. Scopri come su...
               <https://developers.italia.it/it/riuso/pubblicazione>
 
     - label: "Sono un esperto di progettazione e design"
