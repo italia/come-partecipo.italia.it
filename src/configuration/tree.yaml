@@ -3,66 +3,69 @@ root:
   question: "Quali competenze puoi portare per contribuire al miglioramento dei servizi pubblici del Paese?"
   content:
     - label: "Gestione di progetti digitali o di servizi pubblici"
-      question: ""
+      question: "Gestisci un progetto digitale pubblico?"
       content:
-        - label: "Gestisci un progetto digitale pubblico?"
+        - label: "Sì, gestisco un progetto digitale pubblico!"
           content:
-          - label: "Sì!"
-            content:
-            - label: "Metti in catalogo la soluzione in uso nella tua Pubblica Amministrazione"
-              content: |
-                <https://developers.italia.it/it/riuso/pubblicazione>
+          - label: "Metti in catalogo la soluzione in uso nella tua Pubblica Amministrazione"
+            content: |
+              <https://developers.italia.it/it/riuso/pubblicazione>
 
-            - label: "Scopri il modello di acquisizione e riuso del software pubblico e aiutaci a migliorarlo"
-              content: |
-                <https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/index.html>
-            - label: |
-                Un esempio può essere utile a molti... Racconta sui blog del Dipartimento per la Trasformazione Digitale
-                la storia di un processo a cui hai partecipato"
-              content: |
-                (mail)
-            - label: "Adegua le licenze d'uso dei tuoi servizi digitali alle migliori pratiche"
-              content: |
-                <https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/riuso-software/licenze-aperte-e-scelta-di-una-licenza.html#scelta-di-una-licenza>
+          - label: "Scopri il modello di acquisizione e riuso del software pubblico e aiutaci a migliorarlo"
+            content: |
+              <https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/index.html>
+          - label: |
+              Un esempio può essere utile a molti... Racconta sui blog del Dipartimento per la Trasformazione Digitale
+              la storia di un processo a cui hai partecipato"
+            content: |
+              (mail)
+          - label: "Adegua le licenze d'uso dei tuoi servizi digitali alle migliori pratiche"
+            content: |
+              <https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/riuso-software/licenze-aperte-e-scelta-di-una-licenza.html#scelta-di-una-licenza>
 
-            - label: "Scopri gli allegati tecnici per gestire i tuoi fornitori"
-              content: |
-                <https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/index.html>
+          - label: "Scopri gli allegati tecnici per gestire i tuoi fornitori"
+            content: |
+              <https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/index.html>
 
-            - label: "Scopri come riusare e personalizzare un software a catalogo"
-              content: |
-                <https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/riuso-software/riuso-di-un-software-o-utilizzo-di-un-software-open-source.html>
+          - label: "Scopri come riusare e personalizzare un software a catalogo"
+            content: |
+              <https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/riuso-software/riuso-di-un-software-o-utilizzo-di-un-software-open-source.html>
 
-          - label: "No / Non ancora"
-            content:
-              
-            - label: "Leggi e contribuisci alle linee guida"
-              content: |
-                # Docs Italia
-                <a href="https://docs.italia.it/" target="_blank">Docs Italia 🔗</a>
+        - label: "No / Non gestico ancora un progetto digitale pubblico"
+          content:
+            
+          - label: "Leggi e contribuisci alle linee guida"
+            content: |
+              # Docs Italia
+              <a href="https://docs.italia.it/" target="_blank">Docs Italia 🔗</a>
 
-                # Forum Italia
-                <https://forum.italia.it>
+              # Forum Italia
+              <https://forum.italia.it>
 
-            - label: "Amplia le competenze tecniche del tuo team"
-              content: |
-                Docs Italia (linee guida consolidate)
+          - label: "Amplia le competenze tecniche del tuo team"
+            content: |
+              Docs Italia (linee guida consolidate)
 
-            - label: "Lavori in una scuola o comune?"
-              content: |
-                Scopri e adotta i modelli
+          - label: "Lavori in una scuola o comune?"
+            content: |
+              Scopri e adotta i modelli
 
-            - label: "Metti a disposizione il tuo software con licenza aperta"
-              content: |
-                <https://developers.italia.it/it/riuso/pubblicazione>
+          - label: "Metti a disposizione il tuo software con licenza aperta"
+            content: |
+              <https://developers.italia.it/it/riuso/pubblicazione>
 
-            - label: "Scopri la cultura del progetto digitale per la Pubblica Amministrazione"
-              content: |
-                I kit per capire
+          - label: "Scopri la cultura del progetto digitale per la Pubblica Amministrazione"
+            content: |
+              I kit per capire
 
-        - label: "Scopri il software libero disponibile per la tua Pubblica Amministrazione"
-          content: |
-            <https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/riuso-software/riuso-di-un-software-o-utilizzo-di-un-software-open-source.html>
+          - label: "Scopri il software libero disponibile per la tua Pubblica Amministrazione"
+            content: |
+              <https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/riuso-software/riuso-di-un-software-o-utilizzo-di-un-software-open-source.html>
+        - label: "No, ma gestisco progetti digitali privati"
+          content:
+          - label: "Metti a disposizione del pubblico il tuo software con licenza aperta"
+            content: |
+              <https://developers.italia.it/it/riuso/pubblicazione>
 
     - label: "Progettazione o design"
       question: "Hai già usato i nostri strumenti?"
