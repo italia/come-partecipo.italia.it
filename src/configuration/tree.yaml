@@ -9,7 +9,11 @@ root:
           content:
           - label: "Metti in catalogo la soluzione in uso nella tua Pubblica Amministrazione"
             content: |
-              <https://developers.italia.it/it/riuso/pubblicazione>
+              <a href="https://developers.italia.it/it/riuso/pubblicazione"
+                 target="_blank"
+                 aria-label="Pubblicazione di software per la pubblica amministrazione (collegamento esterno)">
+                 Pubblicazione di software per la pubblica amministrazione 🔗
+              </a>
 
           - label: "Scopri il modello di acquisizione e riuso del software pubblico e aiutaci a migliorarlo"
             content: |
@@ -33,13 +37,15 @@ root:
 
         - label: "No / Non gestico ancora un progetto digitale pubblico"
           content:
-            
           - label: "Leggi e contribuisci alle linee guida"
             content: |
-              # Docs Italia
-              <a href="https://docs.italia.it/" target="_blank">Docs Italia 🔗</a>
+              ## Docs Italia
+              <a href="https://docs.italia.it/"
+                 target="_blank" aria-label="Docs Italia (collegamento esterno)">
+                 Docs Italia 🔗
+              </a>
 
-              # Forum Italia
+              ## Forum Italia
               <https://forum.italia.it>
 
           - label: "Amplia le competenze tecniche del tuo team"
@@ -141,13 +147,13 @@ root:
               Sito designers web devkit
           - label: "Mi piacerebbe fare parte della community"
             content: |
-              # Forum Italia
+              ## Forum Italia
               <https://forum.italia.it>
 
-              # Slack
+              ## Slack
               <https://slack.developers.italia.it>
 
-              # GitHub
+              ## GitHub
               <https://github.com/italia/awesome-italia>
 
 
@@ -180,6 +186,6 @@ root:
               <https://github.com/italia/awesome-italia>
 
     - label: "La comunicazione è il mio forte"
-      content: 
+      content:
         - label: "Un esempio può di aiuto a molti... Racconta la tua storia sui blog del Dipartimento di Trasformazione Digitale"
         - label: "Come comunicare un progetto (?)"

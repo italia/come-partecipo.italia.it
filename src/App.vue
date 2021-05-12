@@ -177,4 +177,10 @@ main {
   text-align: center;
   color: #2c3e50;
 }
+article.reply > h2 {
+  font-size: 1.555rem;
+}
+article.reply > h3 {
+  font-size: 1.333rem;
+}
 </style>
