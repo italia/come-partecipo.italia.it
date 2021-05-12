@@ -2,7 +2,7 @@ root:
   label: ""
   comment: |
      Benvenuta/o!
-     
+
      
      Ci fa piacere che tu voglia contribuire al miglioramento dei servizi pubblici digitali del Paese.
   question: "Qual è il tuo talento?"
@@ -99,13 +99,38 @@ root:
               <https://developers.italia.it/it/riuso/pubblicazione>
 
     - label: "Sono un esperto di progettazione e design"
-      question: "Hai già usato i nostri strumenti?"
+      comment: "L'iniziativa che si occupa di questi temi è Designers Italia"
+      question: "Hai già usato i nostri strumenti di progettazione?"
       content:
+
+        - label: "Sì"
+          comment: "Che bello! Speriamo che ti siano stati utili!"
+          question: "Vuoi fare qualcosa in più?"
+          content:
+            - label: "Ho dei suggerimenti per migliorare gli strumenti di progettazione"
+              content: |
+                link slack, github
+                Scrivici
+                (mail)
+
+            - label: Vorrei raccontare sui canali di Designers Italia la storia di un progetto a cui ho partecipato
+              content: |
+                (mail)
+
+            - label: "Vorrei usare i vostri strumenti in un contesto didattico"
+              content: |
+                Insegno in una scuola di design
+
+
+                Proponi ai tuoi studenti un progetto migliorativo che abbia un impatto
+                sulla comunità
+                (mail)
+
         - label: "No"
-          comment: "OK, lascia che ti aiutiamo a scoprirli!"
+          comment: "Ok, ti aiutiamo a scoprirli!"
           question: "Cosa ti interessa di più?"
           content:
-            - label: "Vorrei scoprire le linee guida per progettare nel pubblico"
+            - label: "Vorrei scoprire le linee guida per progettare un servizio pubblico digitale"
               content: |
                 Linee guida AgID
 
@@ -124,32 +149,6 @@ root:
                 sulla comunità
                 (mail)
 
-        - label: "Sì"
-          comment: "Che bello! Speriamo che ti abbiano aiutato!"
-          question: "Vuoi fare qualcosa in più?"
-          content:
-            - label: "Ho dei suggerimenti per migliorare gli strumenti di progettazione"
-              content: |
-                link slack, github
-
-            - label: |
-                Vorrei raccontare sui blog del Dipartimento per la Trasformazione Digitale
-                la storia di un processo a cui ho partecipato"
-              content: |
-                (mail)
-
-            - label: "Vorrei usare i vostri strumenti in un contesto didattico"
-              content: |
-                Insegno in una scuola di design
-                Proponi ai tuoi studenti un progetto migliorativo che abbia un impatto
-                sulla comunità
-                (mail)
-
-            - label: "Ho notato dei difetti o delle opportunità nei vostri strumenti"
-              content: |
-                Scrivici
-                (mail)
-
     - label: "Sviluppo software o sono un DevOps"
       question: "Vuoi partecipare alle attività di sviluppo open source?"
       content:
@@ -157,7 +156,7 @@ root:
           comment: "Codice? Fantastico 😍"
           question: "Quale di queste attività preferisci?"
           content:
-          - label: "Mi piace lavorare su SDK e voglio supportare SPID"
+          - label: "Mi piacerebbe lavorare su SDK e voglio supportare SPID"
             question: "Quanto conosci di SPID?"
             content:
               - label: "Vai al portale sviluppatore"
@@ -217,11 +216,12 @@ root:
 
     - label: "La comunicazione è il mio forte"
       comment: ""
-      question: "Ti sei mai occupato di un servizio digitale pubblico?"
+      question: "Ti sei mai occupata/o di un servizio digitale pubblico?"
       content:
-        - label: "Sì, un esempio può essere di aiuto a molti..."
+        - label: "Sì, me ne sono occupata/o"
           content: |
-           Racconta la tua storia sui blog del Dipartimento di Trasformazione Digitale
+            ## Un esempio può essere di aiuto a molti!
+            Racconta la tua storia sui blog del Dipartimento di Trasformazione Digitale
     - label: "Nessuna delle precedenti"
       content: |
         Ci dispiace che tu non abbia trovato niente di utile.
