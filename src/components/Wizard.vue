@@ -11,7 +11,7 @@
         :key="index"
         :step="index + 1"
         :clickable="index < choices.length - 1"
-        :label="index < choices.length - 1 ? choices[index + 1].label : ''">
+        :label="index < choices.length - 1 ? choices[index + 1].question : ''">
       </o-step-item>
     </o-steps>
     <h1>{{ currentChoice.question }}</h1>

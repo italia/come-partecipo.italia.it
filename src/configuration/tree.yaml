@@ -1,6 +1,6 @@
 root:
   label: ""
-  question: "Quali competenze puoi portare per contribuire al miglioramento dei servizi pubblici del Paese?"
+  question: "Quali competenze posso portare per contribuire al miglioramento dei servizi pubblici del Paese?"
   content:
     - label: "Gestione di progetti digitali o di servizi pubblici"
       question: "Gestisci un progetto digitale pubblico?"
@@ -62,8 +62,9 @@ root:
             content: |
               <https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/riuso-software/riuso-di-un-software-o-utilizzo-di-un-software-open-source.html>
         - label: "No, ma gestisco progetti digitali privati"
+          question: "Puoi mettere a disposizione del pubblico il tuo software con licenza aperta?"
           content:
-          - label: "Metti a disposizione del pubblico il tuo software con licenza aperta"
+          - label: "Sì!"
             content: |
               <https://developers.italia.it/it/riuso/pubblicazione>
 
