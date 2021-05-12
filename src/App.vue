@@ -90,7 +90,7 @@
       </div>
     </header>
 
-    <main class="py-5">
+    <main class="container py-5">
       <Wizard />
     </main>
 
