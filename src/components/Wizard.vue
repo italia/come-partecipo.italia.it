@@ -1,7 +1,7 @@
 <template>
   <div class="wizard" v-if="currentChoice">
     <o-steps
-      v-if="choices.length > 1"
+      v-if="notLeafChoices.length > 1"
       v-model="activeStep"
       :has-navigation="false"
       class="steps"
@@ -14,11 +14,11 @@
         :label="choices[0].question">
       </o-step-item>
       <o-step-item
-        :value="index + 1" v-for="(madeChoice, index) in choices"
+        :value="index + 1" v-for="(madeChoice, index) in notLeafChoices"
         :key="index"
         :step="index + 2"
-        :clickable="index < choices.length - 1"
-        :label="index < choices.length - 1 ? choices[index + 1].question : ''">
+        :clickable="index < notLeafChoices.length - 1"
+        :label="index < notLeafChoices.length - 1 ? notLeafChoices[index + 1].question : ''">
       </o-step-item>
     </o-steps>
     <h1>{{ currentChoice.question }}</h1>
@@ -31,17 +31,16 @@
         <div v-for="(possibleChoice, index) in currentChoice.content" :key="possibleChoice.label">
           <o-button
             class="choice col-12 col-xl-6 col-lg-6"
-            variant="primary"
+            variant="outline-primary"
             @click="selectChoice(possibleChoice, index)"
           >
             {{possibleChoice.label}}
           </o-button>
         </div>
       </div>
-
       <div v-else>
         <h1>{{ currentChoice.label }}</h1>
-        <div class="reply alert alert-success" role="alert">
+        <div class="reply col-12 col-xl-6 col-lg-6 mx-auto">
           <vue-markdown-lite>{{ currentChoice.content }}</vue-markdown-lite>
         </div>
       </div>
@@ -49,10 +48,18 @@
       <o-button
         v-if="activeStep > 0"
         class="choice col-12 col-xl-6 col-lg-6"
-        variant="outline-primary"
+        variant="secondary"
         @click="goBack()"
       >
         ⇦ Indietro
+      </o-button>
+      <o-button
+        v-if="isLeaf(currentChoice)"
+        class="choice col-12 col-xl-6 col-lg-6"
+        variant="primary"
+        @click="restart()"
+      >
+        Ricomincia
       </o-button>
     </div>
   </div>
@@ -100,9 +107,17 @@ export default {
   computed: {
     currentChoice() {
       return this.choices[this.choices.length - 1]
+    },
+    notLeafChoices() {
+      return this.choices.filter((choice) => {
+        return !this.isLeaf(choice)
+      })
     }
   },
   methods: {
+    restart() {
+      window.location.reload();
+    },
     goBack() {
       window.history.back()
     },
@@ -133,5 +148,8 @@ export default {
 .choice {
   text-align: left;
   margin: 8px;
+}
+.reply {
+  background-color: #dce9f5;
 }
 </style>
