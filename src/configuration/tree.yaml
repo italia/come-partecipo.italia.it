@@ -54,6 +54,8 @@ root:
               Un esempio può essere utile a molti... Racconta sui blog del Dipartimento per la Trasformazione Digitale
               la storia di un processo a cui hai partecipato"
         - label: "No / Non gestico ancora un progetto digitale pubblico"
+          comment: "Ci sono molte cose che puoi fare, anche se non gestisci direttamente un servizio!"
+          question: "Con cosa puoi aiutarci di più?"
           content:
           - label: "Leggi e contribuisci alle linee guida"
             content: |
@@ -66,7 +68,7 @@ root:
               ## Forum Italia
               <https://forum.italia.it>
 
-          - label: "Amplia le competenze tecniche del tuo team"
+          - label: "Vorrei supportare il mio team a conoscere meglio il contesto in cui operiamo"
             content: |
               Docs Italia (linee guida consolidate)
 
