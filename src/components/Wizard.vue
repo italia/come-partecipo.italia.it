@@ -21,7 +21,7 @@
         :label="index < notLeafChoices.length - 1 ? notLeafChoices[index + 1].question : ''">
       </o-step-item>
     </o-steps>
-    <h1>{{ currentChoice.question }}</h1>
+    <h1 class="h3">{{ currentChoice.question }}</h1>
 
     <div class="container">
       <div
