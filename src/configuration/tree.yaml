@@ -1,8 +1,8 @@
 root:
   label: ""
-  question: "Quali competenze posso portare per contribuire al miglioramento dei servizi pubblici del Paese?"
+  question: "Quali competenze puoi portare per contribuire al miglioramento dei servizi pubblici del Paese?"
   content:
-    - label: "Gestione di progetti digitali o di servizi pubblici"
+    - label: "Gestisco progetti digitali o mi occupo di servizi pubblici"
       question: "Gestisci un progetto digitale pubblico?"
       content:
         - label: "Sì, gestisco un progetto digitale pubblico!"
@@ -68,7 +68,7 @@ root:
             content: |
               <https://developers.italia.it/it/riuso/pubblicazione>
 
-    - label: "Progettazione o design"
+    - label: "Sono un esperto di progettazione e design"
       question: "Hai già usato i nostri strumenti?"
       content:
         - label: "No"
@@ -114,57 +114,72 @@ root:
                 Scrivici
                 (mail)
 
-    - label: "Sviluppo software o DevOps"
-      question: "Come posso aiutare come sviluppatore o devops?"
+    - label: "Sviluppo software o sono un DevOps"
+      question: "Vuoi partecipare alle attività di sviluppo open source?"
       content:
-        - label: "Contribuisci a migliorare gli SDK e le piattaforme pubbliche"
-          question: "Su quali piattaforme o SDK posso contribuire?"
+        - label: "Sì, non vedo l'ora di scrivere codice"
+          comment: "Codice? Fantastico 😍"
+          question: "Quale di queste attività preferisci?"
           content:
-            - label: "Contribuisci agli SDK di SPID"
-              question: "Come posso lavorare su SPID?"
-              content:
-                - label: "Vai al portale sviluppatore"
-                  content: |
-                    <https://developers.italia.it/it/spid>
+          - label: "Mi piace lavorare su SDK e voglio supportare SPID"
+            question: "Quanto conosci di su SPID?"
+            content:
+              - label: "Vai al portale sviluppatore"
+                content: |
+                  <https://developers.italia.it/it/spid>
 
-                - label: "Scopri l'introduzione ai concetti principali"
-                  content: |
-                    <https://docs.italia.it/italia/spid/spid-regole-tecniche/it/stabile/single-sign-on.html>
+              - label: "Scopri l'introduzione ai concetti principali"
+                content: |
+                  <https://docs.italia.it/italia/spid/spid-regole-tecniche/it/stabile/single-sign-on.html>
 
-                - label: "Contribuisci alle issue non risolte"
-                  content: |
-                    (link)
+              - label: "Contribuisci alle issue non risolte"
+                content: |
+                  (link)
 
-            - label: "Contribuisci ai kit di sviluppo web"
-              content: |
-                Sito designers web devkit
+          - label: "Vorrei migliorare i kit di sviluppo web"
+            content: |
+              Sito designers web devkit
+          - label: "Mi piacerebbe fare parte della community"
+            content: |
+              # Forum Italia
+              <https://forum.italia.it>
 
-        - label: "Leggi la Guida allo sviluppo e gestione di software open source e aiutaci a migliorarla"
-          content: |
-            <https://docs.italia.it/italia/developers-italia/guida-sviluppo-gestione-software-libero/it/stabile/sviluppatori.html>
+              # Slack
+              <https://slack.developers.italia.it>
 
-        - label: "Leggi come realizzare API pubbliche e interoperabilità e aiutaci a migliorare le raccomandazioni!"
-          content: |
-            <https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/index.html>
+              # GitHub
+              <https://github.com/italia/awesome-italia>
 
-        - label: "Partecipa alle community"
-          content: |
-            # Forum Italia
-            <https://forum.italia.it>
 
-            # Slack
-            <https://slack.developers.italia.it>
+        - label: "No, preferisco partecipare in modo diverso"
+          question: "Quale di queste azioni puoi mettere in atto?"
+          content:
+          - label: "Ho in mente del software libero che può essere utile alla Pubblica Amministrazione"
+            content: |
+              Aggiungilo al catalogo del riuso
 
-            # GitHub
-            <https://github.com/italia/awesome-italia>
+              <https://developers.italia.it/it/riuso/pubblicazione>
 
-        - label: "Aggiungi al catalogo software libero che può essere utile alla Pubblica Amministrazione"
-          content: |
-            Aggiungilo al catalogo del riuso
+          - label: "Posso leggere la Guida allo sviluppo e gestione di software open source e inviare i miei miglioramenti"
+            content: |
+              <https://docs.italia.it/italia/developers-italia/guida-sviluppo-gestione-software-libero/it/stabile/sviluppatori.html>
 
-            <https://developers.italia.it/it/riuso/pubblicazione>
+          - label: "Voglio sapere come realizzare API pubbliche e interoperabilità e migliorare le raccomandazioni!"
+            content: |
+              <https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/index.html>
 
-    - label: "Comunicazione"
+          - label: "Mi piacerebbe fare parte della community"
+            content: |
+              # Forum Italia
+              <https://forum.italia.it>
+
+              # Slack
+              <https://slack.developers.italia.it>
+
+              # GitHub
+              <https://github.com/italia/awesome-italia>
+
+    - label: "La comunicazione è il mio forte"
       content: 
         - label: "Un esempio può di aiuto a molti... Racconta la tua storia sui blog del Dipartimento di Trasformazione Digitale"
         - label: "Come comunicare un progetto (?)"

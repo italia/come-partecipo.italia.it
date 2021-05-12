@@ -9,6 +9,7 @@
       </ol>
     </nav>
 
+    <h1 class="h3">{{ currentChoice.comment }}</h1>
     <h1 class="h3">{{ currentChoice.question }}</h1>
 
     <div class="container">
