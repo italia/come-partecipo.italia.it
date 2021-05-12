@@ -14,6 +14,7 @@
                   <a
                     class="d-none d-lg-block navbar-brand"
                     href="https://innovazione.gov.it/dipartimento/"
+                    rel="noopener"
                   >
                     Dipartimento per la Trasformazione Digitale
                   </a>
@@ -38,6 +39,7 @@
                               href="https://designers.italia.it"
                               target="_blank"
                               aria-label="Sito di Designers Italia (collegamento esterno)"
+                              rel="noopener"
                             >
                               Designers
                             </a>
@@ -48,6 +50,7 @@
                               href="https://developers.italia.it"
                               target="_blank"
                               aria-label="Sito di Developers Italia (collegamento esterno)"
+                              rel="noopener"
                             >
                               Developers
                             </a>
@@ -89,6 +92,7 @@
                               aria-label="Sorgente del sito su GitHub (collegamento esterno)"
                               title="Sorgente del sito su GitHub (collegamento esterno)"
                               target="_blank"
+                              rel="noreferrer,noopener"
                             >
                               <o-icon class="icon" icon="github"></o-icon>
                             </a>
