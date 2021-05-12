@@ -42,6 +42,7 @@
                               rel="noopener"
                             >
                               Designers
+                              <o-icon class="icon d-inline-flex" icon="external-link"></o-icon>
                             </a>
                           </li>
                           <li>
@@ -53,6 +54,7 @@
                               rel="noopener"
                             >
                               Developers
+                              <o-icon class="icon d-inline-flex" icon="external-link"></o-icon>
                             </a>
                           </li>
                         </ul>
