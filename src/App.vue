@@ -75,8 +75,7 @@
                             Come partecipo
                           </div>
                           <div class="small no_toc d-none d-md-block mb-0">
-                            Scopri come contribuire alle community Designers e
-                            Developers
+                            Scopri come contribuire al miglioramento dei servizi pubblici digitali del Paese
                           </div>
                         </div>
                       </a>
