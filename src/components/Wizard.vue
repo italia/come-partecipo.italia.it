@@ -9,7 +9,7 @@
       </ol>
     </nav>
 
-    <h1>{{ currentChoice.question }}</h1>
+    <h1 class="h3">{{ currentChoice.question }}</h1>
 
     <div class="container">
       <div
@@ -27,7 +27,6 @@
         </div>
       </div>
       <div v-else>
-        <h1>{{ currentChoice.label }}</h1>
         <div class="reply col-12 col-xl-6 col-lg-6 mx-auto">
           <vue-markdown-lite>{{ currentChoice.content }}</vue-markdown-lite>
         </div>
@@ -132,5 +131,9 @@ export default {
 }
 .reply {
   background-color: #dce9f5;
+}
+.choice.btn-outline-primary:hover {
+  background-color: #dce9f5;
+  color: #06c;
 }
 </style>

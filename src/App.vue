@@ -62,10 +62,10 @@
                       </svg>
 
                       <div class="it-brand-text">
-                        <h2 class="no_toc">Come partecipo</h2>
-                        <h3 class="no_toc d-none d-md-block">
+                        <div class="h5 font-weight-bold no_toc mb-0">Come partecipo</div>
+                        <div class="small no_toc d-none d-md-block mb-0">
                           Scopri come contribuire alle community Designers e Developers
-                        </h3>
+                        </div>
                       </div>
                     </a>
                   </div>
