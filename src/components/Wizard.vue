@@ -4,7 +4,7 @@
     <nav class="breadcrumb-container" aria-label="breadcrumb">
       <ol class="breadcrumb">
         <li class="breadcrumb-item" v-for="(madeChoice, index) in breadcrumbsChoices" :key="index">
-          <a href="#" @click="moveToStep(index)">{{ truncate(madeChoice.question, 60) }}</a><span class="separator">/</span>
+          <a href="#" @click="moveToStep(index)">{{ truncate(madeChoice.question, 60) }}</a>
         </li>
       </ol>
     </nav>
@@ -120,8 +120,11 @@ export default {
 </script>
 
 <style scoped>
-.steps {
-  margin-bottom: 4rem;
+.breadcrumb-item:after {
+  content: '/';
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-weight: 600;
 }
 ul.choices {
   margin-top: 2rem;
