@@ -23,7 +23,7 @@
       >
         <li v-for="(possibleChoice, index) in currentChoice.content" :key="possibleChoice.label">
           <o-button
-            class="choice col-12 col-xl-6 col-lg-6"
+            class="choice col-11 col-xl-9 col-lg-6"
             variant="outline-primary"
             @click="selectChoice(possibleChoice, index)"
             >
