@@ -1,26 +1,14 @@
 <template>
   <div class="wizard" v-if="currentChoice">
-    <o-steps
-      v-if="notLeafChoices.length > 1"
-      v-model="activeStep"
-      :has-navigation="false"
-      class="steps"
-    >
-    <o-step-item
-        :value="0"
-        :key="0"
-        :step="1"
-        :clickable="1"
-        :label="choices[0].question">
-      </o-step-item>
-      <o-step-item
-        :value="index + 1" v-for="(madeChoice, index) in notLeafChoices"
-        :key="index"
-        :step="index + 2"
-        :clickable="index < notLeafChoices.length - 1"
-        :label="index < notLeafChoices.length - 1 ? notLeafChoices[index + 1].question : ''">
-      </o-step-item>
-    </o-steps>
+
+    <nav class="breadcrumb-container" aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item" v-for="(madeChoice, index) in breadcrumbsChoices" :key="index">
+          <a href="#" @click="moveToStep(index)">{{madeChoice.question}}</a><span class="separator">/</span>
+        </li>
+      </ol>
+    </nav>
+
     <h1>{{ currentChoice.question }}</h1>
 
     <div class="container">
@@ -89,29 +77,20 @@ export default {
       if (!event.state) {
         return
       }
-
       this.choices = event.state.choices
       this.activeStep = event.state.activeStep
     };
 
   },
-  watch: {
-    activeStep: function (newStep, oldStep) {
-      if (newStep < oldStep) {
-        setTimeout(() => {
-          this.choices = this.choices.slice(0, newStep + 1)
-        }, 300);
-      }
-    }
-  },
   computed: {
     currentChoice() {
       return this.choices[this.choices.length - 1]
     },
-    notLeafChoices() {
-      return this.choices.filter((choice) => {
+    breadcrumbsChoices() {
+      let notLeafChoices = this.choices.filter((choice) => {
         return !this.isLeaf(choice)
       })
+      return notLeafChoices.splice(0, notLeafChoices.length - 1)
     }
   },
   methods: {
@@ -126,10 +105,12 @@ export default {
     },
     selectChoice(currentChoice) {
       this.choices.push(currentChoice)
-      setTimeout(() => {
-        this.activeStep = this.choices.length - 1
-        history.pushState({ choices: this.choices, activeStep: this.activeStep }, '')
-      }, 300);
+      this.activeStep = this.choices.length - 1
+      history.pushState({ choices: this.choices, activeStep: this.activeStep }, '')
+    },
+    moveToStep(step) {
+      this.activeStep = step
+      this.choices = this.choices.slice(0, step + 1)
     }
   }
 }
