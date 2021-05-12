@@ -53,8 +53,8 @@ root:
             content: |
               Un esempio può essere utile a molti... Racconta sui blog del Dipartimento per la Trasformazione Digitale
               la storia di un processo a cui hai partecipato"
-        - label: "No / Non gestico ancora un progetto digitale pubblico"
-          comment: "Ci sono molte cose che puoi fare, anche se non gestisci direttamente un servizio!"
+        - label: "No, o non ancora"
+          comment: "Ci sono molte opportunità, anche se non gestisci direttamente un servizio!"
           question: "Cosa preferiresti fare?"
           content:
           - label: "Vorrei approfondire le linee guida di sviluppo tecnico"
@@ -72,11 +72,11 @@ root:
             content: |
               Docs Italia (linee guida consolidate)
 
-          - label: "Voglio approfondire la cultura del progetto digitale per la Pubblica Amministrazione"
+          - label: "Vorrei approfondire come progettare un servizio digitale per la Pubblica Amministrazione"
             content: |
               I kit per capire
 
-          - label: "Lavoro in una scuola o comune e mi interessa il vostro lavoro sui modelli"
+          - label: "Lavoro in una scuola o comune e mi interesserebbe migliorare il nostro sito web"
             content: |
               Scopri e adotta i modelli
 
@@ -84,7 +84,7 @@ root:
             content: |
               <https://developers.italia.it/it/riuso/pubblicazione>
 
-          - label: "Mi piacerebbe sfogliare il catalogo del software libero disponibile per la tua Pubblica Amministrazione"
+          - label: "Mi piacerebbe sfogliare il catalogo del software libero disponibile per la Pubblica Amministrazione"
             content: |
               <https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/riuso-software/riuso-di-un-software-o-utilizzo-di-un-software-open-source.html>
         - label: "No, ma gestisco progetti digitali privati"
