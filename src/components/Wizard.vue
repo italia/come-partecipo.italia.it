@@ -1,15 +1,18 @@
 <template>
   <div class="wizard" v-if="currentChoice">
 
-    <nav class="breadcrumb-container" aria-label="breadcrumb">
+    <nav
+      v-if="activeStep > 0"
+      class="breadcrumb-container" aria-label="breadcrumb"
+    >
       <ol class="breadcrumb">
         <li class="breadcrumb-item" v-for="(madeChoice, index) in breadcrumbsChoices" :key="index">
-          <a href="#" @click="moveToStep(index)">{{ truncate(madeChoice.question, 60) }}</a><span class="separator">/</span>
+          <a href="#" @click="moveToStep(index)">{{ truncate(madeChoice.question, 60) }}</a>
         </li>
       </ol>
     </nav>
 
-    <h1 class="h3">{{ currentChoice.comment }}</h1>
+    <h1 v-if="currentChoice.comment" class="h3">{{ currentChoice.comment }}</h1>
     <h1 class="h3">{{ currentChoice.question }}</h1>
 
     <div class="container">
@@ -120,8 +123,11 @@ export default {
 </script>
 
 <style scoped>
-.steps {
-  margin-bottom: 4rem;
+.breadcrumb-item:after {
+  content: '/';
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-weight: 600;
 }
 ul.choices {
   margin-top: 2rem;

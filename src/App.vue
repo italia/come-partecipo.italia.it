@@ -119,7 +119,7 @@
               Per segnalazioni ed eventuali suggerimenti sull'accessibilità del
               sito, scrivi a
               <a
-                class="text-decoration-none font-weight-semibold text-white"
+                class="font-weight-semibold text-white"
                 href="mailto:accessibilita@innovazione.gov.it"
                 aria-label="accessibilita@innovazione.gov.it"
               >
