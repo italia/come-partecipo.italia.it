@@ -130,8 +130,8 @@
                   <img
                     src="@/assets/dtd-logo.svg"
                     alt="Logo Dipartimento per la Trasformazione Digitale"
-                    height="50px"
-                    width="272px"
+                    height="50"
+                    width="272"
                   />
                 </a>
               </div>
