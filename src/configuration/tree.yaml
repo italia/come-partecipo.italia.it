@@ -1,6 +1,6 @@
 root:
   label: ""
-  question: "Quali competenze puoi portare per contribuire al miglioramento dei servizi pubblici del Paese?"
+  question: "Quali competenze puoi portare per contribuire alla trasformazione digitale del Paese?"
   content:
     - label: "Gestisco progetti digitali o mi occupo di servizi pubblici"
       question: "Gestisci un progetto digitale pubblico?"
