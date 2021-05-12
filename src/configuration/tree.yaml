@@ -4,7 +4,7 @@ root:
      Benvenuta/o!
      
      Ci fa piacere che tu voglia contribuire al miglioramento dei servizi pubblici digitali del Paese.
-  question: "Quale è il tuo talento?"
+  question: "Qual è il tuo talento?"
   content:
     - label: "Gestisco progetti digitali o mi occupo di servizi pubblici"
       question: "Gestisci un progetto digitale pubblico?"
@@ -27,14 +27,14 @@ root:
               <https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/index.html>
               Mandaci i tuoi suggerimenti!
 
-          - label: "Vorrei adeguare le licenze d'uso dei miei servizi digitali alle migliori pratiche"
-            content: |
-              <https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/riuso-software/licenze-aperte-e-scelta-di-una-licenza.html#scelta-di-una-licenza>
-
           - label: "Vorrei capire quali sono le migliori pratiche di sviluppo da adottare per un servizio pubblico"
             content: |
               Scopri gli allegati tecnici delle Linee guida per lo sviluppo e la manutenzione del software
               <https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/index.html>
+
+          - label: "Vorrei adeguare le licenze d'uso dei miei servizi digitali alle migliori pratiche"
+            content: |
+              <https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/riuso-software/licenze-aperte-e-scelta-di-una-licenza.html#scelta-di-una-licenza>
 
           - label: "Ho trovato un software nel catalogo di Developers Italia e lo vorrei riutilizzare o personalizzare"
             content: |
@@ -214,9 +214,12 @@ root:
               <https://github.com/italia/awesome-italia>
 
     - label: "La comunicazione è il mio forte"
+      comment: ""
+      question: "Ti sei mai occupato di un servizio digitale pubblico?"
       content:
-        - label: "Un esempio può di aiuto a molti... Racconta la tua storia sui blog del Dipartimento di Trasformazione Digitale"
-        - label: "Come comunicare un progetto (?)"
+        - label: "Sì, un esempio può essere di aiuto a molti..."
+          content: |
+           Racconta la tua storia sui blog del Dipartimento di Trasformazione Digitale
     - label: "Nessuna delle precedenti"
       content: |
         Ci dispiace che tu non abbia trovato niente di utile.
