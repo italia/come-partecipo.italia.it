@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="app">
     <header>
       <div class="it-header-wrapper">
         <div class="it-header-slim-wrapper">
@@ -90,13 +90,12 @@
       </div>
     </header>
 
-    <main>
-      <div id="app">
-        <Wizard />
-      </div>
+    <main class="py-5">
+      <Wizard />
     </main>
 
     <footer class="it-footer">
+    <footer class="it-footer pt-5">
       <div class="it-footer-main">
         <div class="container text-center text-md-left">
           <div class="row">
@@ -176,9 +175,8 @@ export default {
 </script>
 
 <style>
-#app {
+main {
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
