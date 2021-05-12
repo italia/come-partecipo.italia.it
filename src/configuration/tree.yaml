@@ -53,7 +53,7 @@ root:
             content: |
               Un esempio può essere utile a molti... Racconta sui blog del Dipartimento per la Trasformazione Digitale
               la storia di un processo a cui hai partecipato"
-        - label: "No, o non ancora"
+        - label: "Non ancora"
           comment: "Ci sono molte opportunità, anche se non gestisci direttamente un servizio!"
           question: "Cosa preferiresti fare?"
           content:
