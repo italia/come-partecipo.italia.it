@@ -96,7 +96,7 @@
       </div>
     </main>
 
-    <footer class="fixed-bottom it-footer">
+    <footer class="it-footer">
       <div class="it-footer-main">
         <div class="container text-center text-md-left">
           <div class="row">
