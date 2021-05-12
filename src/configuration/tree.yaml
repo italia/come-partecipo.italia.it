@@ -120,24 +120,27 @@ root:
                 (mail)
 
         - label: "Sì"
+          comment: "Che bello! Speriamo che tu ti sia trovato bene!"
+          question: "Vuoi fare qualcosa in più?"
           content:
-            - label: "Proponi modifiche ai nostri strumenti"
+            - label: "Ho dei suggerimenti per migliorare gli strumenti di progettazione"
               content: |
                 link slack, github
 
             - label: |
-                Racconta sui blog del Dipartimento per la Trasformazione Digitale
-                la storia di un processo a cui hai partecipato"
+                Vorrei raccontare sui blog del Dipartimento per la Trasformazione Digitale
+                la storia di un processo a cui ho partecipato"
               content: |
                 (mail)
 
-            - label: "Insegni in una scuola di design?"
+            - label: "Vorrei usare i vostri strumenti in un contesto didattico"
               content: |
+                Insegno in una scuola di design
                 Proponi ai tuoi studenti un progetto migliorativo che abbia un impatto
                 sulla comunità
                 (mail)
 
-            - label: "Hai notato dei difetti o delle opportunità nei nostri strumenti?"
+            - label: "Ho notato dei difetti o delle opportunità nei vostri strumenti"
               content: |
                 Scrivici
                 (mail)
