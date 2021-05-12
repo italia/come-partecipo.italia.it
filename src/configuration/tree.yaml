@@ -80,11 +80,11 @@ root:
             content: |
               Scopri e adotta i modelli
 
-          - label: "Lavoro in un'amministrazione che adotta software open source"
+          - label: "Lavoro in un'amministrazione che adotta software open source e vorrei metterlo a riuso"
             content: |
               <https://developers.italia.it/it/riuso/pubblicazione>
 
-          - label: "Mi piacerebbe sfogliare il catalogo del software libero disponibile per la Pubblica Amministrazione"
+          - label: "Mi piacerebbe scoprire quali soluzioni software sono disponibili per la Pubblica Amministrazione"
             content: |
               <https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/riuso-software/riuso-di-un-software-o-utilizzo-di-un-software-open-source.html>
         - label: "No, ma gestisco progetti digitali privati"
