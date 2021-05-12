@@ -78,9 +78,11 @@
     </div>
   </header>
 
-  <div id="app">
-    <Wizard />
-  </div>
+  <main>
+    <div id="app">
+      <Wizard />
+    </div>
+  </main>
 </div>
 </template>
 

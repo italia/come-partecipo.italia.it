@@ -6,10 +6,19 @@
       :has-navigation="false"
       class="steps"
     >
+    <o-step-item
+        :value="0"
+        :key="0"
+        :step="1"
+        :clickable="1"
+        :label="choices[0].question">
+      </o-step-item>
       <o-step-item
-        :value="index" v-for="(madeChoice, index) in notLeafChoices"
+        :value="index + 1" v-for="(madeChoice, index) in notLeafChoices"
         :key="index"
-        :clickable="index < notLeafChoices.length - 1">
+        :step="index + 2"
+        :clickable="index < notLeafChoices.length - 1"
+        :label="index < notLeafChoices.length - 1 ? notLeafChoices[index + 1].question : ''">
       </o-step-item>
     </o-steps>
     <h1>{{ currentChoice.question }}</h1>
