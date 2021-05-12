@@ -16,42 +16,46 @@
     <h1 class="h3">{{ currentChoice.question }}</h1>
 
     <div class="container">
-      <ul
-        v-if="!isLeaf(currentChoice)"
-        class="choices"
-        aria-label="Scegli una delle opzioni seguenti:"
-      >
-        <li v-for="(possibleChoice, index) in currentChoice.content" :key="possibleChoice.label">
-          <o-button
-            class="choice col-11 col-xl-9 col-lg-6"
-            variant="outline-primary"
-            @click="selectChoice(possibleChoice, index)"
-            >
-            {{possibleChoice.label}}
-          </o-button>
-        </li>
-      </ul>
-      <div v-else>
-        <h1 class="h3">{{ currentChoice.label }}</h1>
-        <vue-markdown-lite class="reply my-2 p-5">{{ currentChoice.content }}</vue-markdown-lite>
-      </div>
+      <div class="row justify-content-center">
+        <div class="col-12 col-xl-9 col-lg-6">
+          <ul
+            v-if="!isLeaf(currentChoice)"
+            class="choices"
+            aria-label="Scegli una delle opzioni seguenti:"
+          >
+            <li v-for="(possibleChoice, index) in currentChoice.content" :key="possibleChoice.label">
+              <o-button
+                class="choice"
+                variant="outline-primary"
+                @click="selectChoice(possibleChoice, index)"
+                >
+                {{possibleChoice.label}}
+              </o-button>
+            </li>
+          </ul>
+          <div v-else>
+            <h1 class="h3">{{ currentChoice.label }}</h1>
+            <vue-markdown-lite class="reply my-2 p-5">{{ currentChoice.content }}</vue-markdown-lite>
+          </div>
 
-      <o-button
-        v-if="activeStep > 0"
-        class="choice col-12 col-xl-6 col-lg-6"
-        variant="secondary"
-        @click="goBack()"
-      >
-        <o-icon class="icon icon-white" icon="arrow-left-circle"></o-icon> Indietro
-      </o-button>
-      <o-button
-        v-if="isLeaf(currentChoice)"
-        class="choice col-12 col-xl-6 col-lg-6"
-        variant="primary"
-        @click="restart()"
-      >
-        <o-icon class="icon icon-white" icon="restore"></o-icon> Ricomincia
-      </o-button>
+          <o-button
+            v-if="activeStep > 0"
+            class="choice"
+            variant="secondary"
+            @click="goBack()"
+          >
+            <o-icon class="icon icon-white" icon="arrow-left-circle"></o-icon> Indietro
+          </o-button>
+          <o-button
+            v-if="isLeaf(currentChoice)"
+            class="choice"
+            variant="primary"
+            @click="restart()"
+          >
+            <o-icon class="icon icon-white" icon="restore"></o-icon> Ricomincia
+          </o-button>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -135,8 +139,9 @@ ul.choices {
   padding-left: 0;
 }
 .choice {
+  width: 100%;
   text-align: left;
-  margin: 8px;
+  margin-bottom: 8px;
 }
 .reply {
   background-color: #dce9f5;
