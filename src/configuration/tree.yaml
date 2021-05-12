@@ -1,9 +1,9 @@
 root:
   label: ""
   comment: |
-     Benvenuta/o!
+     Ciao!
 
-     
+
      Ci fa piacere che tu voglia contribuire al miglioramento dei servizi pubblici digitali del Paese.
   question: "Qual è il tuo talento?"
   content:
@@ -40,7 +40,7 @@ root:
           - label: "Ho trovato un software nel catalogo di Developers Italia e lo vorrei riutilizzare o personalizzare"
             content: |
               <https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/riuso-software/riuso-di-un-software-o-utilizzo-di-un-software-open-source.html>
-          
+
 
           - label: "Ho trovato una soluzione open source che credo debbano conoscere tutti"
             content: |
