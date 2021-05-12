@@ -100,27 +100,30 @@ root:
       question: "Hai già usato i nostri strumenti?"
       content:
         - label: "No"
+          comment: "OK, lascia che ti aiutiamo a scoprirli!"
+          question: "Cosa ti interessa di più?"
           content:
-            - label: "Scopri le linee guida per progettare nel pubblico"
+            - label: "Vorrei scoprire le linee guida per progettare nel pubblico"
               content: |
                 Linee guida AgID
 
-            - label: "Scopri come fare ricerca e avviare un progetto con il piede giusto"
+            - label: "Mi interessa capire come fare ricerca e avviare un progetto con il piede giusto"
               content: |
                 I kit per capire
 
-            - label: "Scopri gli strumenti per costruire un'interfaccia"
+            - label: "Vorrei avere gli strumenti giusti per costruire un'interfaccia"
               content: |
                 Hai già fatto una ricerca sui bisogni dei tuoi utenti? Ecco i kit per fare
 
-            - label: "Insegni in una scuola di design?"
+            - label: "Mi piacerebbe capire come usare i vostri strumenti in un contesto didattico"
               content: |
+                Insegno in una scuola di design
                 Proponi ai tuoi studenti un progetto migliorativo che abbia un impatto
                 sulla comunità
                 (mail)
 
         - label: "Sì"
-          comment: "Che bello! Speriamo che tu ti sia trovato bene!"
+          comment: "Che bello! Speriamo che ti abbiano aiutato!"
           question: "Vuoi fare qualcosa in più?"
           content:
             - label: "Ho dei suggerimenti per migliorare gli strumenti di progettazione"
