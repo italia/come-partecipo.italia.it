@@ -177,17 +177,50 @@ root:
           - label: "Mi piacerebbe lavorare su SDK e voglio supportare SPID"
             question: "Quanto conosci di SPID?"
             content:
-              - label: "Vai al portale sviluppatore"
-                content: |
-                  <https://developers.italia.it/it/spid>
 
               - label: "Scopri l'introduzione ai concetti principali"
                 content: |
                   <https://docs.italia.it/italia/spid/spid-regole-tecniche/it/stabile/single-sign-on.html>
 
+              - label: "Accedi al portale dello sviluppatore"
+                content: |
+                  Qui trovi le risorse di esempio e i progetti OpenSource dedicati a SPID, oltre alla documentazione tecnica e altre risorse:
+                  <https://developers.italia.it/it/spid>
+
+              - label: "Qualcosa di utile per iniziare"
+                question: "Hai voglia di metterti in gioco?"
+                content:
+
+                    - label: "Contribuire sulla validazione dei test"
+                      content: |
+                       <https://github.com/italia/spid-sp-shibboleth/issues/9>
+
+                    - label: "Unire due progetti basati su Shibboleth SP in un singolo"
+                      content: |
+                       <https://github.com/italia/spid-ansible-shibboleth-example> e <https://github.com/italia/spid-sp-shibboleth>
+
+                    - label: "Migliorare la lettura di spid-regole-tecniche"
+                      content: |
+                       <https://github.com/italia/spid-regole-tecniche/issues/32>
+
+                    - label: "Revamping di spid-spring"
+                      content: |
+                       <https://github.com/italia/spid-sp-shibboleth/issues/9>
+
+                    - label: "Revamping di spid-wordpress"
+                      content: |
+                       <https://github.com/italia/spid-wordpress>
+
               - label: "Contribuisci alle issue non risolte"
                 content: |
-                  (link)
+                  Presso i repository dei progetti dedicati a SPID sono pubblicate le issue che attendono un contributo:
+                  <https://github.com/italia/?q=spid&type=public&language=&sort=>
+
+              - label: "Raggiungi la comunità di developers SPID"
+                content: |
+                  Qui il canale slack di sviluppo:
+                  <https://app.slack.com/client/T6C27AXE0/C73R3UQE8>
+
 
           - label: "Vorrei migliorare i kit di sviluppo web"
             content: |
