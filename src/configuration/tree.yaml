@@ -3,7 +3,7 @@ root:
   comment: |
      Benvenuta/o!
      
-     Siamo contenti che tu voglia contribuire al miglioramento dei servizi pubblici digitali del Paese.
+     Ci fa piacere che tu voglia contribuire al miglioramento dei servizi pubblici digitali del Paese.
   question: "Quale è il tuo talento?"
   content:
     - label: "Gestisco progetti digitali o mi occupo di servizi pubblici"
@@ -31,7 +31,7 @@ root:
             content: |
               <https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/riuso-software/licenze-aperte-e-scelta-di-una-licenza.html#scelta-di-una-licenza>
 
-          - label: "Vorrei capire quali sono le migliori pratiche di sviluppo da adottare"
+          - label: "Vorrei capire quali sono le migliori pratiche di sviluppo da adottare per un servizio pubblico"
             content: |
               Scopri gli allegati tecnici delle Linee guida per lo sviluppo e la manutenzione del software
               <https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/index.html>
@@ -41,7 +41,7 @@ root:
               <https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/riuso-software/riuso-di-un-software-o-utilizzo-di-un-software-open-source.html>
           
 
-          - label: "Ho trovato una soluzione open source che credo debbano conoscere tutti!"
+          - label: "Ho trovato una soluzione open source che credo debbano conoscere tutti"
             content: |
               <a href="https://developers.italia.it/it/riuso/pubblicazione"
                  target="_blank"
