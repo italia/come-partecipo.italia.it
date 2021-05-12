@@ -81,6 +81,21 @@
                         </div>
                       </a>
                     </div>
+                    <div class="it-right-zone">
+                      <div class="it-socials d-none d-md-flex">
+                        <ul>
+                          <li>
+                            <a href="https://github.com/italia/wizard-italia"
+                              aria-label="Sorgente del sito su GitHub (collegamento esterno)"
+                              title="Sorgente del sito su GitHub (collegamento esterno)"
+                              target="_blank"
+                            >
+                              <o-icon class="icon" icon="github"></o-icon>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
