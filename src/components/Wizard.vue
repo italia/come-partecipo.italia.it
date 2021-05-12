@@ -1,7 +1,10 @@
 <template>
   <div class="wizard" v-if="currentChoice">
 
-    <nav class="breadcrumb-container" aria-label="breadcrumb">
+    <nav
+      v-if="activeStep > 0"
+      class="breadcrumb-container" aria-label="breadcrumb"
+    >
       <ol class="breadcrumb">
         <li class="breadcrumb-item" v-for="(madeChoice, index) in breadcrumbsChoices" :key="index">
           <a href="#" @click="moveToStep(index)">{{ truncate(madeChoice.question, 60) }}</a>
