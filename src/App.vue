@@ -1,5 +1,9 @@
 <template>
   <div id="app">
+    <div class="skiplinks">
+      <a class="sr-only sr-only-focusable" href="#content">Vai al contenuto principale</a>
+      <a class="sr-only sr-only-focusable" href="#footer">Vai a piè di pagina</a>
+    </div>
     <header>
       <div class="it-header-wrapper">
         <div class="it-header-slim-wrapper">
@@ -64,12 +68,7 @@
                   <div class="it-header-center-content-wrapper">
                     <div class="it-brand-wrapper ">
                       <a href="/">
-                        <svg class="icon">
-                          <use
-                            :xlink:href="`${require('@/assets/sprite.svg')}#it-designers-italia`"
-                          ></use>
-                        </svg>
-
+                        <o-icon class="icon" icon="designers-italia"></o-icon>
                         <div class="it-brand-text">
                           <div class="h5 font-weight-bold no_toc mb-0">
                             Come partecipo
@@ -89,11 +88,11 @@
       </div>
     </header>
 
-    <main class="container py-5">
+    <main id="content" class="container py-5">
       <Wizard />
     </main>
 
-    <footer class="it-footer pt-5">
+    <footer id="footer" class="it-footer pt-5">
       <div class="it-footer-main">
         <div class="container text-center text-md-left">
           <div class="row">
