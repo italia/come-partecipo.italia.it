@@ -12,9 +12,8 @@ root:
         - label: "Sì, gestisco un progetto digitale pubblico!"
           question: "Cosa preferiresti fare?"
           content:
-          - label: Hai del software 
-          
-          - label: "Metto in catalogo la soluzione in uso nella tua Pubblica Amministrazione"
+
+          - label: "Vorrei condividere una soluzione secondo il modello open source"
             content: |
               <a href="https://developers.italia.it/it/riuso/pubblicazione"
                  target="_blank"
@@ -22,26 +21,27 @@ root:
                  Pubblicazione di software per la pubblica amministrazione 🔗
               </a>
 
-          - label: "Approfondisco il modello di acquisizione e riuso del software pubblico e migliorarlo"
+          - label: "Mi piacerebbe conoscere meglio il modello di acquisizione e riuso del software pubblico"
             content: |
               <https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/index.html>
-          - label: |
-              Un esempio può essere utile a molti... Racconta sui blog del Dipartimento per la Trasformazione Digitale
-              la storia di un processo a cui hai partecipato"
-            content: |
-              (mail)
-          - label: "Adegua le licenze d'uso dei tuoi servizi digitali alle migliori pratiche"
+              Mandaci i tuoi suggerimenti!
+
+          - label: "Vorrei adeguare le licenze d'uso dei miei servizi digitali alle migliori pratiche"
             content: |
               <https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/riuso-software/licenze-aperte-e-scelta-di-una-licenza.html#scelta-di-una-licenza>
 
-          - label: "Scopri gli allegati tecnici per gestire i tuoi fornitori"
+          - label: "Vorrei capire quali sono le migliori pratiche di sviluppo da adottare"
             content: |
+              Scopri gli allegati tecnici delle Linee guida per lo sviluppo e la manutenzione del software
               <https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/index.html>
 
-          - label: "Scopri come riusare e personalizzare un software a catalogo"
+          - label: "Vorrei riutilizzare o personalizzare un software del catalogo di Developers Italia"
             content: |
               <https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/riuso-software/riuso-di-un-software-o-utilizzo-di-un-software-open-source.html>
-
+          - label: "Mi piacerebbe condividere la mia esperienza"
+            content: |
+              Un esempio può essere utile a molti... Racconta sui blog del Dipartimento per la Trasformazione Digitale
+              la storia di un processo a cui hai partecipato"
         - label: "No / Non gestico ancora un progetto digitale pubblico"
           content:
           - label: "Leggi e contribuisci alle linee guida"
