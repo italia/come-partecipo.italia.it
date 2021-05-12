@@ -10,10 +10,11 @@ root:
       question: "Gestisci un progetto digitale pubblico?"
       content:
         - label: "Sì, gestisco un progetto digitale pubblico!"
-          question: "Cosa preferiresti fare?"
+          comment: "Congratulazioni, le tue azioni avranno un grande impatto sui servizi pubblici digitali del Paese!"
+          question: "Cosa ti interessa di più?"
           content:
 
-          - label: "Vorrei condividere una soluzione secondo il modello open source"
+          - label: "Vorrei condividere la mia soluzione secondo il modello open source"
             content: |
               <a href="https://developers.italia.it/it/riuso/pubblicazione"
                  target="_blank"
@@ -35,10 +36,20 @@ root:
               Scopri gli allegati tecnici delle Linee guida per lo sviluppo e la manutenzione del software
               <https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/index.html>
 
-          - label: "Vorrei riutilizzare o personalizzare un software del catalogo di Developers Italia"
+          - label: "Ho trovato un software nel catalogo di Developers Italia e lo vorrei riutilizzare o personalizzare"
             content: |
               <https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/riuso-software/riuso-di-un-software-o-utilizzo-di-un-software-open-source.html>
-          - label: "Mi piacerebbe condividere la mia esperienza"
+          
+
+          - label: "Ho trovato una soluzione open source che credo debbano conoscere tutti!"
+            content: |
+              <a href="https://developers.italia.it/it/riuso/pubblicazione"
+                 target="_blank"
+                 aria-label="Pubblicazione di software per la pubblica amministrazione (collegamento esterno)">
+                 Pubblicazione di software per la pubblica amministrazione 🔗
+              </a>
+
+          - label: "Mi piacerebbe condividere la mia esperienza con la community"
             content: |
               Un esempio può essere utile a molti... Racconta sui blog del Dipartimento per la Trasformazione Digitale
               la storia di un processo a cui hai partecipato"
