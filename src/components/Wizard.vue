@@ -18,8 +18,8 @@
       v-if="activeStep === 0"
       class="container lead pb-4"
     >
-      <div class="row text-left">
-        <div class="offset-3 col-6">
+      <div class="row justify-content-center">
+        <div class="col-12 col-xl-9 col-lg-9">
           <p class="text-center">
             Ciao! 👋
           </p>
@@ -39,7 +39,7 @@
 
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-12 col-xl-9 col-lg-6">
+        <div class="col-12 col-xl-5 col-lg-5">
           <ul
             v-if="!isLeaf(currentChoice)"
             class="choices"
