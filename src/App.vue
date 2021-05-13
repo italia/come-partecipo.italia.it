@@ -196,9 +196,18 @@ export default {
 </script>
 
 <style>
+#app {
+  display:flex;
+  flex-direction:column;
+  height:100vh;
+  margin:0;
+}
 main {
   text-align: center;
   color: #2c3e50;
+}
+footer {
+  margin-top:auto;
 }
 article.reply > h2 {
   font-size: 1.555rem;
