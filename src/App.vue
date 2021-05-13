@@ -150,17 +150,6 @@
                 Note legali
               </a>
             </li>
-            <li class="list-inline-item mr-0 mr-md-5">
-              <a
-                href="#"
-                target="_blank"
-                rel="noreferrer"
-                aria-label="Dichiarazione di accessibilità (collegamento esterno)"
-                class="list-item mid-footer-link mx-4 mx-md-0"
-              >
-                Dichiarazione di accessibilità
-              </a>
-            </li>
             <li class="list-inline-item mr-0 mr-md-5 float-right">
               <a
                 href="https://github.com/italia/wizard-italia"
