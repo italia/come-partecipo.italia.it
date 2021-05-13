@@ -254,7 +254,7 @@ root:
               content: |
                 <a href="https://designers.italia.it/kit"
                      target="_blank"
-                     aria-label="Scopri i kit in particolare la sezione capire (collegamento esterno)">
+                     aria-label="Scopri i kit, e in particolare la sezione capire (collegamento esterno)">
                      Scopri i kit in particolare la sezione capire 🔗
                     </a>
 
@@ -262,13 +262,13 @@ root:
               content: |
                 <a href="https://designers.italia.it/kit"
                     target="_blank"
-                    aria-label="Scopri i kit in particolare la sezione fare (collegamento esterno)">
+                    aria-label="Scopri i kit, e in particolare la sezione fare (collegamento esterno)">
                     Scopri i kit in particolare la sezione fare 🔗
                    </a>
 
             - label: "Insegno in una scuola di design, mi piacerebbe capire come usare i vostri strumenti in un contesto didattico"
               content: |
-                Proponi ai tuoi studenti un progetto migliorativo che abbia un impatto sulla comunità
+                Proponi ai tuoi studenti un progetto migliorativo che abbia un impatto sulla comunità.
 
                 Scrivici alla mail contatti@designers.italia.it
 
