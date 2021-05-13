@@ -277,7 +277,7 @@ root:
           question: "Quale di queste attività preferisci?"
           content:
           - label: "Mi piacerebbe lavorare su SDK e voglio supportare SPID"
-            question: "Quanto conosci di SPID?"
+            question: "Quanto conosci SPID?"
             content:
 
               - label: "Poco o nulla, vorrei un'introduzione ai concetti principali"
@@ -296,7 +296,7 @@ root:
                     Le risorse di esempio e i progetti open source dedicati a SPID, la documentazione tecnica e altre risorse 🔗
                   </a>
 
-              - label: "Ci ho già avuto a che fare. Datemi qualcosa di semplice per iniziare a collaborare"
+              - label: "Conosco i concetti fondamentali. Datemi qualcosa di semplice per iniziare a collaborare"
                 comment: "Fantastico! Ecco una serie di sfide per te."
                 question: "Hai voglia di metterti in gioco?"
                 content:
@@ -348,7 +348,7 @@ root:
                       repository di spid-wordpress su GitHub 🔗
                     </a>
 
-                - label: "Vorrei lavorare su una issue non risolta"
+                - label: "Vorrei avere un elenco di issue da risolvere"
                   content: |
                       A volte i contributi più efficaci sono quelli più semplici.
 
@@ -358,7 +358,7 @@ root:
                       Ecco l'elenco di tutte le issue SPID non risolte 🔗
                       </a>. Buon divertimento!
 
-              - label: "Raggiungi la comunità di developers SPID"
+              - label: "Non so, come posso entrare in contatto con la comunità di sviluppatori SPID?"
                 content: |
                   La community di sviluppo di SPID si ritrova su Slack.
 
