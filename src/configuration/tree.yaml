@@ -122,7 +122,7 @@ root:
               Racconta la tua storia sui blog del Dipartimento di Trasformazione Digitale.
 
               Scrivici a
-              <a href="mailto:contatti@developers.italia.it" target="_blank" rel="noopener noreferrer">contatti@developers.italia.it</a>
+              <a href="mailto:comunicazione@innovazione.gov.it" target="_blank" rel="noopener noreferrer">comunicazione@innovazione.gov.it</a>
         - label: "Non ancora"
           comment: "Ci sono molte opportunità, anche se non gestisci direttamente un servizio!"
           question: "Cosa preferiresti fare?"
@@ -476,11 +476,11 @@ root:
             Racconta la tua storia sui blog del Dipartimento di Trasformazione Digitale.
 
             Scrivici a
-            <a href="mailto:contatti@developers.italia.it" target="_blank" rel="noopener noreferrer">contatti@developers.italia.it</a>
+            <a href="mailto:comunicazione@innovazione.gov.it" target="_blank" rel="noopener noreferrer">comunicazione@innovazione.gov.it</a>
     - label: "Nessuno dei precedenti"
       content: |
         Ci dispiace che tu non abbia trovato niente di utile.
         Nel tempo miglioreremo e amplieremo questo strumento.
         ## Hai idee per noi?
         Scrivici a
-        <a href="mailto:contatti@developers.italia.it" target="_blank" rel="noopener noreferrer">contatti@developers.italia.it</a>
+        <a href="mailto:comunicazione@innovazione.gov.it" target="_blank" rel="noopener noreferrer">comunicazione@innovazione.gov.it</a>
