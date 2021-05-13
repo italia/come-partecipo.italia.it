@@ -130,7 +130,7 @@ export default {
       window.location.reload();
     },
     goBack() {
-      window.history.back()
+      this.moveToStep(this.activeStep - 1)
     },
     isLeaf(node) {
       return typeof(node.content) === 'string'
