@@ -366,8 +366,13 @@ root:
 
                   <a href="https://app.slack.com/client/T6C27AXE0/C73R3UQE8"
                     target="_blank"
-                    aria-label="Raggiungila qui (collegamento esterno)">
+                    aria-label="Canale SPID su Slack di Developers Italia (collegamento esterno)">
                     Raggiungila qui 🔗
+                  </a> usando questo
+                  <a href="https://slack.developers.italia.it/"
+                    target="_blank"
+                    aria-label="Invito a Slack di Developers Italia (collegamento esterno)">
+                    collegamento di invito 🔗
                   </a>!
 
           - label: "Vorrei migliorare i kit di sviluppo web"
