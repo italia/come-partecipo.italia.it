@@ -141,8 +141,8 @@ root:
             content: |
                <a href="https://forum.italia.it/c/documenti-in-consultazione/linee-guida-di-design-per-i-servizi-web-della-pa/81"
                      target="_blank"
-                     aria-label="Scopri le nuove Linee guida di design dei servizi web della PA (collegamento esterno)">
-                     Scopri le nuove Linee guida di design dei servizi web della PA 🔗
+                     aria-label="Scopri le nuove Linee guida di design dei servizi web della Pubblica amministrazione(collegamento esterno)">
+                     Scopri le nuove Linee guida di design dei servizi web della Pubblica Amministrazione 🔗
                     </a>
 
                <em>Le nuove Linee guida sono attualmente in fase di consultazione.</em>
@@ -194,7 +194,7 @@ root:
               </a>.
         - label: "No, ma gestisco progetti digitali privati"
           comment: "Migliorare i servizi pubblici digitali è un'attività che coinvolge tutti"
-          question: "Hai del software che può essere utile alla PA?"
+          question: "Hai del software che può essere utile alla Pubblica Amministrazione?"
           content:
           - label: "Sì, e mi piacerebbe metterlo a disposizione!"
             content: |
@@ -347,7 +347,8 @@ root:
 
                 - label: "Vorrei contribuire a spid-wordpress"
                   content: |
-                    Wordpress è una piattaforma molto usata dalla PA, e supporta strumenti di login personalizzati. Esiste un plugin che implementa il login con SPID che tuttavia ha bisogno di essere aggiornato.
+                    Wordpress è una piattaforma molto usata dalla Pubblica Amministrazione, e supporta strumenti
+                    di login personalizzati. Esiste un plugin che implementa il login con SPID che tuttavia ha bisogno di essere aggiornato.
 
                     Se conosci Wordpress e vuoi approfondire la tua conoscenza di SPID, o viceversa, comincia dal <a href="https://github.com/italia/spid-wordpress"
                       target="_blank"
