@@ -331,7 +331,7 @@ root:
 
                 - label: "Vorrei contribuire a spid-spring"
                   content: |
-                    SPID può essere usato via spring. Esiste un repository che implementa questa integrazione ma che tuttavia ha bisogno di essere aggiornato.
+                    SPID può essere usato via Spring. Esiste un repository che implementa questa integrazione ma che tuttavia ha bisogno di essere aggiornato.
 
                     Vuoi contribuire?
 
