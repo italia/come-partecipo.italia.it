@@ -5,6 +5,9 @@ root:
 
 
      Ci fa piacere che tu voglia contribuire al miglioramento dei servizi pubblici digitali del Paese.
+
+     <h1></h1>
+     Questo strumento è pensato per aiutare gli aspiranti contributori a migliorare, con azioni concrete, il cuore del software libero per la pubblica amministrazione, bene comune di tutto il Paese.
   question: "Qual è il tuo talento?"
   content:
     - label: "Gestisco progetti digitali o mi occupo di servizi pubblici"
@@ -17,26 +20,42 @@ root:
 
           - label: "Vorrei condividere la mia soluzione secondo il modello open source"
             content: |
+              Scopri come pubblicare software per la Pubblica Amministrazione!
+
+              Consulta
               <a href="https://developers.italia.it/it/riuso/pubblicazione"
                  target="_blank"
                  aria-label="Pubblicazione di software per la pubblica amministrazione (collegamento esterno)">
                  Pubblicazione di software per la pubblica amministrazione 🔗
-              </a>
+              </a>.
 
           - label: "Mi piacerebbe conoscere meglio il modello di acquisizione e riuso del software pubblico"
             content: |
-              <https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/index.html>
-              Mandaci i tuoi suggerimenti!
+              Leggi le <a href="https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/index.html"
+                 target="_blank"
+                 aria-label="Linee Guida per l'acquisizione e il riuso del software per le pubbliche amministrazioni (collegamento esterno)">
+                 Linee Guida per l'acquisizione e il riuso del software per le pubbliche amministrazioni 🔗
+              </a>.
+
+              Se hai dubbi, domande o proposte di miglioramento mandaci i tuoi suggerimenti su
+              <a href="https://slack.developers.italia.it"
+                 target="_blank"
+                 aria-label="Slack (collegamento esterno)">
+                 Slack</a>.
 
           - label: "Vorrei capire quali sono le migliori pratiche di sviluppo da adottare per un servizio pubblico"
             content: |
-              Scopri gli allegati tecnici delle Linee guida per lo sviluppo e la manutenzione del software
-              <https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/index.html>
+              Scopri gli <a href="https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/index.html"
+                 target="_blank"
+                 aria-label="allegati tecnicis (collegamento esterno)">
+                  allegati tecnici</a> delle Linee guida per lo sviluppo e la manutenzione del software
+              
 
-          - label: "Vorrei integrare la mia piattaforma con il sistema di Single SignOn Nazionale ed Europeo"
+          - label: "Vorrei integrare la mia piattaforma con il sistema di Single Sign-On (SSO) nazionale ed europeo"
+            question: "Ci sono diverse piattaforme per gestire il Single Sign-On. Quale ti interessa di più?"
             content:
 
-            - label: "SPID - Sistema Pubblico di Identità Digitale"
+            - label: "Mi interessa SPID - Sistema Pubblico di Identità Digitale"
               content: |
                 <a href="https://developers.italia.it/it/spid/"
                  target="_blank"
@@ -44,7 +63,7 @@ root:
                  Scopri la documentazione e tutte le risorse dedicate a SPID 🔗
                 </a>
 
-            - label: "CIE - Carta d'Identità Elettronica"
+            - label: "Vorrei integrarmi con CIE - Carta d'Identità Elettronica"
               content: |
                 <a href="https://developers.italia.it/it/cie/"
                  target="_blank"
@@ -52,7 +71,7 @@ root:
                  Scopri la documentazione e tutte le risorse dedicate a CIE 🔗
                 </a>
 
-            - label: "eIDAS"
+            - label: "Vorrei abilitare eIDAS"
               content: |
                 <a href="https://www.agid.gov.it/it/piattaforme/nodo-eidas-italiano"
                  target="_blank"
@@ -62,38 +81,68 @@ root:
 
           - label: "Vorrei adeguare le licenze d'uso dei miei servizi digitali alle migliori pratiche"
             content: |
-              <https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/riuso-software/licenze-aperte-e-scelta-di-una-licenza.html#scelta-di-una-licenza>
+              Le licenze suggerite sono:
+              - `EUPL-1.2` per tutto il software applicativo tradizionale, nativo e app mobile
+              - `AGPL-3.0-or-later` per tutto il software applicativo erogabile in cloud o utilizzato via rete
+              - `BSD-3-Clause` per le librerie
+              - `CC-BY-4.0` per la documentazione
+              - `CC0-1.0` per le leggi, gli schemi e i documenti normativi
+             
+              Le linee guida di riferimento che trattano la materia in modo esaustivo sono:
+
+              <a href="https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/riuso-software/licenze-aperte-e-scelta-di-una-licenza.html#scelta-di-una-licenza"
+                 target="_blank"
+                 aria-label="Scelta di una licenza aperta per il software (collegamento esterno)">
+                 Scelta di una licenza aperta per il software 🔗
+                </a> (ex. artt. 68 e 69 del CAD).
+            
+              <a href="https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/stabile/licenzecosti.html#licenze"
+                 target="_blank"
+                 aria-label="Scelta di una licenza aperta per i dati pubblici (collegamento esterno)">
+                 Scelta di una licenza aperta per i dati pubblici 🔗
+                </a> (in particolare la nota ex art. 52 del CAD).
 
           - label: "Ho trovato un software nel catalogo di Developers Italia e lo vorrei riutilizzare o personalizzare"
             content: |
-              <https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/riuso-software/riuso-di-un-software-o-utilizzo-di-un-software-open-source.html>
-
+              Puoi farlo senza bisogno di ulteriori accordi con il titolare della soluzione!
+              
+              Il capitolo delle linee guida sul riuso del software che si occupa del tema è
+              <a href="https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/riuso-software/riuso-di-un-software-o-utilizzo-di-un-software-open-source.html"
+                 target="_blank"
+                 aria-label="accessibile qui (collegamento esterno)">
+                 accessibile qui 🔗
+              </a>. 
+              
           - label: "Ho trovato una soluzione open source che credo debbano conoscere tutti"
             content: |
+              Fantastico! Proponi di aggiungerla nel catalogo di Developers Italia.
+
+              Scopri qui come
               <a href="https://developers.italia.it/it/riuso/pubblicazione"
                  target="_blank"
-                 aria-label="Pubblicazione di software per la pubblica amministrazione (collegamento esterno)">
-                 Pubblicazione di software per la pubblica amministrazione 🔗
-              </a>
+                 aria-label="pubblicare software per la pubblica amministrazione (collegamento esterno)">
+                 pubblicare software per la pubblica amministrazione 🔗
+              </a>. Puoi seguire queste istruzioni anche se non sei titolare della soluzione.
 
           - label: "Mi piacerebbe condividere la mia esperienza con la community"
             content: |
-              Un esempio può essere utile a molti... Racconta sui blog del Dipartimento per la Trasformazione Digitale
-              la storia di un processo a cui hai partecipato"
+              ## Un esempio può essere di aiuto a molti!
+              Racconta la tua storia sui blog del Dipartimento di Trasformazione Digitale.
+
+              Scrivici a contatti@developers.italia.it
         - label: "Non ancora"
           comment: "Ci sono molte opportunità, anche se non gestisci direttamente un servizio!"
           question: "Cosa preferiresti fare?"
           content:
           - label: "Vorrei approfondire le linee guida di sviluppo tecnico"
             content: |
-              ## Docs Italia
-              <a href="https://docs.italia.it/"
-                 target="_blank" aria-label="Docs Italia (collegamento esterno)">
-                 Docs Italia 🔗
-              </a>
+              Scopri le <a href="https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/index.html"
+                     target="_blank"
+                     aria-label="Linee guida di acquisizione e riuso del software per la pubblica amministrazione (collegamento esterno)">
+                     Linee guida di acquisizione e riuso del software per la pubblica amministrazione 🔗
+                    </a>.
 
-              ## Forum Italia
-              <https://forum.italia.it>
+              Queste linee guida contengono anche degli allegati tecnici che sono perfetti da allegare a un capitolato di gara.
 
           - label: "Vorrei supportare il mio team ad accrescere le proprie competenze di progettazione"
             content: |
@@ -102,41 +151,68 @@ root:
                      aria-label="Scopri le nuove Linee guida di design dei servizi web della PA (collegamento esterno)">
                      Scopri le nuove Linee guida di design dei servizi web della PA 🔗
                     </a>
-               <em>Le nuove Linee guida sono attualmente nella fase di consultazione.</em>     
+
+               <em>Le nuove Linee guida sono attualmente in fase di consultazione.</em>     
                
 
           - label: "Vorrei approfondire come progettare un servizio digitale per la Pubblica Amministrazione"
             content: |
                <a href="https://designers.italia.it/kit"
                     target="_blank"
-                    aria-label="Scopri i kit in particolare la sezione capire (collegamento esterno)">
-                    Scopri i kit in particolare la sezione capire 🔗
+                    aria-label="Scopri i kit, e in particolare la sezione capire (collegamento esterno)">
+                    Scopri i kit, e in particolare la sezione capire 🔗
                    </a>
 
-          - label: "Lavoro in una scuola o comune e mi interesserebbe migliorare il nostro sito web"
+          - label: "Lavoro in una scuola o in un Comune e mi interesserebbe migliorare il nostro sito web"
             content: |
                <a href="https://designers.italia.it/kit"
                     target="_blank"
-                    aria-label="Scopri i kit in particolare le sezioni comuni e scuole (collegamento esterno)">
-                    Scopri i kit in particolare le sezioni comuni e scuole 🔗
+                    aria-label="Scopri i kit, e in particolare le sezioni comuni e scuole (collegamento esterno)">
+                    Scopri i kit, e in particolare le sezioni comuni e scuole 🔗
                    </a>
 
           - label: "Lavoro in un'amministrazione che adotta software open source e vorrei metterlo a riuso"
             content: |
-              <https://developers.italia.it/it/riuso/pubblicazione>
+              Fantastico! Proponi di aggiungerlo nel catalogo di Developers Italia.
+
+              Scopri qui come
+              <a href="https://developers.italia.it/it/riuso/pubblicazione"
+                 target="_blank"
+                 aria-label="pubblicare software per la pubblica amministrazione (collegamento esterno)">
+                 pubblicare software per la pubblica amministrazione 🔗
+              </a>.
 
           - label: "Mi piacerebbe scoprire quali soluzioni software sono disponibili per la Pubblica Amministrazione"
             content: |
-              <https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/riuso-software/riuso-di-un-software-o-utilizzo-di-un-software-open-source.html>
+              Scopri il
+              <a href="https://developers.italia.it/it/riuso/pubblicazione"
+                 target="_blank"
+                 aria-label="catalogo del software di Developers Italia (collegamento esterno)">
+                 catalogo del software di Developers Italia 🔗
+              </a>.
+
+              Se trovi qualcosa che ti interessa, puoi riutilizzarlo senza bisogno di ulteriori accordi con il titolare della soluzione!
+              
+              Il capitolo delle linee guida sul riuso del software che si occupa del tema è
+              <a href="https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/riuso-software/riuso-di-un-software-o-utilizzo-di-un-software-open-source.html"
+                 target="_blank"
+                 aria-label="accessibile qui (collegamento esterno)">
+                 accessibile qui 🔗
+              </a>. 
         - label: "No, ma gestisco progetti digitali privati"
           comment: "Migliorare i servizi pubblici digitali è un'attività che coinvolge tutti"
           question: "Hai del software che può essere utile alla PA?"
           content:
-          - label: "Sì! Mi piacerebbe metterlo a disposizione della PA"
+          - label: "Sì, e mi piacerebbe metterlo a disposizione!"
             content: |
-              Metti a disposizione del pubblico il tuo software con licenza aperta e
-              includilo nel catalogo di Developers Italia. Scopri come su...
-              <https://developers.italia.it/it/riuso/pubblicazione>
+              Fantastico! Proponi di aggiungere la soluzione al catalogo di Developers Italia.
+
+              Scopri qui come
+              <a href="https://developers.italia.it/it/riuso/pubblicazione"
+                 target="_blank"
+                 aria-label="pubblicare software per la pubblica amministrazione (collegamento esterno)">
+                 pubblicare software per la pubblica amministrazione 🔗
+              </a>.
 
     - label: "Sono un esperto di progettazione e design"
       comment: "L'iniziativa che si occupa di questi temi è Designers Italia"
@@ -316,7 +392,6 @@ root:
 
               ## GitHub
               <https://github.com/italia/awesome-italia>
-
 
         - label: "No, preferisco partecipare in modo diverso"
           question: "Quale di queste azioni puoi mettere in atto?"
