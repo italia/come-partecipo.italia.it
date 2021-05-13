@@ -2,12 +2,6 @@ root:
   label: ""
   comment: |
      Ciao! 👋
-
-
-     Ci fa piacere che tu voglia contribuire al miglioramento dei servizi pubblici digitali del Paese.
-
-     <h1></h1>
-     Questo strumento è pensato per aiutare gli aspiranti contributori a migliorare, con azioni concrete, il cuore del software libero per la pubblica amministrazione, bene comune di tutto il Paese.
   question: "Qual è il tuo talento?"
   content:
     - label: "Gestisco progetti digitali o mi occupo di servizi pubblici"
@@ -290,76 +284,93 @@ root:
             
               - label: "Poco o nulla, vorrei un'introduzione ai concetti principali"
                 content: |
-                    <a href="https://docs.italia.it/italia/spid/spid-regole-tecniche/it/stabile/single-sign-on.html"
-                     target="_blank"
-                     aria-label="Scopri l'introduzione ai concetti principali (collegamento esterno)">
-                     Introduzione ai concetti principali 🔗
-                    </a>
+                  Prima di cominciare a contribuire è importante conoscere bene i concetti legati a SPID e agli SSO.
 
-                    <a href="https://developers.italia.it/it/spid/"
-                     target="_blank"
-                     aria-label="Qui trovi le risorse di esempio e i progetti OpenSource dedicati a SPID, oltre alla documentazione tecnica e altre risorse (collegamento esterno)">
-                     Le risorse di esempio e i progetti open source dedicati a SPID, la documentazione tecnica e altre risorse 🔗
-                    </a>
+                  <a href="https://docs.italia.it/italia/spid/spid-regole-tecniche/it/stabile/single-sign-on.html"
+                    target="_blank"
+                    aria-label="Scopri l'introduzione ai concetti principali (collegamento esterno)">
+                    Introduzione ai concetti principali 🔗
+                  </a>
 
-              - label: "Ci ho già avuto a che fare. Datemi qualcosa di utile per iniziare"
-                comment: "Fantastico!"
+                  <a href="https://developers.italia.it/it/spid/"
+                    target="_blank"
+                    aria-label="Qui trovi le risorse di esempio e i progetti OpenSource dedicati a SPID, oltre alla documentazione tecnica e altre risorse (collegamento esterno)">
+                    Le risorse di esempio e i progetti open source dedicati a SPID, la documentazione tecnica e altre risorse 🔗
+                  </a>
+
+              - label: "Ci ho già avuto a che fare. Datemi qualcosa di semplice per iniziare a collaborare"
+                comment: "Fantastico! Ecco una serie di sfide per te."
                 question: "Hai voglia di metterti in gioco?"
                 content:
 
-                    - label: "Unire due progetti basati su Shibboleth SP in un singolo"
-                      content: |
-                        <a href="https://github.com/italia/spid-ansible-shibboleth-example"
-                         target="_blank"
-                         aria-label="spid-ansible-shibboleth-example (collegamento esterno)">
-                         spid-ansible-shibboleth-example 🔗
-                        </a>
-                        e
-                        <a href="https://github.com/italia/spid-sp-shibboleth"
-                         target="_blank"
-                         aria-label="spid-sp-shibboleth (collegamento esterno)">
-                         spid-sp-shibboleth 🔗
-                        </a>
-
-                    - label: "Migliorare la lettura di spid-regole-tecniche"
-                      content: |
-                        <a href="https://github.com/italia/spid-regole-tecniche/issues/32"
-                         target="_blank"
-                         aria-label="Migliorare la lettura di spid-regole-tecniche (collegamento esterno)">
-                         Migliorare la lettura di spid-regole-tecniche 🔗
-                        </a>
-
-                    - label: "Revamping di spid-spring"
-                      content: |
-                        <a href="https://github.com/italia/spid-spring"
-                         target="_blank"
-                         aria-label="Revamping di spid-spring (collegamento esterno)">
-                         Revamping di spid-spring 🔗
-                        </a>
-
-                    - label: "Revamping di spid-wordpress"
-                      content: |
-                        <a href="https://github.com/italia/spid-wordpress"
-                         target="_blank"
-                         aria-label="Revamping di spid-wordpress (collegamento esterno)">
-                         Revamping di spid-wordpress 🔗
-                        </a>
-
-              - label: "Contribuisci alle issue non risolte"
-                content: |
-                    <a href="https://github.com/italia/?q=spid&type=public&language=&sort="
-                     target="_blank"
-                     aria-label="Contribuisci alle issue non risolte (collegamento esterno)">
-                     Contribuisci alle issue non risolte 🔗
+                - label: "Voglio provare a unire due progetti basati su Shibboleth SP in uno singolo"
+                  content: |
+                    Ad oggi esistono due progetti basati su Shibbloleth:
+                    <a href="https://github.com/italia/spid-ansible-shibboleth-example"
+                      target="_blank"
+                      aria-label="spid-ansible-shibboleth-example (collegamento esterno)">
+                      spid-ansible-shibboleth-example 🔗
                     </a>
+                    e
+                    <a href="https://github.com/italia/spid-sp-shibboleth"
+                      target="_blank"
+                      aria-label="spid-sp-shibboleth (collegamento esterno)">
+                      spid-sp-shibboleth 🔗
+                    </a>.
+
+                    Mantenerne due è oneroso e crea confusione negli utenti. Vuoi darci una mano ad unirli?
+
+                - label: "Vorrei risolvere i bug semplici presenti nelle regole tecniche"
+                  content: |
+                    <a href="https://github.com/italia/spid-regole-tecniche/labels/help%20wanted"
+                      target="_blank"
+                      aria-label="Questo elenco su GitHub (collegamento esterno)">
+                      Questo elenco su GitHub 🔗
+                    </a> può essere un buon punto di partenza per cominciare: è l'elenco delle issue (sulle regole tecniche) su cui c'è bisogno di aiuto.
+
+                - label: "Vorrei contribuire a spid-spring"
+                  content: |
+                    SPID può essere usato via spring. Esiste un repository che implementa questa integrazione ma che tuttavia ha bisogno di essere aggiornato.
+
+                    Vuoi contribuire?
+
+                    <a href="https://github.com/italia/spid-spring"
+                      target="_blank"
+                      aria-label="Questo è il repository di spid-spring (collegamento esterno)">
+                      Questo è il repository di spid-spring 🔗
+                    </a> che avrebbe bisogno di un aggiornamento (revamp).
+
+                - label: "Vorrei contribuire a spid-wordpress"
+                  content: |
+                    Wordpress è una piattaforma molto usata dalla PA, e supporta strumenti di login personalizzati. Esiste un plugin che implementa il login con SPID che tuttavia ha bisogno di essere aggiornato.
+
+                    Se conosci Wordpress e vuoi approfondire la tua conoscenza di SPID, o viceversa, comincia dal <a href="https://github.com/italia/spid-wordpress"
+                      target="_blank"
+                      aria-label="repository di spid-wordpress su GitHub (collegamento esterno)">
+                      repository di spid-wordpress su GitHub 🔗
+                    </a>
+
+                - label: "Vorrei lavorare su una issue non risolta"
+                  content: |
+                      A volte i contributi più efficaci sono quelli più semplici.
+
+                      <a href="https://github.com/italia/?q=spid&type=public&language=&sort="
+                      target="_blank"
+                      aria-label="Ecco l'elenco di tutte le issue SPID non risolte (collegamento esterno)">
+                      Ecco l'elenco di tutte le issue SPID non risolte 🔗
+                      </a>. Buon divertimento!
 
               - label: "Raggiungi la comunità di developers SPID"
                 content: |
-                    <a href="https://app.slack.com/client/T6C27AXE0/C73R3UQE8"
-                     target="_blank"
-                     aria-label="Raggiungi la comunità di developers SPID (collegamento esterno)">
-                     Raggiungi la comunità di developers SPID 🔗
-                    </a>
+                  La community di sviluppo di SPID si ritrova su Slack.
+
+                  È il posto giusto per trovare occasioni di confronto e chiedere aiuto; sul canale sono presenti sviluppatori che usano SPID da tanto tempo, inclusi gli sviluppatori principali del progetto.
+
+                  <a href="https://app.slack.com/client/T6C27AXE0/C73R3UQE8"
+                    target="_blank"
+                    aria-label="Raggiungila qui (collegamento esterno)">
+                    Raggiungila qui 🔗
+                  </a>!
 
           - label: "Vorrei migliorare i kit di sviluppo web"
             content: |
@@ -445,13 +456,15 @@ root:
               <https://github.com/italia/awesome-italia>
 
     - label: "La comunicazione è il mio forte"
-      comment: ""
+      comment: "La comunicazione è il tuo forte"
       question: "Ti sei mai occupata/o di un servizio digitale pubblico?"
       content:
         - label: "Sì, me ne sono occupata/o"
           content: |
             ## Un esempio può essere di aiuto a molti!
-            Racconta la tua storia sui blog del Dipartimento di Trasformazione Digitale
+            Racconta la tua storia sui blog del Dipartimento di Trasformazione Digitale.
+
+            Scrivici a contatti@developers.italia.it
     - label: "Nessuna delle precedenti"
       content: |
         Ci dispiace che tu non abbia trovato niente di utile.
