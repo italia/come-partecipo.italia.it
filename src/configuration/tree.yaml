@@ -136,22 +136,23 @@ root:
           content:
             - label: "Ho dei suggerimenti per migliorare gli strumenti di progettazione"
               content: |
-                link slack, github
-                Scrivici
-                (mail)
-
+                Vieni sui canali community:
+                
+                ## Slack
+                <https://slack.developers.italia.it>
+                
+                ## GitHub
+                <https://github.com/italia/awesome-italia>
+    
             - label: Vorrei raccontare sui canali di Designers Italia la storia di un progetto a cui ho partecipato
               content: |
-                (mail)
-
-            - label: "Vorrei usare i vostri strumenti in un contesto didattico"
+                Scrivici alla mail contatti@designers.italia.it
+                
+            - label: "Insegno in una scuola di design, vorrei usare i vostri strumenti"
               content: |
-                Insegno in una scuola di design
-
-
-                Proponi ai tuoi studenti un progetto migliorativo che abbia un impatto
-                sulla comunità
-                (mail)
+                Proponi ai tuoi studenti un progetto migliorativo che abbia un impatto sulla comunità
+                
+                Scrivici alla mail contatti@designers.italia.it
 
         - label: "No"
           comment: "Ok, ti aiutiamo a scoprirli!"
@@ -159,22 +160,33 @@ root:
           content:
             - label: "Vorrei scoprire le linee guida per progettare un servizio pubblico digitale"
               content: |
-                Linee guida AgID
+                <a href="https://forum.italia.it/c/documenti-in-consultazione/linee-guida-di-design-per-i-servizi-web-della-pa/81"
+                     target="_blank"
+                     aria-label="Scopri e commenta le Linee guida in consultazione (collegamento esterno)">
+                     Scopri e commenta le Linee guida in consultazione 🔗
+                    </a>
 
             - label: "Mi interessa capire come fare ricerca e avviare un progetto con il piede giusto"
               content: |
-                I kit per capire
+                <a href="https://designers.italia.it/kit"
+                     target="_blank"
+                     aria-label="Scopri i kit in particolare la sezione capire (collegamento esterno)">
+                     Scopri i kit in particolare la sezione capire 🔗
+                    </a>
 
             - label: "Vorrei avere gli strumenti giusti per costruire un'interfaccia"
               content: |
-                Hai già fatto una ricerca sui bisogni dei tuoi utenti? Ecco i kit per fare
+                <a href="https://designers.italia.it/kit"
+                    target="_blank"
+                    aria-label="Scopri i kit in particolare la sezione fare (collegamento esterno)">
+                    Scopri i kit in particolare la sezione fare 🔗
+                   </a>
 
-            - label: "Mi piacerebbe capire come usare i vostri strumenti in un contesto didattico"
+            - label: "Insegno in una scuola di design, mi piacerebbe capire come usare i vostri strumenti in un contesto didattico"
               content: |
-                Insegno in una scuola di design
-                Proponi ai tuoi studenti un progetto migliorativo che abbia un impatto
-                sulla comunità
-                (mail)
+                Proponi ai tuoi studenti un progetto migliorativo che abbia un impatto sulla comunità
+                
+                Scrivici alla mail contatti@designers.italia.it
 
     - label: "Sviluppo software o sono un DevOps"
       question: "Vuoi partecipare alle attività di sviluppo open source?"
