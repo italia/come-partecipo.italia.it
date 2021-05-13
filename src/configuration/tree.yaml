@@ -98,21 +98,21 @@ root:
             content: |
               Puoi farlo senza bisogno di ulteriori accordi con il titolare della soluzione!
 
-              Il capitolo delle linee guida sul riuso del software che si occupa del tema è
+              Leggi il
               <a href="https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/riuso-software/riuso-di-un-software-o-utilizzo-di-un-software-open-source.html"
                  target="_blank"
-                 aria-label="accessibile qui (collegamento esterno)">
-                 accessibile qui 🔗
+                 aria-label="Capitolo delle linee guida su come riusare un software (collegamento esterno)">
+                 capitolo delle linee guida sul riuso del software che si occupa del tema 🔗
               </a>.
 
           - label: "Ho trovato una soluzione open source che credo debbano conoscere tutti"
             content: |
               Fantastico! Proponi di aggiungerla nel catalogo di Developers Italia.
 
-              Scopri qui come
+              Scopri come
               <a href="https://developers.italia.it/it/riuso/pubblicazione"
                  target="_blank"
-                 aria-label="pubblicare software per la pubblica amministrazione (collegamento esterno)">
+                 aria-label="Pubblicare software per la pubblica amministrazione (collegamento esterno)">
                  pubblicare software per la pubblica amministrazione 🔗
               </a>. Puoi seguire queste istruzioni anche se non sei titolare della soluzione.
 
@@ -168,10 +168,10 @@ root:
             content: |
               Fantastico! Proponi di aggiungerlo nel catalogo di Developers Italia.
 
-              Scopri qui come
+              Scopri come
               <a href="https://developers.italia.it/it/riuso/pubblicazione"
                  target="_blank"
-                 aria-label="pubblicare software per la pubblica amministrazione (collegamento esterno)">
+                 aria-label="Pubblicare software per la pubblica amministrazione (collegamento esterno)">
                  pubblicare software per la pubblica amministrazione 🔗
               </a>.
 
@@ -186,11 +186,11 @@ root:
 
               Se trovi qualcosa che ti interessa, puoi riutilizzarlo senza bisogno di ulteriori accordi con il titolare della soluzione!
 
-              Il capitolo delle linee guida sul riuso del software che si occupa del tema è
+              Leggi il
               <a href="https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/riuso-software/riuso-di-un-software-o-utilizzo-di-un-software-open-source.html"
                  target="_blank"
-                 aria-label="accessibile qui (collegamento esterno)">
-                 accessibile qui 🔗
+                 aria-label="Capitolo delle linee guida su come riusare un software (collegamento esterno)">
+                 capitolo delle linee guida sul riuso del software che si occupa del tema 🔗
               </a>.
         - label: "No, ma gestisco progetti digitali privati"
           comment: "Migliorare i servizi pubblici digitali è un'attività che coinvolge tutti"
@@ -203,7 +203,7 @@ root:
               Scopri qui come
               <a href="https://developers.italia.it/it/riuso/pubblicazione"
                  target="_blank"
-                 aria-label="pubblicare software per la pubblica amministrazione (collegamento esterno)">
+                 aria-label="Pubblicare software per la pubblica amministrazione (collegamento esterno)">
                  pubblicare software per la pubblica amministrazione 🔗
               </a>.
 
@@ -293,13 +293,13 @@ root:
 
                   <a href="https://docs.italia.it/italia/spid/spid-regole-tecniche/it/stabile/single-sign-on.html"
                     target="_blank"
-                    aria-label="Scopri l'introduzione ai concetti principali (collegamento esterno)">
+                    aria-label="Concetti principali di SPID (collegamento esterno)">
                     Introduzione ai concetti principali 🔗
                   </a>
 
                   <a href="https://developers.italia.it/it/spid/"
                     target="_blank"
-                    aria-label="Qui trovi le risorse di esempio e i progetti OpenSource dedicati a SPID, oltre alla documentazione tecnica e altre risorse (collegamento esterno)">
+                    aria-label="Risorse di esempio e i progetti OpenSource dedicati a SPID, oltre alla documentazione tecnica e altre risorse (collegamento esterno)">
                     Le risorse di esempio e i progetti open source dedicati a SPID, la documentazione tecnica e altre risorse 🔗
                   </a>
 
@@ -426,7 +426,7 @@ root:
               Scopri qui come
               <a href="https://developers.italia.it/it/riuso/pubblicazione"
                  target="_blank"
-                 aria-label="pubblicare software per la pubblica amministrazione (collegamento esterno)">
+                 aria-label="Pubblicare software per la pubblica amministrazione (collegamento esterno)">
                  pubblicare software per la pubblica amministrazione 🔗
               </a>.
 
@@ -434,15 +434,16 @@ root:
             content: |
               La guida è un documento in evoluzione e ha bisogno del contributo di tutti.
 
+              Qui trovi
               <a href="https://docs.italia.it/italia/developers-italia/guida-sviluppo-gestione-software-libero/it/stabile/sviluppatori.html"
                  target="_blank"
-                 aria-label="Qui (collegamento esterno)">
-                 Qui 🔗
-              </a> trovi il capitolo dedicato agli sviluppatori e <a href="https://github.com/italia/guida-sviluppo-gestione-software-libero"
+                 aria-label="Capitolo sviluppatori della Guida allo sviluppo e gestione di software open source (collegamento esterno)">
+                 il capitolo dedicato agli sviluppatori 🔗
+              </a> e qui <a href="https://github.com/italia/guida-sviluppo-gestione-software-libero"
                  target="_blank"
-                 aria-label="qui (collegamento esterno)">
-                 qui 🔗
-              </a> i sorgenti. Aspettiamo le tue PR!
+                 aria-label="Sorgenti della Guida allo sviluppo e gestione di software open source (collegamento esterno)">
+                 i sorgenti 🔗
+              </a>. Aspettiamo le tue PR!
 
           - label: "Voglio sapere come realizzare API pubbliche e come funziona il modello di interoperabilità!"
             content: |
