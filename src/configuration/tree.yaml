@@ -68,7 +68,6 @@ root:
             content: |
               <https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/riuso-software/riuso-di-un-software-o-utilizzo-di-un-software-open-source.html>
 
-
           - label: "Ho trovato una soluzione open source che credo debbano conoscere tutti"
             content: |
               <a href="https://developers.italia.it/it/riuso/pubblicazione"
@@ -96,17 +95,31 @@ root:
               ## Forum Italia
               <https://forum.italia.it>
 
-          - label: "Vorrei supportare il mio team ad accrescere le proprie competenze"
+          - label: "Vorrei supportare il mio team ad accrescere le proprie competenze di progettazione"
             content: |
-              Docs Italia (linee guida consolidate)
+               <a href="https://forum.italia.it/c/documenti-in-consultazione/linee-guida-di-design-per-i-servizi-web-della-pa/81"
+                     target="_blank"
+                     aria-label="Scopri le nuove Linee guida di design dei servizi web della PA (collegamento esterno)">
+                     Scopri le nuove Linee guida di design dei servizi web della PA 🔗
+                    </a>
+               <em>Le nuove Linee guida sono attualmente nella fase di consultazione.</em>     
+               
 
           - label: "Vorrei approfondire come progettare un servizio digitale per la Pubblica Amministrazione"
             content: |
-              I kit per capire
+               <a href="https://designers.italia.it/kit"
+                    target="_blank"
+                    aria-label="Scopri i kit in particolare la sezione capire (collegamento esterno)">
+                    Scopri i kit in particolare la sezione capire 🔗
+                   </a>
 
           - label: "Lavoro in una scuola o comune e mi interesserebbe migliorare il nostro sito web"
             content: |
-              Scopri e adotta i modelli
+               <a href="https://designers.italia.it/kit"
+                    target="_blank"
+                    aria-label="Scopri i kit in particolare le sezioni comuni e scuole (collegamento esterno)">
+                    Scopri i kit in particolare le sezioni comuni e scuole 🔗
+                   </a>
 
           - label: "Lavoro in un'amministrazione che adotta software open source e vorrei metterlo a riuso"
             content: |
@@ -136,22 +149,23 @@ root:
           content:
             - label: "Ho dei suggerimenti per migliorare gli strumenti di progettazione"
               content: |
-                link slack, github
-                Scrivici
-                (mail)
-
+                Vieni sui canali community:
+                
+                ## Slack
+                <https://slack.developers.italia.it>
+                
+                ## GitHub
+                <https://github.com/italia/awesome-italia>
+    
             - label: Vorrei raccontare sui canali di Designers Italia la storia di un progetto a cui ho partecipato
               content: |
-                (mail)
-
-            - label: "Vorrei usare i vostri strumenti in un contesto didattico"
+                Scrivici alla mail contatti@designers.italia.it
+                
+            - label: "Insegno in una scuola di design, vorrei usare i vostri strumenti"
               content: |
-                Insegno in una scuola di design
-
-
-                Proponi ai tuoi studenti un progetto migliorativo che abbia un impatto
-                sulla comunità
-                (mail)
+                Proponi ai tuoi studenti un progetto migliorativo che abbia un impatto sulla comunità
+                
+                Scrivici alla mail contatti@designers.italia.it
 
         - label: "No"
           comment: "Ok, ti aiutiamo a scoprirli!"
@@ -159,22 +173,33 @@ root:
           content:
             - label: "Vorrei scoprire le linee guida per progettare un servizio pubblico digitale"
               content: |
-                Linee guida AgID
+                <a href="https://forum.italia.it/c/documenti-in-consultazione/linee-guida-di-design-per-i-servizi-web-della-pa/81"
+                     target="_blank"
+                     aria-label="Scopri e commenta le Linee guida in consultazione (collegamento esterno)">
+                     Scopri e commenta le Linee guida in consultazione 🔗
+                    </a>
 
             - label: "Mi interessa capire come fare ricerca e avviare un progetto con il piede giusto"
               content: |
-                I kit per capire
+                <a href="https://designers.italia.it/kit"
+                     target="_blank"
+                     aria-label="Scopri i kit in particolare la sezione capire (collegamento esterno)">
+                     Scopri i kit in particolare la sezione capire 🔗
+                    </a>
 
             - label: "Vorrei avere gli strumenti giusti per costruire un'interfaccia"
               content: |
-                Hai già fatto una ricerca sui bisogni dei tuoi utenti? Ecco i kit per fare
+                <a href="https://designers.italia.it/kit"
+                    target="_blank"
+                    aria-label="Scopri i kit in particolare la sezione fare (collegamento esterno)">
+                    Scopri i kit in particolare la sezione fare 🔗
+                   </a>
 
-            - label: "Mi piacerebbe capire come usare i vostri strumenti in un contesto didattico"
+            - label: "Insegno in una scuola di design, mi piacerebbe capire come usare i vostri strumenti in un contesto didattico"
               content: |
-                Insegno in una scuola di design
-                Proponi ai tuoi studenti un progetto migliorativo che abbia un impatto
-                sulla comunità
-                (mail)
+                Proponi ai tuoi studenti un progetto migliorativo che abbia un impatto sulla comunità
+                
+                Scrivici alla mail contatti@designers.italia.it
 
     - label: "Sviluppo software o sono un DevOps"
       question: "Vuoi partecipare alle attività di sviluppo open source?"
@@ -262,7 +287,25 @@ root:
 
           - label: "Vorrei migliorare i kit di sviluppo web"
             content: |
-              Sito designers web devkit
+               <a href="https://designers.italia.it/kit/web-development-kit/"
+                     target="_blank"
+                     aria-label="Scopri i kit sul sito Designers Italia (collegamento esterno)">
+                    Scopri i kit sul sito Designers Italia 🔗
+                    </a>
+                
+               ### Github
+               <a href="https://github.com/italia/bootstrap-italia/issues"
+                     target="_blank"
+                     aria-label="Contribuisci alle issue non risolte sul repo Bootstrap Italia (collegamento esterno)">
+                     Contribuisci alle issue non risolte sul repo Bootstrap Italia 🔗
+                    </a>
+               <a href="https://github.com/italia/design-react-kit/issues/"
+                     target="_blank"
+                     aria-label="Contribuisci alle issue non risolte sul repo React Italia (collegamento esterno)">
+                     Contribuisci alle issue non risolte sul repo React Italia 🔗
+                    </a>
+               
+              
           - label: "Mi piacerebbe fare parte della community"
             content: |
               ## Forum Italia
