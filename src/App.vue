@@ -210,4 +210,7 @@ article.reply > h2 {
 article.reply > h3 {
   font-size: 1.333rem;
 }
+.icon {
+  overflow: hidden;
+}
 </style>
