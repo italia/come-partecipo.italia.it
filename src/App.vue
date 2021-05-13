@@ -86,22 +86,6 @@
                         </div>
                       </a>
                     </div>
-                    <div class="it-right-zone">
-                      <div class="it-socials d-none d-md-flex">
-                        <ul>
-                          <li>
-                            <a href="https://github.com/italia/wizard-italia"
-                              aria-label="Sorgente del sito su GitHub (collegamento esterno)"
-                              title="Sorgente del sito su GitHub (collegamento esterno)"
-                              target="_blank"
-                              rel="noreferrer,noopener"
-                            >
-                              <o-icon class="icon" icon="github"></o-icon>
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -175,6 +159,17 @@
                 class="list-item mid-footer-link mx-4 mx-md-0"
               >
                 Dichiarazione di accessibilità
+              </a>
+            </li>
+            <li class="list-inline-item mr-0 mr-md-5 float-right">
+              <a
+                href="https://github.com/italia/wizard-italia"
+                aria-label="Sorgente del sito su GitHub (collegamento esterno)"
+                title="Sorgente del sito su GitHub (collegamento esterno)"
+                target="_blank"
+                rel="noreferrer,noopener"
+              >
+                <o-icon class="icon icon-white inline px-0" icon="github"></o-icon>
               </a>
             </li>
           </ul>
