@@ -121,7 +121,8 @@ root:
               ## Un esempio può essere di aiuto a molti!
               Racconta la tua storia sui blog del Dipartimento di Trasformazione Digitale.
 
-              Scrivici a contatti@developers.italia.it
+              Scrivici a
+              <a href="mailto:contatti@developers.italia.it" target="_blank" rel="noopener noreferrer">contatti@developers.italia.it</a>
         - label: "Non ancora"
           comment: "Ci sono molte opportunità, anche se non gestisci direttamente un servizio!"
           question: "Cosa preferiresti fare?"
@@ -230,13 +231,15 @@ root:
                 ## Un esempio può essere di aiuto a molti!
                 Racconta la tua storia sui blog di Designers Italia.
 
-                Scrivici alla mail contatti@designers.italia.it
+                Scrivici alla mail
+                <a href="mailto:contatti@designers.italia.it" target="_blank" rel="noopener noreferrer">contatti@designers.italia.it</a>
 
             - label: "Insegno in una scuola di design, vorrei usare i vostri strumenti"
               content: |
                 Proponi ai tuoi studenti un progetto migliorativo che abbia un impatto sulla comunità.
 
-                Scrivici alla mail contatti@designers.italia.it
+                Scrivici alla mail
+                <a href="mailto:contatti@designers.italia.it" target="_blank" rel="noopener noreferrer">contatti@designers.italia.it</a>
 
         - label: "No"
           comment: "Va bene, ti aiutiamo a scoprirli!"
@@ -270,7 +273,8 @@ root:
               content: |
                 Proponi ai tuoi studenti un progetto migliorativo che abbia un impatto sulla comunità.
 
-                Scrivici alla mail contatti@designers.italia.it
+                Scrivici alla mail
+                <a href="mailto:contatti@designers.italia.it" target="_blank" rel="noopener noreferrer">contatti@designers.italia.it</a>
 
     - label: "Sviluppo software o sono un DevOps"
       question: "Vuoi partecipare alle attività di sviluppo open source?"
@@ -470,10 +474,12 @@ root:
             ## Un esempio può essere di aiuto a molti!
             Racconta la tua storia sui blog del Dipartimento di Trasformazione Digitale.
 
-            Scrivici a contatti@developers.italia.it
+            Scrivici a
+            <a href="mailto:contatti@developers.italia.it" target="_blank" rel="noopener noreferrer">contatti@developers.italia.it</a>
     - label: "Nessuno dei precedenti"
       content: |
         Ci dispiace che tu non abbia trovato niente di utile.
         Nel tempo miglioreremo e amplieremo questo strumento.
         ## Hai idee per noi?
-        Scrivici a contatti@developers.italia.it
+        Scrivici a
+        <a href="mailto:contatti@developers.italia.it" target="_blank" rel="noopener noreferrer">contatti@developers.italia.it</a>
