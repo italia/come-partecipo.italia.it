@@ -15,6 +15,8 @@ jobs:
           node-version: 14
       - run: yarn install --frozen-lockfile
       - run: yarn build
-      - run: yarn deploy
+      - run: |
+          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/italia/wizard-italia.git
+          yarn deploy
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
