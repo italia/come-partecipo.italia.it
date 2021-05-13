@@ -465,7 +465,7 @@ root:
             Racconta la tua storia sui blog del Dipartimento di Trasformazione Digitale.
 
             Scrivici a contatti@developers.italia.it
-    - label: "Nessuna delle precedenti"
+    - label: "Nessuno dei precedenti"
       content: |
         Ci dispiace che tu non abbia trovato niente di utile.
         Nel tempo miglioreremo e amplieremo questo strumento.
