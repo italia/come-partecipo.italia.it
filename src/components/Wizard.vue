@@ -13,6 +13,28 @@
     </nav>
 
     <p v-if="currentChoice.comment" class="h5 pb-4">{{ currentChoice.comment }}</p>
+
+    <div
+      v-if="activeStep === 0"
+      class="container lead pb-4"
+    >
+      <div class="row text-left">
+        <div class="offset-3 col-6">
+          <p class="text-center">
+            Ciao! 👋
+          </p>
+          <p>
+            Ci fa piacere che tu voglia contribuire al miglioramento dei servizi pubblici
+            digitali del Paese.
+          </p>
+          <p>
+            Questo strumento è pensato per aiutare gli aspiranti contributori a migliorare,
+            con azioni concrete, il cuore del software libero per la pubblica amministrazione,
+            bene comune di tutto il Paese.
+          </p>
+        </div>
+      </div>
+    </div>
     <h1 class="h3">{{ currentChoice.question }}</h1>
 
     <div class="container">

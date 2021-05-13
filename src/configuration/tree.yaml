@@ -1,7 +1,5 @@
 root:
   label: ""
-  comment: |
-     Ciao! 👋
   question: "Qual è il tuo talento?"
   content:
     - label: "Gestisco progetti digitali o mi occupo di servizi pubblici"
@@ -43,7 +41,7 @@ root:
                  target="_blank"
                  aria-label="allegati tecnicis (collegamento esterno)">
                   allegati tecnici</a> delle Linee guida per lo sviluppo e la manutenzione del software
-              
+
 
           - label: "Vorrei integrare la mia piattaforma con il sistema di Single Sign-On (SSO) nazionale ed europeo"
             question: "Ci sono diverse piattaforme per gestire il Single Sign-On. Quale ti interessa di più?"
@@ -77,11 +75,11 @@ root:
             content: |
               Le licenze suggerite sono:
               - `EUPL-1.2` per tutto il software applicativo tradizionale, nativo e app mobile
-              - `AGPL-3.0-or-later` per tutto il software applicativo erogabile in cloud o utilizzato via rete
+              - `AGPL-3.0-or-later` per tutto il software applicativo in cloud o utilizzato via rete
               - `BSD-3-Clause` per le librerie
               - `CC-BY-4.0` per la documentazione
               - `CC0-1.0` per le leggi, gli schemi e i documenti normativi
-             
+
               Le linee guida di riferimento che trattano la materia in modo esaustivo sono:
 
               <a href="https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/riuso-software/licenze-aperte-e-scelta-di-una-licenza.html#scelta-di-una-licenza"
@@ -89,7 +87,7 @@ root:
                  aria-label="Scelta di una licenza aperta per il software (collegamento esterno)">
                  Scelta di una licenza aperta per il software 🔗
                 </a> (ex. artt. 68 e 69 del CAD).
-            
+
               <a href="https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/stabile/licenzecosti.html#licenze"
                  target="_blank"
                  aria-label="Scelta di una licenza aperta per i dati pubblici (collegamento esterno)">
@@ -99,14 +97,14 @@ root:
           - label: "Ho trovato un software nel catalogo di Developers Italia e lo vorrei riutilizzare o personalizzare"
             content: |
               Puoi farlo senza bisogno di ulteriori accordi con il titolare della soluzione!
-              
+
               Il capitolo delle linee guida sul riuso del software che si occupa del tema è
               <a href="https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/riuso-software/riuso-di-un-software-o-utilizzo-di-un-software-open-source.html"
                  target="_blank"
                  aria-label="accessibile qui (collegamento esterno)">
                  accessibile qui 🔗
-              </a>. 
-              
+              </a>.
+
           - label: "Ho trovato una soluzione open source che credo debbano conoscere tutti"
             content: |
               Fantastico! Proponi di aggiungerla nel catalogo di Developers Italia.
@@ -146,8 +144,8 @@ root:
                      Scopri le nuove Linee guida di design dei servizi web della PA 🔗
                     </a>
 
-               <em>Le nuove Linee guida sono attualmente in fase di consultazione.</em>     
-               
+               <em>Le nuove Linee guida sono attualmente in fase di consultazione.</em>
+
 
           - label: "Vorrei approfondire come progettare un servizio digitale per la Pubblica Amministrazione"
             content: |
@@ -186,13 +184,13 @@ root:
               </a>.
 
               Se trovi qualcosa che ti interessa, puoi riutilizzarlo senza bisogno di ulteriori accordi con il titolare della soluzione!
-              
+
               Il capitolo delle linee guida sul riuso del software che si occupa del tema è
               <a href="https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/riuso-software/riuso-di-un-software-o-utilizzo-di-un-software-open-source.html"
                  target="_blank"
                  aria-label="accessibile qui (collegamento esterno)">
                  accessibile qui 🔗
-              </a>. 
+              </a>.
         - label: "No, ma gestisco progetti digitali privati"
           comment: "Migliorare i servizi pubblici digitali è un'attività che coinvolge tutti"
           question: "Hai del software che può essere utile alla PA?"
@@ -220,21 +218,21 @@ root:
             - label: "Ho dei suggerimenti per migliorare gli strumenti di progettazione"
               content: |
                 Vieni sui canali community:
-                
+
                 ## Slack
                 <https://slack.developers.italia.it>
-                
+
                 ## GitHub
                 <https://github.com/italia/awesome-italia>
-    
+
             - label: Vorrei raccontare sui canali di Designers Italia la storia di un progetto a cui ho partecipato
               content: |
                 Scrivici alla mail contatti@designers.italia.it
-                
+
             - label: "Insegno in una scuola di design, vorrei usare i vostri strumenti"
               content: |
                 Proponi ai tuoi studenti un progetto migliorativo che abbia un impatto sulla comunità
-                
+
                 Scrivici alla mail contatti@designers.italia.it
 
         - label: "No"
@@ -268,7 +266,7 @@ root:
             - label: "Insegno in una scuola di design, mi piacerebbe capire come usare i vostri strumenti in un contesto didattico"
               content: |
                 Proponi ai tuoi studenti un progetto migliorativo che abbia un impatto sulla comunità
-                
+
                 Scrivici alla mail contatti@designers.italia.it
 
     - label: "Sviluppo software o sono un DevOps"
@@ -281,7 +279,7 @@ root:
           - label: "Mi piacerebbe lavorare su SDK e voglio supportare SPID"
             question: "Quanto conosci di SPID?"
             content:
-            
+
               - label: "Poco o nulla, vorrei un'introduzione ai concetti principali"
                 content: |
                   Prima di cominciare a contribuire è importante conoscere bene i concetti legati a SPID e agli SSO.
@@ -379,7 +377,7 @@ root:
                      aria-label="Scopri i kit sul sito Designers Italia (collegamento esterno)">
                     Scopri i kit sul sito Designers Italia 🔗
                     </a>
-                
+
                ## Github
                <a href="https://github.com/italia/bootstrap-italia/issues"
                      target="_blank"
@@ -392,8 +390,8 @@ root:
                      aria-label="Contribuisci alle issue non risolte sul repo React Italia (collegamento esterno)">
                      Contribuisci alle issue non risolte sul repo React Italia 🔗
                     </a>
-               
-              
+
+
           - label: "Mi piacerebbe fare parte della community"
             content: |
               Non vediamo l'ora di accoglierti! Qui i link principali:
