@@ -20,10 +20,10 @@
     >
       <div class="row justify-content-center">
         <div class="col-12 col-xl-9 col-lg-9">
-          <p class="text-center">
+          <p class="text-center h3">
             Ciao! 👋
           </p>
-          <p>
+          <p class="h3">
             Ci fa piacere che tu voglia contribuire al miglioramento dei servizi pubblici
             digitali del Paese.
           </p>
