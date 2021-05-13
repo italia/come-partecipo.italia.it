@@ -33,6 +33,33 @@ root:
               Scopri gli allegati tecnici delle Linee guida per lo sviluppo e la manutenzione del software
               <https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/index.html>
 
+          - label: "Vorrei integrare la mia piattaforma con il sistema di Single SignOn Nazionale ed Europeo"
+            content:
+
+            - label: "SPID - Sistema Pubblico di Identità Digitale"
+              content: |
+                <a href="https://developers.italia.it/it/spid/"
+                 target="_blank"
+                 aria-label="Scopri la documentazione e tutte le risorse dedicate a SPID (collegamento esterno)">
+                 Scopri la documentazione e tutte le risorse dedicate a SPID 🔗
+                </a>
+
+            - label: "CIE - Carta d'Identità Elettronica"
+              content: |
+                <a href="https://developers.italia.it/it/cie/"
+                 target="_blank"
+                 aria-label="Scopri la documentazione e tutte le risorse dedicate a CIE (collegamento esterno)">
+                 Scopri la documentazione e tutte le risorse dedicate a CIE 🔗
+                </a>
+
+            - label: "eIDAS"
+              content: |
+                <a href="https://www.agid.gov.it/it/piattaforme/nodo-eidas-italiano"
+                 target="_blank"
+                 aria-label="Scopri come abilitare la tua piattaforma a eIDAS (collegamento esterno)">
+                 Scopri come abilitare la tua piattaforma a eIDAS 🔗
+                </a>
+
           - label: "Vorrei adeguare le licenze d'uso dei miei servizi digitali alle migliori pratiche"
             content: |
               <https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/riuso-software/licenze-aperte-e-scelta-di-una-licenza.html#scelta-di-una-licenza>
@@ -159,17 +186,80 @@ root:
           - label: "Mi piacerebbe lavorare su SDK e voglio supportare SPID"
             question: "Quanto conosci di SPID?"
             content:
-              - label: "Vai al portale sviluppatore"
-                content: |
-                  <https://developers.italia.it/it/spid>
 
               - label: "Scopri l'introduzione ai concetti principali"
                 content: |
-                  <https://docs.italia.it/italia/spid/spid-regole-tecniche/it/stabile/single-sign-on.html>
+                    <a href="https://docs.italia.it/italia/spid/spid-regole-tecniche/it/stabile/single-sign-on.html"
+                     target="_blank"
+                     aria-label="Scopri l'introduzione ai concetti principali (collegamento esterno)">
+                     Introduzione ai concetti principali 🔗
+                    </a>
+
+              - label: "Accedi al portale dello sviluppatore"
+                content: |
+                    <a href="https://developers.italia.it/it/spid/"
+                     target="_blank"
+                     aria-label="Qui trovi le risorse di esempio e i progetti OpenSource dedicati a SPID, oltre alla documentazione tecnica e altre risorse (collegamento esterno)">
+                     Le risorse di esempio e i progetti OpenSource dedicati a SPID, oltre alla documentazione tecnica e altre risorse 🔗
+                    </a>
+
+              - label: "Qualcosa di utile per iniziare"
+                question: "Hai voglia di metterti in gioco?"
+                content:
+
+                    - label: "Unire due progetti basati su Shibboleth SP in un singolo"
+                      content: |
+                        <a href="https://github.com/italia/spid-ansible-shibboleth-example"
+                         target="_blank"
+                         aria-label="spid-ansible-shibboleth-example (collegamento esterno)">
+                         spid-ansible-shibboleth-example 🔗
+                        </a>
+                        e
+                        <a href="https://github.com/italia/spid-sp-shibboleth"
+                         target="_blank"
+                         aria-label="spid-sp-shibboleth (collegamento esterno)">
+                         spid-sp-shibboleth 🔗
+                        </a>
+
+                    - label: "Migliorare la lettura di spid-regole-tecniche"
+                      content: |
+                        <a href="https://github.com/italia/spid-regole-tecniche/issues/32"
+                         target="_blank"
+                         aria-label="Migliorare la lettura di spid-regole-tecniche (collegamento esterno)">
+                         Migliorare la lettura di spid-regole-tecniche 🔗
+                        </a>
+
+                    - label: "Revamping di spid-spring"
+                      content: |
+                        <a href="https://github.com/italia/spid-spring"
+                         target="_blank"
+                         aria-label="Revamping di spid-spring (collegamento esterno)">
+                         Revamping di spid-spring 🔗
+                        </a>
+
+                    - label: "Revamping di spid-wordpress"
+                      content: |
+                        <a href="https://github.com/italia/spid-wordpress"
+                         target="_blank"
+                         aria-label="Revamping di spid-wordpress (collegamento esterno)">
+                         Revamping di spid-wordpress 🔗
+                        </a>
 
               - label: "Contribuisci alle issue non risolte"
                 content: |
-                  (link)
+                    <a href="https://github.com/italia/?q=spid&type=public&language=&sort="
+                     target="_blank"
+                     aria-label="Contribuisci alle issue non risolte (collegamento esterno)">
+                     Contribuisci alle issue non risolte 🔗
+                    </a>
+
+              - label: "Raggiungi la comunità di developers SPID"
+                content: |
+                    <a href="https://app.slack.com/client/T6C27AXE0/C73R3UQE8"
+                     target="_blank"
+                     aria-label="Raggiungi la comunità di developers SPID (collegamento esterno)">
+                     Raggiungi la comunità di developers SPID 🔗
+                    </a>
 
           - label: "Vorrei migliorare i kit di sviluppo web"
             content: |
