@@ -12,7 +12,7 @@
       </ol>
     </nav>
 
-    <p v-if="currentChoice.comment" class="h5 pb-4">{{ currentChoice.comment }}</p>
+    <p v-if="currentChoice.comment" class="h4 pb-4">{{ currentChoice.comment }}</p>
 
     <div
       v-if="activeStep === 0"
