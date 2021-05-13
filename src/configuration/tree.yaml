@@ -186,8 +186,8 @@ root:
           - label: "Mi piacerebbe lavorare su SDK e voglio supportare SPID"
             question: "Quanto conosci di SPID?"
             content:
-
-              - label: "Scopri l'introduzione ai concetti principali"
+            
+              - label: "Poco o nulla, vorrei un'introduzione ai concetti principali"
                 content: |
                     <a href="https://docs.italia.it/italia/spid/spid-regole-tecniche/it/stabile/single-sign-on.html"
                      target="_blank"
@@ -195,15 +195,14 @@ root:
                      Introduzione ai concetti principali 🔗
                     </a>
 
-              - label: "Accedi al portale dello sviluppatore"
-                content: |
                     <a href="https://developers.italia.it/it/spid/"
                      target="_blank"
                      aria-label="Qui trovi le risorse di esempio e i progetti OpenSource dedicati a SPID, oltre alla documentazione tecnica e altre risorse (collegamento esterno)">
                      Le risorse di esempio e i progetti OpenSource dedicati a SPID, oltre alla documentazione tecnica e altre risorse 🔗
                     </a>
 
-              - label: "Qualcosa di utile per iniziare"
+              - label: "Ci ho già avuto a che fare. Datemi qualcosa di utile per iniziare"
+                comment: "Fantastico!"
                 question: "Hai voglia di metterti in gioco?"
                 content:
 
