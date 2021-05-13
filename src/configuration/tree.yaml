@@ -299,7 +299,7 @@ root:
                     <a href="https://developers.italia.it/it/spid/"
                      target="_blank"
                      aria-label="Qui trovi le risorse di esempio e i progetti OpenSource dedicati a SPID, oltre alla documentazione tecnica e altre risorse (collegamento esterno)">
-                     Le risorse di esempio e i progetti OpenSource dedicati a SPID, oltre alla documentazione tecnica e altre risorse 🔗
+                     Le risorse di esempio e i progetti open source dedicati a SPID, la documentazione tecnica e altre risorse 🔗
                     </a>
 
               - label: "Ci ho già avuto a che fare. Datemi qualcosa di utile per iniziare"
@@ -369,12 +369,13 @@ root:
                     Scopri i kit sul sito Designers Italia 🔗
                     </a>
                 
-               ### Github
+               ## Github
                <a href="https://github.com/italia/bootstrap-italia/issues"
                      target="_blank"
                      aria-label="Contribuisci alle issue non risolte sul repo Bootstrap Italia (collegamento esterno)">
                      Contribuisci alle issue non risolte sul repo Bootstrap Italia 🔗
                     </a>
+
                <a href="https://github.com/italia/design-react-kit/issues/"
                      target="_blank"
                      aria-label="Contribuisci alle issue non risolte sul repo React Italia (collegamento esterno)">
@@ -384,6 +385,7 @@ root:
               
           - label: "Mi piacerebbe fare parte della community"
             content: |
+              Non vediamo l'ora di accoglierti! Qui i link principali:
               ## Forum Italia
               <https://forum.italia.it>
 
@@ -398,27 +400,48 @@ root:
           content:
           - label: "Ho in mente del software libero che può essere utile alla Pubblica Amministrazione"
             content: |
-              Aggiungilo al catalogo del riuso
+              Fantastico! Aggiungi la soluzione al catalogo di Developers Italia.
 
-              <https://developers.italia.it/it/riuso/pubblicazione>
+              Scopri qui come
+              <a href="https://developers.italia.it/it/riuso/pubblicazione"
+                 target="_blank"
+                 aria-label="pubblicare software per la pubblica amministrazione (collegamento esterno)">
+                 pubblicare software per la pubblica amministrazione 🔗
+              </a>.
 
           - label: "Posso leggere la Guida allo sviluppo e gestione di software open source e inviare i miei miglioramenti"
             content: |
-              <https://docs.italia.it/italia/developers-italia/guida-sviluppo-gestione-software-libero/it/stabile/sviluppatori.html>
+              La guida è un documento in evoluzione e ha bisogno del contributo di tutti.
+
+              <a href="https://docs.italia.it/italia/developers-italia/guida-sviluppo-gestione-software-libero/it/stabile/sviluppatori.html"
+                 target="_blank"
+                 aria-label="Qui (collegamento esterno)">
+                 Qui 🔗
+              </a> trovi il capitolo dedicato agli sviluppatori e <a href="https://github.com/italia/guida-sviluppo-gestione-software-libero"
+                 target="_blank"
+                 aria-label="qui (collegamento esterno)">
+                 qui 🔗
+              </a> i sorgenti. Aspettiamo le tue PR!
 
           - label: "Voglio sapere come realizzare API pubbliche e come funziona il modello di interoperabilità!"
             content: |
-              <https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/index.html>
+              Scopri qui
+              <a href="https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/index.html"
+                 target="_blank"
+                 aria-label="l'ultima versione del documento (collegamento esterno)">
+                 l'ultima versione del documento 🔗
+              </a>.
 
           - label: "Mi piacerebbe fare parte della community"
             content: |
-              # Forum Italia
+              Non vediamo l'ora di accoglierti! Qui i link principali:
+              ## Forum Italia
               <https://forum.italia.it>
 
-              # Slack
+              ## Slack
               <https://slack.developers.italia.it>
 
-              # GitHub
+              ## GitHub
               <https://github.com/italia/awesome-italia>
 
     - label: "La comunicazione è il mio forte"
