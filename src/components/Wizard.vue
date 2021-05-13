@@ -29,7 +29,7 @@
           </p>
           <p>
             Questo strumento è pensato per aiutare gli aspiranti contributori a migliorare,
-            con azioni concrete, il cuore del software libero per la pubblica amministrazione,
+            con azioni concrete, il software libero per la pubblica amministrazione,
             bene comune di tutto il Paese.
           </p>
         </div>
