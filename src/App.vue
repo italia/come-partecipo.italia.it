@@ -96,7 +96,7 @@
     </header>
 
     <main id="content" class="container py-5">
-      <Wizard />
+      <Wizard @choice="setTitle"/>
     </main>
 
     <footer id="footer" class="it-footer pt-5">
@@ -175,7 +175,13 @@ export default {
   name: "App",
   components: {
     Wizard
-  }
+  },
+  methods: {
+    setTitle(label) {
+      const title = label || ''
+      document.title = `${title} - Come partecipo`
+    }
+  },
 };
 </script>
 

@@ -12,7 +12,12 @@
       </ol>
     </nav>
 
-    <p v-if="currentChoice.comment" class="h4 pb-4">{{ currentChoice.comment }}</p>
+    <p
+      v-if="currentChoice.comment"
+      class="h4 pb-4"
+      aria-live="polite"
+    >{{ currentChoice.comment }}
+    </p>
 
     <div
       v-if="activeStep === 0"
@@ -35,9 +40,9 @@
         </div>
       </div>
     </div>
-    <h1 class="h3">{{ currentChoice.question }}</h1>
+    <h1 class="h3" aria-live="polite">{{ currentChoice.question }}</h1>
 
-    <div class="container">
+    <div aria-live="polite" class="container">
       <div class="row justify-content-center">
         <div class="col-12 col-xl-6 col-lg-8 col-md-10">
           <ul
@@ -139,6 +144,8 @@ export default {
       this.choices.push(currentChoice)
       this.activeStep = this.choices.length - 1
       history.pushState({ choices: this.choices, activeStep: this.activeStep }, '')
+
+      this.$emit('choice', currentChoice.question || currentChoice.label)
     },
     moveToStep(step) {
       this.activeStep = step
