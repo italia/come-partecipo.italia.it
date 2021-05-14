@@ -1,7 +1,5 @@
 const logAction = (action, choice) => {
   if (typeof window !== 'undefined' && window._paq) {
-    console.log(action)
-    console.log(choice)
     window._paq.push([
       'trackEvent',
       action,
@@ -12,7 +10,6 @@ const logAction = (action, choice) => {
 };
 
 const initMatomo = () => {
-  console.log("Init Matomo")
   var _paq = window._paq = window._paq || [];
   /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
   _paq.push(['trackPageView']);
