@@ -44,7 +44,7 @@ Here is a list of users who contributed to this repository:
 
 ## License
 
-Copyright © 2021- Presidenza del Consiglio dei Ministri
+Copyright © 2021 Presidenza del Consiglio dei Ministri
 
 The source code is released under the GNU Affero General Public License
-license.
+v3.0.
