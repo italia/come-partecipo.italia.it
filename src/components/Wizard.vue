@@ -12,75 +12,76 @@
       </ol>
     </nav>
 
-    <p
-      v-if="currentChoice.comment"
-      class="h4 pb-4"
-      aria-live="polite"
-    >{{ currentChoice.comment }}
-    </p>
+    <div ref="page-content" tabindex="-1">
+      <p
+        v-if="currentChoice.comment"
+        class="h4 pb-4"
+      >{{ currentChoice.comment }}
+      </p>
 
-    <div
-      v-if="activeStep === 0"
-      class="container lead pb-4"
-    >
-      <div class="row justify-content-center">
-        <div class="col-12 col-xl-6 col-lg-8 col-md-10">
-          <p class="text-center h3">
-            Ciao! 👋
-          </p>
-          <p class="h3">
-            Ci fa piacere che tu voglia contribuire al miglioramento dei servizi pubblici
-            digitali del Paese.
-          </p>
-          <p>
-            Questo strumento è pensato per aiutare gli aspiranti contributori a migliorare,
-            con azioni concrete, il software libero per la pubblica amministrazione,
-            bene comune di tutto il Paese.
-          </p>
+      <div
+        v-if="activeStep === 0"
+        class="container lead pb-4"
+      >
+        <div class="row justify-content-center">
+          <div class="col-12 col-xl-6 col-lg-8 col-md-10">
+            <p class="text-center h3">
+              Ciao! 👋
+            </p>
+            <p class="h3">
+              Ci fa piacere che tu voglia contribuire al miglioramento dei servizi pubblici
+              digitali del Paese.
+            </p>
+            <p>
+              Questo strumento è pensato per aiutare gli aspiranti contributori a migliorare,
+              con azioni concrete, il software libero per la pubblica amministrazione,
+              bene comune di tutto il Paese.
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-    <h1 class="h3" aria-live="polite">{{ currentChoice.question }}</h1>
+      <h1 class="h3">{{ currentChoice.question }}</h1>
 
-    <div aria-live="polite" class="container">
-      <div class="row justify-content-center">
-        <div class="col-12 col-xl-6 col-lg-8 col-md-10">
-          <ul
-            v-if="!isLeaf(currentChoice)"
-            class="choices"
-            aria-label="Scegli una delle opzioni seguenti:"
-          >
-            <li v-for="(possibleChoice, index) in currentChoice.content" :key="possibleChoice.label">
-              <o-button
-                class="choice"
-                variant="outline-primary"
-                @click="selectChoice(possibleChoice, index)"
-                >
-                {{possibleChoice.label}}
-              </o-button>
-            </li>
-          </ul>
-          <div v-else>
-            <h1 class="h3">{{ currentChoice.label }}</h1>
-            <vue-markdown-lite class="reply my-4 p-5">{{ currentChoice.content }}</vue-markdown-lite>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-xl-6 col-lg-8 col-md-10">
+            <ul
+              v-if="!isLeaf(currentChoice)"
+              class="choices"
+              aria-label="Scegli una delle opzioni seguenti:"
+            >
+              <li v-for="(possibleChoice, index) in currentChoice.content" :key="possibleChoice.label">
+                <o-button
+                  class="choice"
+                  variant="outline-primary"
+                  @click="selectChoice(possibleChoice, index)"
+                  >
+                  {{possibleChoice.label}}
+                </o-button>
+              </li>
+            </ul>
+            <div v-else>
+              <h1 class="h3">{{ currentChoice.label }}</h1>
+              <vue-markdown-lite class="reply my-4 p-5">{{ currentChoice.content }}</vue-markdown-lite>
+            </div>
+
+            <o-button
+              v-if="activeStep > 0"
+              class="choice"
+              variant="secondary"
+              @click="goBack()"
+            >
+              <o-icon class="icon icon-white" icon="arrow-left-circle"></o-icon> Indietro
+            </o-button>
+            <o-button
+              v-if="isLeaf(currentChoice)"
+              class="choice"
+              variant="primary"
+              @click="restart()"
+            >
+              <o-icon class="icon icon-white" icon="restore"></o-icon> Ricomincia
+            </o-button>
           </div>
-
-          <o-button
-            v-if="activeStep > 0"
-            class="choice"
-            variant="secondary"
-            @click="goBack()"
-          >
-            <o-icon class="icon icon-white" icon="arrow-left-circle"></o-icon> Indietro
-          </o-button>
-          <o-button
-            v-if="isLeaf(currentChoice)"
-            class="choice"
-            variant="primary"
-            @click="restart()"
-          >
-            <o-icon class="icon icon-white" icon="restore"></o-icon> Ricomincia
-          </o-button>
         </div>
       </div>
     </div>
@@ -136,6 +137,12 @@ export default {
     },
     goBack() {
       this.moveToStep(this.activeStep - 1)
+      this.focusContent();
+    },
+    focusContent() {
+      this.$nextTick(() => {
+        this.$refs['page-content'].focus()
+      })
     },
     isLeaf(node) {
       return typeof(node.content) === 'string'
@@ -146,6 +153,9 @@ export default {
       history.pushState({ choices: this.choices, activeStep: this.activeStep }, '')
 
       this.$emit('choice', currentChoice.question || currentChoice.label)
+
+      /* Focus the newly loaded content to guide assistive technologies */
+      this.focusContent()
     },
     moveToStep(step) {
       this.activeStep = step
