@@ -42,7 +42,7 @@
                               rel="noopener"
                             >
                               Designers
-                              <o-icon class="icon d-inline-flex" icon="external-link"></o-icon>
+                              <o-icon class="icon icon-light d-inline-flex" icon="external-link"></o-icon>
                             </a>
                           </li>
                           <li>
@@ -54,7 +54,7 @@
                               rel="noopener"
                             >
                               Developers
-                              <o-icon class="icon d-inline-flex" icon="external-link"></o-icon>
+                              <o-icon class="icon icon-light d-inline-flex" icon="external-link"></o-icon>
                             </a>
                           </li>
                         </ul>
@@ -73,7 +73,7 @@
               <div class="row">
                 <div class="col-12">
                   <div class="it-header-center-content-wrapper">
-                    <div class="it-brand-wrapper ">
+                    <div class="it-brand-wrapper p-0">
                       <a href="/">
                         <o-icon class="icon" icon="designers-italia"></o-icon>
                         <div class="it-brand-text">
@@ -150,7 +150,7 @@
                 Note legali
               </a>
             </li>
-            <li class="list-inline-item mr-0 mr-md-5 float-right">
+            <li class="list-inline-item mr-0 mr-md-5 float-md-right">
               <a
                 href="https://github.com/italia/wizard-italia"
                 aria-label="Sorgente del sito su GitHub (collegamento esterno)"
