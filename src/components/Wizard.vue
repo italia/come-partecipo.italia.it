@@ -19,7 +19,7 @@
       class="container lead pb-4"
     >
       <div class="row justify-content-center">
-        <div class="col-12 col-xl-9 col-lg-9">
+        <div class="col-12 col-xl-6 col-lg-8 col-md-10">
           <p class="text-center h3">
             Ciao! 👋
           </p>
@@ -39,7 +39,7 @@
 
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-12 col-xl-5 col-lg-5">
+        <div class="col-12 col-xl-6 col-lg-8 col-md-10">
           <ul
             v-if="!isLeaf(currentChoice)"
             class="choices"
@@ -57,7 +57,7 @@
           </ul>
           <div v-else>
             <h1 class="h3">{{ currentChoice.label }}</h1>
-            <vue-markdown-lite class="reply my-2 p-5">{{ currentChoice.content }}</vue-markdown-lite>
+            <vue-markdown-lite class="reply my-4 p-5">{{ currentChoice.content }}</vue-markdown-lite>
           </div>
 
           <o-button
