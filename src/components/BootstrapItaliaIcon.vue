@@ -1,6 +1,6 @@
 <template>
   <svg>
-    <use :xlink:href="`${require('@/assets/sprite.svg')}#it-${iconName}`"></use>
+    <use :xlink:href="`${require('@/assets/sprite.svg')}#it-${iconName}`" />
   </svg>
 </template>
 
@@ -8,12 +8,15 @@
 export default {
   name: 'BootstrapItaliaIcon',
   props: {
-    icon: Array
+    icon: {
+      type: Array,
+      default: () => [],
+    },
   },
   computed: {
     iconName() {
-      return this.icon[1]
+      return this.icon[1];
     },
-  }
-}
+  },
+};
 </script>

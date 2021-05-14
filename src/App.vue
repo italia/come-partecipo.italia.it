@@ -1,8 +1,14 @@
 <template>
   <div id="app">
     <div class="skiplinks">
-      <a class="sr-only sr-only-focusable" href="#content">Vai al contenuto principale</a>
-      <a class="sr-only sr-only-focusable" href="#footer">Vai a piè di pagina</a>
+      <a
+        class="sr-only sr-only-focusable"
+        href="#content"
+      >Vai al contenuto principale</a>
+      <a
+        class="sr-only sr-only-focusable"
+        href="#footer"
+      >Vai a piè di pagina</a>
     </div>
     <header>
       <nav>
@@ -21,45 +27,54 @@
                       Dipartimento per la Trasformazione Digitale
                     </a>
                     <div class="nav-mobile">
-                        <a
-                          class="it-opener d-lg-none"
-                          data-toggle="collapse"
-                          href="#menu"
-                          role="button"
-                          aria-expanded="false"
-                          aria-controls="menu"
-                        >
-                          <span>Dipartimento per la Trasformazione Digitale</span>
-                        </a>
+                      <a
+                        class="it-opener d-lg-none"
+                        data-toggle="collapse"
+                        href="#menu"
+                        role="button"
+                        aria-expanded="false"
+                        aria-controls="menu"
+                      >
+                        <span>Dipartimento per la Trasformazione Digitale</span>
+                      </a>
 
-                        <div class="link-list-wrapper collapse" id="menu">
-                          <ul class="link-list">
-                            <li>
-                              <a
-                                class="list-item"
-                                href="https://designers.italia.it"
-                                target="_blank"
-                                aria-label="Sito di Designers Italia (collegamento esterno)"
-                                rel="noopener"
-                              >
-                                Designers
-                                <o-icon class="icon icon-light d-inline-flex" icon="external-link"></o-icon>
-                              </a>
-                            </li>
-                            <li>
-                              <a
-                                class="list-item"
-                                href="https://developers.italia.it"
-                                target="_blank"
-                                aria-label="Sito di Developers Italia (collegamento esterno)"
-                                rel="noopener"
-                              >
-                                Developers
-                                <o-icon class="icon icon-light d-inline-flex" icon="external-link"></o-icon>
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
+                      <div
+                        id="menu"
+                        class="link-list-wrapper collapse"
+                      >
+                        <ul class="link-list">
+                          <li>
+                            <a
+                              class="list-item"
+                              href="https://designers.italia.it"
+                              target="_blank"
+                              aria-label="Sito di Designers Italia (collegamento esterno)"
+                              rel="noopener"
+                            >
+                              Designers
+                              <o-icon
+                                class="icon icon-light d-inline-flex"
+                                icon="external-link"
+                              />
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              class="list-item"
+                              href="https://developers.italia.it"
+                              target="_blank"
+                              aria-label="Sito di Developers Italia (collegamento esterno)"
+                              rel="noopener"
+                            >
+                              Developers
+                              <o-icon
+                                class="icon icon-light d-inline-flex"
+                                icon="external-link"
+                              />
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -74,14 +89,22 @@
                   <div class="col-12">
                     <div class="it-header-center-content-wrapper">
                       <div class="it-brand-wrapper p-0">
-                        <a aria-label="Pagina principale" href="/">
-                          <o-icon alt="" class="icon" icon="designers-italia"></o-icon>
+                        <a
+                          aria-label="Pagina principale"
+                          href="/"
+                        >
+                          <o-icon
+                            alt=""
+                            class="icon"
+                            icon="designers-italia"
+                          />
                           <div class="it-brand-text">
                             <div class="h5 font-weight-bold no_toc mb-0">
                               Come partecipo
                             </div>
                             <div class="small no_toc d-none d-md-block mb-0">
-                              Scopri come contribuire al miglioramento dei servizi pubblici digitali del Paese
+                              Scopri come contribuire al miglioramento dei servizi pubblici digitali
+                              del Paese
                             </div>
                           </div>
                         </a>
@@ -96,11 +119,17 @@
       </nav>
     </header>
 
-    <main id="content" class="container py-5">
-      <Wizard @choice="setTitle"/>
+    <main
+      id="content"
+      class="container py-5"
+    >
+      <Wizard @choice="setTitle" />
     </main>
 
-    <footer id="footer" class="it-footer pt-5">
+    <footer
+      id="footer"
+      class="it-footer pt-5"
+    >
       <div class="it-footer-main">
         <div class="container text-center text-md-left">
           <div class="row">
@@ -110,14 +139,14 @@
                   href="https://innovazione.gov.it/dipartimento/"
                   target="_blank"
                   rel="noreferrer"
-                  aria-label="Sito del Dipartimento per la Trasformazione Digitale (collegamento esterno)"
+                  aria-label="Sito del Dipartimento per la Trasformazione Digitale (link esterno)"
                 >
                   <img
                     src="@/assets/dtd-logo.svg"
                     alt="Logo Dipartimento per la Trasformazione Digitale"
                     height="50"
                     width="272"
-                  />
+                  >
                 </a>
               </div>
             </div>
@@ -159,7 +188,10 @@
                 target="_blank"
                 rel="noreferrer,noopener"
               >
-                <o-icon class="icon icon-white inline px-0" icon="github"></o-icon>
+                <o-icon
+                  class="icon icon-white inline px-0"
+                  icon="github"
+                />
               </a>
             </li>
           </ul>
@@ -170,18 +202,18 @@
 </template>
 
 <script>
-import Wizard from "./components/Wizard.vue";
+import Wizard from './components/Wizard.vue';
 
 export default {
-  name: "App",
+  name: 'App',
   components: {
-    Wizard
+    Wizard,
   },
   methods: {
     setTitle(label) {
-      const title = label || ''
-      document.title = `${title} - Come partecipo`
-    }
+      const title = label || '';
+      document.title = `${title} - Come partecipo`;
+    },
   },
 };
 </script>

@@ -1,23 +1,21 @@
-import Vue from 'vue'
-import App from './App.vue'
+import Vue from 'vue';
 
+import { Button, Icon, Config } from '@oruga-ui/oruga';
+import '@fontsource/titillium-web';
+import '@oruga-ui/oruga/dist/oruga.css';
+import 'bootstrap-italia/dist/css/bootstrap-italia.min.css';
 
-import { Button, Icon, Config } from '@oruga-ui/oruga'
-import "@fontsource/titillium-web"
-import '@oruga-ui/oruga/dist/oruga.css'
-import 'bootstrap-italia/dist/css/bootstrap-italia.min.css'
+import BootstrapItaliaIcon from '@/components/BootstrapItaliaIcon.vue';
+import App from './App.vue';
 
-import BootstrapItaliaIcon from "@/components/BootstrapItaliaIcon.vue";
+import { initMatomo } from './analytics';
 
-import { initMatomo } from './analytics.js'
+Vue.config.productionTip = false;
 
+Vue.component('bs-icon', BootstrapItaliaIcon);
 
-Vue.config.productionTip = false
-
-Vue.component('bs-icon', BootstrapItaliaIcon)
-
-Vue.use(Button)
-Vue.use(Icon)
+Vue.use(Button);
+Vue.use(Icon);
 
 Vue.use(Config, {
   iconPack: 'bs',
@@ -27,16 +25,13 @@ Vue.use(Config, {
     rootClass: 'btn',
     outlinedClass: 'btn-outline-',
     disabledClass: 'btn-disabled',
-    variantClass: (variant, context) => { // Apply variant when the element is not outlined
-      if (!context.props.outlined) {
-        return `btn-${variant}`
-      }
-    }
-  }
-})
+    // Apply variant when the element is not outlined
+    variantClass: (variant, context) => (!context.props.outlined ? `btn-${variant}` : ''),
+  },
+});
 
 new Vue({
-  render: h => h(App),
-}).$mount('#app')
+  render: (h) => h(App),
+}).$mount('#app');
 
 initMatomo();
