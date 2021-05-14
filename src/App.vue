@@ -5,86 +5,87 @@
       <a class="sr-only sr-only-focusable" href="#footer">Vai a piè di pagina</a>
     </div>
     <header>
-      <div class="it-header-wrapper">
-        <div class="it-header-slim-wrapper">
-          <div class="container">
-            <div class="row">
-              <div class="col-12">
-                <div class="it-header-slim-wrapper-content">
-                  <a
-                    class="d-none d-lg-block navbar-brand"
-                    href="https://innovazione.gov.it/dipartimento/"
-                    rel="noopener"
-                  >
-                    Dipartimento per la Trasformazione Digitale
-                  </a>
-                  <div class="nav-mobile">
-                    <nav>
-                      <a
-                        class="it-opener d-lg-none"
-                        data-toggle="collapse"
-                        href="#menu"
-                        role="button"
-                        aria-expanded="false"
-                        aria-controls="menu"
-                      >
-                        <span>Dipartimento per la Trasformazione Digitale</span>
-                      </a>
+      <nav>
+        <div class="it-header-wrapper">
+          <div class="it-header-slim-wrapper">
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                  <div class="it-header-slim-wrapper-content">
+                    <a
+                      class="d-none d-lg-block navbar-brand"
+                      href="https://innovazione.gov.it/dipartimento/"
+                      rel="noopener"
+                      aria-label="Sito del Dipartimento per la Trasformazione Digitale"
+                    >
+                      Dipartimento per la Trasformazione Digitale
+                    </a>
+                    <div class="nav-mobile">
+                        <a
+                          class="it-opener d-lg-none"
+                          data-toggle="collapse"
+                          href="#menu"
+                          role="button"
+                          aria-expanded="false"
+                          aria-controls="menu"
+                        >
+                          <span>Dipartimento per la Trasformazione Digitale</span>
+                        </a>
 
-                      <div class="link-list-wrapper collapse" id="menu">
-                        <ul class="link-list">
-                          <li>
-                            <a
-                              class="list-item"
-                              href="https://designers.italia.it"
-                              target="_blank"
-                              aria-label="Sito di Designers Italia (collegamento esterno)"
-                              rel="noopener"
-                            >
-                              Designers
-                              <o-icon class="icon icon-light d-inline-flex" icon="external-link"></o-icon>
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              class="list-item"
-                              href="https://developers.italia.it"
-                              target="_blank"
-                              aria-label="Sito di Developers Italia (collegamento esterno)"
-                              rel="noopener"
-                            >
-                              Developers
-                              <o-icon class="icon icon-light d-inline-flex" icon="external-link"></o-icon>
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </nav>
+                        <div class="link-list-wrapper collapse" id="menu">
+                          <ul class="link-list">
+                            <li>
+                              <a
+                                class="list-item"
+                                href="https://designers.italia.it"
+                                target="_blank"
+                                aria-label="Sito di Designers Italia (collegamento esterno)"
+                                rel="noopener"
+                              >
+                                Designers
+                                <o-icon class="icon icon-light d-inline-flex" icon="external-link"></o-icon>
+                              </a>
+                            </li>
+                            <li>
+                              <a
+                                class="list-item"
+                                href="https://developers.italia.it"
+                                target="_blank"
+                                aria-label="Sito di Developers Italia (collegamento esterno)"
+                                rel="noopener"
+                              >
+                                Developers
+                                <o-icon class="icon icon-light d-inline-flex" icon="external-link"></o-icon>
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="it-nav-wrapper">
-          <div class="it-header-center-wrapper it-small-header">
-            <div class="container">
-              <div class="row">
-                <div class="col-12">
-                  <div class="it-header-center-content-wrapper">
-                    <div class="it-brand-wrapper p-0">
-                      <a href="/">
-                        <o-icon class="icon" icon="designers-italia"></o-icon>
-                        <div class="it-brand-text">
-                          <div class="h5 font-weight-bold no_toc mb-0">
-                            Come partecipo
+          <div class="it-nav-wrapper">
+            <div class="it-header-center-wrapper it-small-header">
+              <div class="container">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="it-header-center-content-wrapper">
+                      <div class="it-brand-wrapper p-0">
+                        <a aria-label="Pagina principale" href="/">
+                          <o-icon alt="" class="icon" icon="designers-italia"></o-icon>
+                          <div class="it-brand-text">
+                            <div class="h5 font-weight-bold no_toc mb-0">
+                              Come partecipo
+                            </div>
+                            <div class="small no_toc d-none d-md-block mb-0">
+                              Scopri come contribuire al miglioramento dei servizi pubblici digitali del Paese
+                            </div>
                           </div>
-                          <div class="small no_toc d-none d-md-block mb-0">
-                            Scopri come contribuire al miglioramento dei servizi pubblici digitali del Paese
-                          </div>
-                        </div>
-                      </a>
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -92,7 +93,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </nav>
     </header>
 
     <main id="content" class="container py-5">
@@ -109,7 +110,7 @@
                   href="https://innovazione.gov.it/dipartimento/"
                   target="_blank"
                   rel="noreferrer"
-                  aria-label="Dipartimento per la Trasformazione Digitale (collegamento esterno)"
+                  aria-label="Sito del Dipartimento per la Trasformazione Digitale (collegamento esterno)"
                 >
                   <img
                     src="@/assets/dtd-logo.svg"
