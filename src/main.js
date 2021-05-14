@@ -2,12 +2,14 @@ import Vue from 'vue'
 import App from './App.vue'
 
 
-import {Button, Icon, Config} from '@oruga-ui/oruga'
+import { Button, Icon, Config } from '@oruga-ui/oruga'
 import "@fontsource/titillium-web"
 import '@oruga-ui/oruga/dist/oruga.css'
 import 'bootstrap-italia/dist/css/bootstrap-italia.min.css'
 
 import BootstrapItaliaIcon from "@/components/BootstrapItaliaIcon.vue";
+
+import { initMatomo } from './analytics.js'
 
 
 Vue.config.productionTip = false
@@ -36,3 +38,5 @@ Vue.use(Config, {
 new Vue({
   render: h => h(App),
 }).$mount('#app')
+
+initMatomo();

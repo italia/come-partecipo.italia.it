@@ -91,6 +91,8 @@
 <script>
 import treeObj from '@/configuration/tree.yaml';
 import VueMarkdownLite from '@earthtone/vue-markdown-lite'
+import { logAction } from '@/analytics.js'
+
 
 export default {
   name: 'Wizard',
@@ -101,6 +103,7 @@ export default {
     return {
       activeStep: 0,
       choices: [],
+      completed: false
     }
   },
   mounted() {
@@ -115,6 +118,13 @@ export default {
       this.choices = event.state.choices
       this.activeStep = event.state.activeStep
     };
+
+    window.onbeforeunload = () => {
+      if (!this.completed) {
+        // TRACK DROPOUT
+        logAction('dropout', this.currentChoice.question || this.currentChoice.label)
+      }
+    }
 
   },
   computed: {
@@ -138,6 +148,10 @@ export default {
     goBack() {
       this.moveToStep(this.activeStep - 1)
       this.focusContent();
+      if (!this.completed) {
+        // TRACK BACK
+        logAction('back', this.currentChoice.question || this.currentChoice.label)
+      }
     },
     focusContent() {
       this.$nextTick(() => {
@@ -145,7 +159,16 @@ export default {
       })
     },
     isLeaf(node) {
-      return typeof(node.content) === 'string'
+      if (typeof(node.content) === 'string') {
+        if(!this.completed) {
+          this.completed = true
+          // TRACK COMPLETED
+          logAction('completed', this.currentChoice.question || this.currentChoice.label)
+        }
+        return true
+      } else {
+        return false
+      }
     },
     selectChoice(currentChoice) {
       this.choices.push(currentChoice)
