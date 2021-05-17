@@ -46,12 +46,12 @@
                           <li>
                             <a
                               class="list-item"
-                              href="https://designers.italia.it"
+                              href="https://developers.italia.it"
                               target="_blank"
-                              aria-label="Sito di Designers Italia (collegamento esterno)"
+                              aria-label="Sito di Developers Italia (collegamento esterno)"
                               rel="noopener"
                             >
-                              Designers
+                              Developers
                               <o-icon
                                 class="icon icon-light d-inline-flex"
                                 icon="external-link"
@@ -61,12 +61,12 @@
                           <li>
                             <a
                               class="list-item"
-                              href="https://developers.italia.it"
+                              href="https://designers.italia.it"
                               target="_blank"
-                              aria-label="Sito di Developers Italia (collegamento esterno)"
+                              aria-label="Sito di Designers Italia (collegamento esterno)"
                               rel="noopener"
                             >
-                              Developers
+                              Designers
                               <o-icon
                                 class="icon icon-light d-inline-flex"
                                 icon="external-link"
