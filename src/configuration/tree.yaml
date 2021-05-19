@@ -489,7 +489,7 @@ root:
                 target="_blank"
                 aria-label="Slack (collegamento esterno)">
                 Slack 🔗
-            </a> di Developers Italia, in particolare sul canale #website.
+            </a> di Developers Italia, in particolare sul canale #websites.
     - label: "Nessuno dei precedenti"
       content: |
         Ci dispiace che tu non abbia trovato niente di utile.
@@ -500,4 +500,4 @@ root:
             target="_blank"
             aria-label="Slack (collegamento esterno)">
             Slack 🔗
-        </a> di Developers Italia, in particolare sul canale #website.
+        </a> di Developers Italia, in particolare sul canale #websites.
