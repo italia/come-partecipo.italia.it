@@ -483,5 +483,9 @@ root:
         Ci dispiace che tu non abbia trovato niente di utile.
         Nel tempo miglioreremo e amplieremo questo strumento.
         ## Hai idee per noi?
-        Scrivici a
-        <a href="mailto:comunicazione@innovazione.gov.it" target="_blank" rel="noopener noreferrer">comunicazione@innovazione.gov.it</a>
+        Entra nella community e proponici le tue idee. Il canale migliore è Scopri qui
+        <a href="https://slack.developers.italia.it"
+            target="_blank"
+            aria-label="Slack (collegamento esterno)">
+            Slack 🔗
+        </a> di Developers Italia, in particolare il canale #website.
