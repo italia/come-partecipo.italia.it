@@ -478,14 +478,26 @@ root:
 
             Scrivici a
             <a href="mailto:comunicazione@innovazione.gov.it" target="_blank" rel="noopener noreferrer">comunicazione@innovazione.gov.it</a>
+        - label: "No, non ancora"
+          content: |
+            ## Aiutaci a migliorare questo strumento!
+
+            Vogliamo aggiungere nuove attività ed iniziative per permettere a quante più persone possibili di partecipare.
+            
+            Hai idee per noi? Entra nella community e proponicele. Raggiungici su
+            <a href="https://slack.developers.italia.it"
+                target="_blank"
+                aria-label="Slack (collegamento esterno)">
+                Slack 🔗
+            </a> di Developers Italia, in particolare sul canale #website.
     - label: "Nessuno dei precedenti"
       content: |
         Ci dispiace che tu non abbia trovato niente di utile.
-        Nel tempo miglioreremo e amplieremo questo strumento.
+        Nel tempo miglioreremo e amplieremo questo strumento, aggiungendo nuove attività ed iniziative per permettere a quante più persone possibili di partecipare.
         ## Hai idee per noi?
-        Entra nella community e proponici le tue idee. Il canale migliore è Scopri qui
+        Entra nella community e proponicele. Raggiungici su
         <a href="https://slack.developers.italia.it"
             target="_blank"
             aria-label="Slack (collegamento esterno)">
             Slack 🔗
-        </a> di Developers Italia, in particolare il canale #website.
+        </a> di Developers Italia, in particolare sul canale #website.
