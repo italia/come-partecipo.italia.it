@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div class="skiplinks">
+    <div>
       <a
         class="sr-only sr-only-focusable"
         href="#content"
