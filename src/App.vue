@@ -180,7 +180,17 @@
                 Note legali
               </a>
             </li>
-            <li class="list-inline-item mr-0 mr-md-5 float-md-right">
+            <li class="list-inline-item mr-0 mr-md-5">
+              <a
+                href="https://form.agid.gov.it/view/74ae3241-da95-469b-a495-26531694b2fa"
+                aria-label="Dichiarazione di accessibilità (collegamento esterno)"
+                target="_blank"
+                rel="noreferrer,noopener"
+              >
+                Dichiarazione di accessibilità
+              </a>
+            </li>
+            <li class="list-inline-item mr-0 mr-md-5">
               <a
                 href="https://github.com/italia/wizard-italia"
                 aria-label="Sorgente del sito su GitHub (collegamento esterno)"
