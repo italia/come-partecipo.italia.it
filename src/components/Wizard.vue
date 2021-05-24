@@ -171,12 +171,12 @@ export default {
       window.location.reload();
     },
     goBack() {
-      this.moveToStep(this.activeStep - 1);
-      this.focusContent();
       if (!this.completed) {
         // TRACK BACK
         logAction('back', this.currentChoice.question || this.currentChoice.label);
       }
+      this.moveToStep(this.activeStep - 1);
+      this.focusContent();
     },
     focusContent() {
       this.$nextTick(() => {
