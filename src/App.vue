@@ -190,7 +190,7 @@
                 Dichiarazione di accessibilità
               </a>
             </li>
-            <li class="list-inline-item mr-0 mr-md-5">
+            <li class="d-block d-md-inline mt-3 list-inline-item mr-0 mr-md-5">
               <a
                 href="https://github.com/italia/wizard-italia"
                 aria-label="Sorgente del sito su GitHub (collegamento esterno)"
