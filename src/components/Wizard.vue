@@ -200,9 +200,15 @@ export default {
       window.history.pushState({ choices: this.choices, activeStep: this.activeStep }, '');
 
       this.$emit('choice', currentChoice.question || currentChoice.label);
+      logAction('choice', this.currentChoice.question || this.currentChoice.label);
 
       /* Focus the newly loaded content to guide assistive technologies */
       this.focusContent();
+      this.$nextTick(() => {
+        document.querySelectorAll(".reply a").forEach(el => {
+          el.addEventListener('click', () => logAction('link', el.href))
+        })
+      })
     },
     moveToStep(step) {
       this.activeStep = step;
