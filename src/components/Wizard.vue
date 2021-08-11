@@ -71,6 +71,7 @@
                 :key="possibleChoice.label"
               >
                 <o-button
+                  v-bind="styleConfig.button"
                   class="choice"
                   variant="outline-primary"
                   @click="selectChoice(possibleChoice, index)"
@@ -89,23 +90,27 @@
             </div>
 
             <o-button
+              v-bind="styledConfig.button"
               v-if="activeStep > 0"
               class="choice"
               variant="secondary"
               @click="goBack()"
             >
               <o-icon
+                v-bind="styledConfig.icon"
                 class="icon icon-white"
                 icon="arrow-left-circle"
               /> Indietro
             </o-button>
             <o-button
+              v-bind="styledConfig.button"
               v-if="isLeaf(currentChoice)"
               class="choice"
               variant="primary"
               @click="restart()"
             >
               <o-icon
+                v-bind="styledConfig.icon"
                 class="icon icon-white"
                 icon="restore"
               /> Ricomincia
@@ -120,10 +125,22 @@
 <script>
 import treeObj from '@/configuration/tree.yaml';
 import VueMarkdownLite from '@earthtone/vue-markdown-lite';
-import { logAction } from '@/analytics';
+import { initMatomo, logAction } from '@/analytics';
 
 export default {
   name: 'Wizard',
+  props: {
+    matomoSiteId: {
+      type: String,
+      default: ''
+    },
+    styleConfig: {
+      type: Object,
+      default: function () {
+        return {}
+      }
+    }
+  },
   components: {
     'vue-markdown-lite': VueMarkdownLite,
   },
@@ -135,6 +152,14 @@ export default {
     };
   },
   computed: {
+    styledConfig() {
+      if (this.styleConfig.iconComponent) {
+        this.styleConfig.icon = {}
+        this.styleConfig.icon.component = this.styleConfig.iconComponent
+        this.styleConfig.icon.pack = this.styleConfig.iconPack
+      }
+      return this.styleConfig
+    },
     currentChoice() {
       return this.choices[this.choices.length - 1];
     },
@@ -144,6 +169,7 @@ export default {
     },
   },
   mounted() {
+    initMatomo(this.matomoSiteId)
     this.choices.push(treeObj.root);
 
     window.history.pushState({ choices: this.choices, activeStep: this.activeStep }, '');
