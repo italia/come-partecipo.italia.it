@@ -123,7 +123,6 @@
 </template>
 
 <script>
-import treeObj from '@/configuration/tree.yaml';
 import VueMarkdownLite from '@earthtone/vue-markdown-lite';
 import { initMatomo, logAction } from '@/analytics';
 
@@ -136,6 +135,10 @@ export default {
     matomoSiteId: {
       type: String,
       default: '',
+    },
+    configurationUrl: {
+      type: String,
+      default: 'https://raw.githubusercontent.com/italia/wizard-italia/4014a535118cf702da196e2e2b68cb78a872ab6f/src/configuration/tree.json',
     },
     styleConfig: {
       type: Object,
@@ -173,9 +176,12 @@ export default {
     if (this.matomoSiteId) {
       initMatomo(this.matomoSiteId);
     }
-    this.choices.push(treeObj.root);
-
-    window.history.pushState({ choices: this.choices, activeStep: this.activeStep }, '');
+    fetch(this.configurationUrl)
+      .then(response => response.json())
+      .then(data => {
+        this.choices.push(data.root);
+        window.history.pushState({ choices: this.choices, activeStep: this.activeStep }, '');
+      })
 
     window.onpopstate = (event) => {
       if (!event.state) {
