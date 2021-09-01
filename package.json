@@ -7,8 +7,8 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "deploy": "gh-pages -u 'Deploy Bot <no-reply@teamdigitale.governo.it>' -d dist/",
-    "wc": "vue-cli-service build --target lib --name wizard-italia src/wc.js",
-    "wc-demo": "cp ./src/wc-demo.html ./dist && cd ./dist && open wc-demo.html"
+    "wc": "rm -rf ./dist && vue-cli-service build --target lib --name wizard-italia src/wc.js",
+    "wc-demo": "cp ./demo/wc-demo.html ./dist && cd ./dist && open wc-demo.html"
   },
   "dependencies": {
     "@earthtone/vue-markdown-lite": "^0.2.3",
@@ -34,6 +34,11 @@
     "vue-template-compiler": "^2.6.11",
     "yaml-loader": "^0.6.0"
   },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "main": "./dist/wizard-italia.common.js",
   "eslintConfig": {
     "root": true,
     "env": {
