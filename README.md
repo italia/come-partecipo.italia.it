@@ -33,10 +33,7 @@ yarn lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## Use it as a Web Component
-
 ```html
-<meta charset="utf-8">
-<title>wizard-italia demo</title>
 
 <link rel="stylesheet" href="module_path/wizard-italia.css">
 
