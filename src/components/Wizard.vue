@@ -170,7 +170,9 @@ export default {
     },
   },
   mounted() {
-    initMatomo(this.matomoSiteId);
+    if (this.matomoSiteId) {
+      initMatomo(this.matomoSiteId);
+    }
     this.choices.push(treeObj.root);
 
     window.history.pushState({ choices: this.choices, activeStep: this.activeStep }, '');
