@@ -8,7 +8,6 @@ import 'bootstrap-italia/dist/css/bootstrap-italia.min.css';
 import BootstrapItaliaIcon from '@/components/BootstrapItaliaIcon.vue';
 import App from './App.vue';
 
-
 Vue.config.productionTip = false;
 
 Vue.component('bs-icon', BootstrapItaliaIcon);

@@ -90,8 +90,8 @@
             </div>
 
             <o-button
-              v-bind="styledConfig.button"
               v-if="activeStep > 0"
+              v-bind="styledConfig.button"
               class="choice"
               variant="secondary"
               @click="goBack()"
@@ -103,8 +103,8 @@
               /> Indietro
             </o-button>
             <o-button
-              v-bind="styledConfig.button"
               v-if="isLeaf(currentChoice)"
+              v-bind="styledConfig.button"
               class="choice"
               variant="primary"
               @click="restart()"
@@ -129,20 +129,20 @@ import { initMatomo, logAction } from '@/analytics';
 
 export default {
   name: 'Wizard',
+  components: {
+    'vue-markdown-lite': VueMarkdownLite,
+  },
   props: {
     matomoSiteId: {
       type: String,
-      default: ''
+      default: '',
     },
     styleConfig: {
       type: Object,
-      default: function () {
-        return {}
-      }
-    }
-  },
-  components: {
-    'vue-markdown-lite': VueMarkdownLite,
+      default() {
+        return {};
+      },
+    },
   },
   data() {
     return {
@@ -153,12 +153,13 @@ export default {
   },
   computed: {
     styledConfig() {
-      if (this.styleConfig.iconComponent) {
-        this.styleConfig.icon = {}
-        this.styleConfig.icon.component = this.styleConfig.iconComponent
-        this.styleConfig.icon.pack = this.styleConfig.iconPack
+      const styleConfig = { ...this.styleConfig };
+      if (styleConfig.iconComponent) {
+        styleConfig.icon = {};
+        styleConfig.icon.component = styleConfig.iconComponent;
+        styleConfig.icon.pack = styleConfig.iconPack;
       }
-      return this.styleConfig
+      return styleConfig;
     },
     currentChoice() {
       return this.choices[this.choices.length - 1];
@@ -169,7 +170,7 @@ export default {
     },
   },
   mounted() {
-    initMatomo(this.matomoSiteId)
+    initMatomo(this.matomoSiteId);
     this.choices.push(treeObj.root);
 
     window.history.pushState({ choices: this.choices, activeStep: this.activeStep }, '');
