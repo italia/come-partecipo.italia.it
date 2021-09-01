@@ -123,7 +123,10 @@
       id="content"
       class="container py-5"
     >
-      <Wizard @choice="setTitle" matomoSiteId="wBEpDzz0yL" />
+      <Wizard
+        matomo-site-id="wBEpDzz0yL"
+        @choice="setTitle"
+      />
     </main>
 
     <footer

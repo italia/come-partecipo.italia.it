@@ -177,11 +177,11 @@ export default {
       initMatomo(this.matomoSiteId);
     }
     fetch(this.configurationUrl)
-      .then(response => response.json())
-      .then(data => {
+      .then((response) => response.json())
+      .then((data) => {
         this.choices.push(data.root);
         window.history.pushState({ choices: this.choices, activeStep: this.activeStep }, '');
-      })
+      });
 
     window.onpopstate = (event) => {
       if (!event.state) {
