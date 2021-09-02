@@ -33,27 +33,6 @@
         {{ currentChoice.comment }}
       </p>
 
-      <div
-        v-if="activeStep === 0"
-        class="container lead pb-4"
-      >
-        <div class="row justify-content-center">
-          <div class="col-12 col-xl-6 col-lg-8 col-md-10">
-            <p class="text-center h3">
-              Ciao! 👋
-            </p>
-            <p class="h3">
-              Ci fa piacere che tu voglia contribuire al miglioramento dei servizi pubblici
-              digitali del Paese.
-            </p>
-            <p>
-              Questo strumento è pensato per aiutare gli aspiranti contributori a migliorare,
-              con azioni concrete, il software libero per la pubblica amministrazione,
-              bene comune di tutto il Paese.
-            </p>
-          </div>
-        </div>
-      </div>
       <h1 class="h3">
         {{ currentChoice.question }}
       </h1>
@@ -234,7 +213,7 @@ export default {
       this.activeStep = this.choices.length - 1;
       window.history.pushState({ choices: this.choices, activeStep: this.activeStep }, '');
 
-      this.$emit('choice', currentChoice.question || currentChoice.label);
+      this.$emit('choice', { label: currentChoice.question || currentChoice.label, activeStep: this.activeStep });
       logAction('choice', this.currentChoice.question || this.currentChoice.label);
 
       /* Focus the newly loaded content to guide assistive technologies */
@@ -248,6 +227,8 @@ export default {
     moveToStep(step) {
       this.activeStep = step;
       this.choices = this.choices.slice(0, step + 1);
+      const currentChoice = this.choices[this.choices.length - 1];
+      this.$emit('choice', { label: currentChoice.question || currentChoice.label, activeStep: this.activeStep });
     },
   },
 };

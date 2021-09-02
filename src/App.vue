@@ -123,6 +123,27 @@
       id="content"
       class="container py-5"
     >
+      <div
+        v-if="activeStep === 0"
+        class="container lead pb-4"
+      >
+        <div class="row justify-content-center">
+          <div class="col-12 col-xl-6 col-lg-8 col-md-10">
+            <p class="text-center h3">
+              Ciao! 👋
+            </p>
+            <p class="h3">
+              Ci fa piacere che tu voglia contribuire al miglioramento dei servizi pubblici
+              digitali del Paese.
+            </p>
+            <p>
+              Questo strumento è pensato per aiutare gli aspiranti contributori a migliorare,
+              con azioni concrete, il software libero per la pubblica amministrazione,
+              bene comune di tutto il Paese.
+            </p>
+          </div>
+        </div>
+      </div>
       <Wizard
         matomo-site-id="wBEpDzz0yL"
         @choice="setTitle"
@@ -222,10 +243,16 @@ export default {
   components: {
     Wizard,
   },
+  data() {
+    return {
+      activeStep: 0,
+    };
+  },
   methods: {
-    setTitle(label) {
+    setTitle({ label, activeStep }) {
       const title = label || '';
       document.title = `${title} - Come partecipo`;
+      this.activeStep = activeStep;
     },
   },
 };
