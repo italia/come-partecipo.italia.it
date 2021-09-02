@@ -1,12 +1,15 @@
 <meta charset="utf-8">
 <title>wizard-italia demo</title>
 
-<link rel="stylesheet" href="./wizard-italia.css">
+<link rel="stylesheet" href="./dist/wizard-italia.css">
 
-<wizard-italia matomo-site-id="wBEpDzz0yL"></wizard-italia>
+<wizard-italia
+  matomo-site-id="wBEpDzz0yL"
+  configuration-url="https://raw.githubusercontent.com/italia/wizard-italia/main/demo/tree.json">
+</wizard-italia>
 
 <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
-<script src="./wizard-italia.umd.js"></script>
+<script src="./dist/wizard-italia.umd.js"></script>
 <script>
   customElements.whenDefined("wizard-italia").then(() => {
     document.querySelector('wizard-italia').styleConfig = {

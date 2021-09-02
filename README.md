@@ -33,11 +33,17 @@ yarn lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## Use it as a Web Component
+
+Customization engine lays on Oruga, [check the documentation](https://oruga.io/documentation/#customization) for more info
+
 ```html
 
 <link rel="stylesheet" href="module_path/wizard-italia.css">
 
-<wizard-italia matomo-site-id="wBEpDzz0yL"></wizard-italia>
+<wizard-italia 
+    matomo-site-id="wBEpDzz0yL"
+    configuration-url="https://raw.githubusercontent.com/italia/wizard-italia/main/demo/tree.json"
+></wizard-italia>
 
 <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
 <script src="module_path/wizard-italia.umd.js"></script>
@@ -61,6 +67,20 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ```
 yarn wc
+```
+
+### Launch web component demo
+
+Run
+
+```
+yarn prepare-wc-demo
+```
+
+then go inside `demo` folder and run a dev server, e.g.
+
+```
+python -m SimpleHTTPServer 80
 ```
 
 ## Contributing
