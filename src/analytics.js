@@ -11,7 +11,7 @@ const logAction = (action, choice) => {
   /* eslint-enable no-underscore-dangle */
 };
 
-const initMatomo = () => {
+const initMatomo = (siteId) => {
   /* eslint-disable */
   const _paq = window._paq = window._paq || [];
   /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
@@ -20,7 +20,7 @@ const initMatomo = () => {
   (function () {
     const u = 'https://ingestion.webanalytics.italia.it/';
     _paq.push(['setTrackerUrl', `${u}matomo.php`]);
-    _paq.push(['setSiteId', 'wBEpDzz0yL']);
+    _paq.push(['setSiteId', siteId]);
     const d = document; const g = d.createElement('script'); const
       s = d.getElementsByTagName('script')[0];
     g.type = 'text/javascript'; g.async = true; g.src = `${u}matomo.js`; s.parentNode.insertBefore(g, s);

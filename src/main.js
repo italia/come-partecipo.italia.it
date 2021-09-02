@@ -8,8 +8,6 @@ import 'bootstrap-italia/dist/css/bootstrap-italia.min.css';
 import BootstrapItaliaIcon from '@/components/BootstrapItaliaIcon.vue';
 import App from './App.vue';
 
-import { initMatomo } from './analytics';
-
 Vue.config.productionTip = false;
 
 Vue.component('bs-icon', BootstrapItaliaIcon);
@@ -33,5 +31,3 @@ Vue.use(Config, {
 new Vue({
   render: (h) => h(App),
 }).$mount('#app');
-
-initMatomo();

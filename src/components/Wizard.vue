@@ -71,6 +71,7 @@
                 :key="possibleChoice.label"
               >
                 <o-button
+                  v-bind="styleConfig.button"
                   class="choice"
                   variant="outline-primary"
                   @click="selectChoice(possibleChoice, index)"
@@ -90,22 +91,26 @@
 
             <o-button
               v-if="activeStep > 0"
+              v-bind="styledConfig.button"
               class="choice"
               variant="secondary"
               @click="goBack()"
             >
               <o-icon
+                v-bind="styledConfig.icon"
                 class="icon icon-white"
                 icon="arrow-left-circle"
               /> Indietro
             </o-button>
             <o-button
               v-if="isLeaf(currentChoice)"
+              v-bind="styledConfig.button"
               class="choice"
               variant="primary"
               @click="restart()"
             >
               <o-icon
+                v-bind="styledConfig.icon"
                 class="icon icon-white"
                 icon="restore"
               /> Ricomincia
@@ -118,14 +123,29 @@
 </template>
 
 <script>
-import treeObj from '@/configuration/tree.yaml';
 import VueMarkdownLite from '@earthtone/vue-markdown-lite';
-import { logAction } from '@/analytics';
+import { initMatomo, logAction } from '@/analytics';
 
 export default {
   name: 'Wizard',
   components: {
     'vue-markdown-lite': VueMarkdownLite,
+  },
+  props: {
+    matomoSiteId: {
+      type: String,
+      default: '',
+    },
+    configurationUrl: {
+      type: String,
+      default: 'https://raw.githubusercontent.com/italia/wizard-italia/4014a535118cf702da196e2e2b68cb78a872ab6f/src/configuration/tree.json',
+    },
+    styleConfig: {
+      type: Object,
+      default() {
+        return {};
+      },
+    },
   },
   data() {
     return {
@@ -135,6 +155,15 @@ export default {
     };
   },
   computed: {
+    styledConfig() {
+      const styleConfig = { ...this.styleConfig };
+      if (styleConfig.iconComponent) {
+        styleConfig.icon = {};
+        styleConfig.icon.component = styleConfig.iconComponent;
+        styleConfig.icon.pack = styleConfig.iconPack;
+      }
+      return styleConfig;
+    },
     currentChoice() {
       return this.choices[this.choices.length - 1];
     },
@@ -144,9 +173,15 @@ export default {
     },
   },
   mounted() {
-    this.choices.push(treeObj.root);
-
-    window.history.pushState({ choices: this.choices, activeStep: this.activeStep }, '');
+    if (this.matomoSiteId) {
+      initMatomo(this.matomoSiteId);
+    }
+    fetch(this.configurationUrl)
+      .then((response) => response.json())
+      .then((data) => {
+        this.choices.push(data.root);
+        window.history.pushState({ choices: this.choices, activeStep: this.activeStep }, '');
+      });
 
     window.onpopstate = (event) => {
       if (!event.state) {
