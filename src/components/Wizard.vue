@@ -138,7 +138,7 @@ export default {
     },
     configurationUrl: {
       type: String,
-      default: 'https://raw.githubusercontent.com/italia/wizard-italia/4014a535118cf702da196e2e2b68cb78a872ab6f/src/configuration/tree.json',
+      default: 'https://raw.githubusercontent.com/italia/wizard-italia/main/src/configuration/tree.json',
     },
     styleConfig: {
       type: Object,
