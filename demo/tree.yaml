@@ -1,0 +1,8 @@
+root:
+  label: ""
+  question: "Select a number"
+  content:
+    - label: "1"
+      content: "You selected 1"
+    - label: "2"
+      content: "You selected 2"
