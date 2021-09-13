@@ -43,7 +43,7 @@
             <ul
               v-if="!isLeaf(currentChoice)"
               class="choices"
-              aria-label="Scegli una delle opzioni seguenti:"
+              :aria-label="labelAria"
             >
               <li
                 v-for="(possibleChoice, index) in currentChoice.content"
@@ -79,7 +79,7 @@
                 v-bind="styledConfig.icon"
                 class="icon icon-white"
                 icon="arrow-left-circle"
-              /> Indietro
+              /> {{labelBack}}
             </o-button>
             <o-button
               v-if="isLeaf(currentChoice)"
@@ -92,7 +92,7 @@
                 v-bind="styledConfig.icon"
                 class="icon icon-white"
                 icon="restore"
-              /> Ricomincia
+              /> {{labelRestart}}
             </o-button>
           </div>
         </div>
@@ -111,6 +111,18 @@ export default {
     'vue-markdown-lite': VueMarkdownLite,
   },
   props: {
+    labelRestart: {
+      type: String,
+      default: 'Ricomincia',
+    },
+    labelBack: {
+      type: String,
+      default: 'Indietro',
+    },
+    labelAria: {
+      type: String,
+      default: 'Scegli una delle opzioni seguenti:',
+    },
     matomoSiteId: {
       type: String,
       default: '',
