@@ -11,13 +11,11 @@
     "prepare-wc-demo": "cp -R ./dist ./demo"
   },
   "dependencies": {
-    "@earthtone/vue-markdown-lite": "^0.2.3",
     "@fontsource/titillium-web": "^4.3.0",
     "@oruga-ui/oruga": "^0.3.6",
     "bootstrap-italia": "^1.4.3",
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
-    "vue-custom-element": "^3.3.0",
     "wizard-italia-component": "0.0.2"
   },
   "devDependencies": {
