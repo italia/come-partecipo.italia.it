@@ -144,10 +144,16 @@
           </div>
         </div>
       </div>
-      <Wizard
-        matomo-site-id="wBEpDzz0yL"
-        @choice="setTitle"
-      />
+      <div class="row justify-content-center">
+        <Wizard
+          configuration-url="https://raw.githubusercontent.com/italia/wizard-italia/main/src/configuration/tree.json"
+          matomo-site-id="wBEpDzz0yL"
+          label-back="Indietro"
+          label-restart="Ricomincia"
+          label-aria-choices="Scegli una delle opzioni seguenti:"
+          @choice="setTitle"
+        />
+      </div>
     </main>
 
     <footer
@@ -236,7 +242,7 @@
 </template>
 
 <script>
-import Wizard from './components/Wizard.vue';
+import Wizard from 'wizard-italia-component';
 
 export default {
   name: 'App',
@@ -258,7 +264,9 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
+@import 'bootstrap-italia/src/scss/bootstrap-italia';
+
 #app {
   display:flex;
   flex-direction:column;
@@ -281,4 +289,45 @@ article.reply > h3 {
 .icon {
   overflow: hidden;
 }
+.wizard {
+  @extend .col-12;
+}
+
+.breadcrumb-container {
+  @extend .col-12;
+}
+
+.page-content {
+  @extend .mx-auto;
+  @extend .col-12;
+  @extend .col-xl-6;
+  @extend .col-lg-8;
+  @extend .col-md-10;
+}
+
+.reply {
+  @extend .my-4;
+  @extend .p-5;
+}
+
+.wizard-btn {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.choice--current, .question {
+  @extend .h3;
+}
+
+.btn-outline-primary:hover {
+  background-color: #dce9f5;
+  color: #06c;
+}
+
+.reply {
+  background-color: #dce9f5;
+  text-align: left;
+}
+
 </style>

@@ -3,7 +3,7 @@ import Vue from 'vue';
 import { Button, Icon, Config } from '@oruga-ui/oruga';
 import '@fontsource/titillium-web';
 import '@oruga-ui/oruga/dist/oruga.css';
-import 'bootstrap-italia/dist/css/bootstrap-italia.min.css';
+import 'wizard-italia-component/dist/wizard-italia-component.css';
 
 import BootstrapItaliaIcon from '@/components/BootstrapItaliaIcon.vue';
 import App from './App.vue';
@@ -20,11 +20,14 @@ Vue.use(Config, {
   iconComponent: 'bs-icon',
   statusIcon: true,
   button: {
-    rootClass: 'btn',
+    rootClass: 'btn wizard-btn',
     outlinedClass: 'btn-outline-',
     disabledClass: 'btn-disabled',
     // Apply variant when the element is not outlined
     variantClass: (variant, context) => (!context.props.outlined ? `btn-${variant}` : ''),
+  },
+  icon: {
+    rootClass: 'icon icon-white',
   },
 });
 
