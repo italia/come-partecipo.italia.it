@@ -1,6 +1,6 @@
 <!-- markdownlint-disable no-inline-html -->
 
-# wizard-italia
+# Come-partecipo.italia.it
 
 Guided wizard to direct contributors
 
