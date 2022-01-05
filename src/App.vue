@@ -215,7 +215,7 @@
                 href="https://form.agid.gov.it/view/74ae3241-da95-469b-a495-26531694b2fa"
                 aria-label="Dichiarazione di accessibilità (collegamento esterno)"
                 target="_blank"
-                rel="noreferrer,noopener"
+                rel="noreferrer"
               >
                 Dichiarazione di accessibilità
               </a>
@@ -226,7 +226,7 @@
                 aria-label="Sorgente del sito su GitHub (collegamento esterno)"
                 title="Sorgente del sito su GitHub (collegamento esterno)"
                 target="_blank"
-                rel="noreferrer,noopener"
+                rel="noreferrer"
               >
                 <o-icon
                   class="icon icon-white inline px-0"
