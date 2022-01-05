@@ -201,13 +201,13 @@
           <ul class="list-inline link-list mb-0 text-center text-md-left">
             <li class="list-inline-item mr-0 mr-md-5">
               <a
-                href="https://www.governo.it/note-legali"
+                href="https://developers.italia.it/it/privacy-policy"
                 target="_blank"
                 rel="noreferrer"
-                aria-label="Note legali (collegamento esterno)"
+                aria-label="Informativa sulla privacy (collegamento esterno)"
                 class="list-item mid-footer-link mx-4 mx-md-0"
               >
-                Note legali
+                Informativa sulla privacy
               </a>
             </li>
             <li class="list-inline-item mr-0 mr-md-5">
