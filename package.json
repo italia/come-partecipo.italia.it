@@ -6,6 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
+    "transform-configuration": "npx js-yaml ./src/configuration/tree.yaml > ./src/configuration/tree.json",
     "deploy": "gh-pages -u 'Deploy Bot <no-reply@teamdigitale.governo.it>' -d dist/",
     "wc": "rm -rf ./dist && vue-cli-service build --target lib --name wizard-italia src/wc.js",
     "prepare-wc-demo": "cp -R ./dist ./demo"
