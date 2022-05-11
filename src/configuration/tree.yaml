@@ -35,6 +35,15 @@ root:
                  aria-label="Slack (collegamento esterno)">
                  Slack</a>.
 
+          - label: "Vorrei capire quali sono le attività di aggiornamento del design system del Paese"
+            content: |
+              Scopri il <a href="https://designers.italia.it/piano-attivita/" target="_blank" aria-label="piano attività di Designers Italia (collegamento esterno)">piano attività di Designers Italia 🔗</a>.
+
+              Leggi <a href="https://designers.italia.it/notizie/Community-lab-a-che-punto-siamo-con-UIkit-design-token/" target="_blank" aria-label="l'articolo e guarda il video di approfondimento sul nuovo kit UI in costruzione (collegamento esterno)">l'articolo e guarda il video di approfondimento sul nuovo kit UI in costruzione 🔗</a>
+
+              Leggi <a href="https://designers.italia.it/notizie/Accessibilita-migliorata-con-bootstrap-italia/" target="_blank" aria-label="l'articolo e guarda il video di approfondimento sulle lavorazioni in corso sulla libreria di sviluppo Bootstrap Italia (collegamento esterno)">l'articolo e guarda il video di approfondimento sulle lavorazioni in corso sulla libreria di sviluppo Bootstrap Italia 🔗</a>
+
+
           - label: "Vorrei capire quali sono le migliori pratiche di sviluppo da adottare per un servizio pubblico"
             content: |
               Scopri gli <a href="https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/index.html"
@@ -483,7 +492,7 @@ root:
             ## Aiutaci a migliorare questo strumento!
 
             Vogliamo aggiungere nuove attività ed iniziative per permettere a quante più persone possibili di partecipare.
-            
+
             Hai idee per noi? Entra nella community e proponicele. Raggiungici su
             <a href="https://slack.developers.italia.it"
                 target="_blank"
