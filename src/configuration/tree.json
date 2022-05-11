@@ -21,6 +21,10 @@
                 "content": "Leggi le <a href=\"https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/index.html\"\n   target=\"_blank\"\n   aria-label=\"Linee Guida per l'acquisizione e il riuso del software per le pubbliche amministrazioni (collegamento esterno)\">\n   Linee Guida per l'acquisizione e il riuso del software per le pubbliche amministrazioni 🔗\n</a>.\n\nSe hai dubbi, domande o proposte di miglioramento mandaci i tuoi suggerimenti su\n<a href=\"https://slack.developers.italia.it\"\n   target=\"_blank\"\n   aria-label=\"Slack (collegamento esterno)\">\n   Slack</a>.\n"
               },
               {
+                "label": "Vorrei capire quali sono le risorse e le attività di aggiornamento del design system del Paese",
+                "content": "Leggi <a href=\"https://designers.italia.it/notizie/Community-lab-a-che-punto-siamo-con-UIkit-design-token/\" target=\"_blank\" aria-label=\"l'articolo e guarda il video di approfondimento sul nuovo kit UI in costruzione (collegamento esterno)\">l'articolo e guarda il video di approfondimento sul nuovo kit UI in costruzione 🔗</a>.\n\nLeggi <a href=\"https://designers.italia.it/notizie/Accessibilita-migliorata-con-bootstrap-italia/\" target=\"_blank\" aria-label=\"l'articolo e guarda il video di approfondimento sulle lavorazioni in corso sulla libreria di sviluppo Bootstrap Italia (collegamento esterno)\">l'articolo e guarda il video di approfondimento sulle lavorazioni in corso sulla libreria di sviluppo Bootstrap Italia 🔗</a>.\n\nScopri il <a href=\"https://designers.italia.it/piano-attivita/\" target=\"_blank\" aria-label=\"piano attività di Designers Italia (collegamento esterno)\">piano attività di Designers Italia 🔗</a>.\n"
+              },
+              {
                 "label": "Vorrei capire quali sono le migliori pratiche di sviluppo da adottare per un servizio pubblico",
                 "content": "Scopri gli <a href=\"https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/index.html\"\n   target=\"_blank\"\n   aria-label=\"allegati tecnicis (collegamento esterno)\">\n    allegati tecnici</a> delle Linee guida per lo sviluppo e la manutenzione del software\n"
               },
@@ -71,15 +75,19 @@
               },
               {
                 "label": "Vorrei supportare il mio team ad accrescere le proprie competenze di progettazione",
-                "content": "<a href=\"https://forum.italia.it/c/documenti-in-consultazione/linee-guida-di-design-per-i-servizi-web-della-pa/81\"\n      target=\"_blank\"\n      aria-label=\"Scopri le nuove Linee guida di design dei servizi web della Pubblica amministrazione(collegamento esterno)\">\n      Scopri le nuove Linee guida di design dei servizi web della Pubblica Amministrazione 🔗\n     </a>\n\n<em>Le nuove Linee guida sono attualmente in fase di consultazione.</em>\n"
+                "content": "<a href=\"https://forum.italia.it/c/documenti-in-consultazione/linee-guida-di-design-per-i-servizi-web-della-pa/81\"\n      target=\"_blank\"\n      aria-label=\"Scopri le nuove Linee guida di design dei servizi web della Pubblica amministrazione(collegamento esterno)\">\n      Scopri le nuove guida di design dei servizi web della Pubblica Amministrazione 🔗\n     </a>\n\n<em>Le nuove Linee guida sono in fase di stesura finale a valle della consultazione.</em>\n"
               },
               {
                 "label": "Vorrei approfondire come progettare un servizio digitale per la Pubblica Amministrazione",
-                "content": "<a href=\"https://designers.italia.it/kit\"\n     target=\"_blank\"\n     aria-label=\"Scopri i kit, e in particolare la sezione capire (collegamento esterno)\">\n     Scopri i kit, e in particolare la sezione capire 🔗\n    </a>\n"
+                "content": "<a href=\"https://designers.italia.it/kit/#comprendere\"\n     target=\"_blank\"\n     aria-label=\"Scopri i kit, e in particolare quelli della fase comprendere (collegamento esterno)\">\n     Scopri i kit, e in particolare quelli della fase comprendere 🔗\n    </a>\n"
               },
               {
                 "label": "Lavoro in una scuola o in un Comune e mi interesserebbe migliorare il nostro sito web",
-                "content": "<a href=\"https://designers.italia.it/kit\"\n     target=\"_blank\"\n     aria-label=\"Scopri i kit, e in particolare le sezioni comuni e scuole (collegamento esterno)\">\n     Scopri i kit, e in particolare le sezioni comuni e scuole 🔗\n    </a>\n"
+                "content": "<a href=\"https://designers.italia.it/modello/comuni/\"\n     target=\"_blank\"\n     aria-label=\"Scopri i modelli di sito e servizi per Comuni e scuole e le opportunità del PNRR (collegamento esterno)\">\n     Scopri i modelli di sito e servizi per Comuni e scuole e le opportunità del PNRR 🔗\n    </a>\n"
+              },
+              {
+                "label": "Vorrei capire quali sono le risorse e le attività di aggiornamento del design system del Paese",
+                "content": "Leggi <a href=\"https://designers.italia.it/notizie/Community-lab-a-che-punto-siamo-con-UIkit-design-token/\" target=\"_blank\" aria-label=\"l'articolo e guarda il video di approfondimento sul nuovo kit UI in costruzione (collegamento esterno)\">l'articolo e guarda il video di approfondimento sul nuovo kit UI in costruzione 🔗</a>.\n\nLeggi <a href=\"https://designers.italia.it/notizie/Accessibilita-migliorata-con-bootstrap-italia/\" target=\"_blank\" aria-label=\"l'articolo e guarda il video di approfondimento sulle lavorazioni in corso sulla libreria di sviluppo Bootstrap Italia (collegamento esterno)\">l'articolo e guarda il video di approfondimento sulle lavorazioni in corso sulla libreria di sviluppo Bootstrap Italia 🔗</a>.\n\nScopri il <a href=\"https://designers.italia.it/piano-attivita/\" target=\"_blank\" aria-label=\"piano attività di Designers Italia (collegamento esterno)\">piano attività di Designers Italia 🔗</a>.\n"
               },
               {
                 "label": "Lavoro in un'amministrazione che adotta software open source e vorrei metterlo a riuso",
@@ -107,13 +115,21 @@
       {
         "label": "Mi occupo di progettazione e design",
         "comment": "L'iniziativa che si occupa di questi temi è Designers Italia",
-        "question": "Hai già usato i nostri strumenti di progettazione?",
+        "question": "Hai già usato gli strumenti di progettazione di Designers Italia?",
         "content": [
           {
             "label": "Sì",
             "comment": "Che bello! Speriamo che ti siano stati utili!",
             "question": "Vuoi fare qualcosa in più?",
             "content": [
+              {
+                "label": "Voglio conoscere le attività in corso sugli strumenti di progettazione",
+                "content": "Scopri il <a href=\"https://designers.italia.it/piano-attivita/\" target=\"_blank\" aria-label=\"piano attività di Designers Italia (collegamento esterno)\">piano attività di Designers Italia 🔗</a>.\n"
+              },
+              {
+                "label": "Voglio contribuire alle attività di aggiornamento del design system del Paese",
+                "content": "Se hai competenze di <strong>progettazione</strong> interfacce ed esperienze utente, prova e commenta <a href=\"https://www.figma.com/community/file/1105848677422572920\" target=\"_blank\" aria-label=\"il nuovo UI kit in costruzione (collegamento esterno)\">il nuovo UI kit in costruzione 🔗</a> per Figma, e preparati a testare presto le versioni per altri strumenti come Sketch.\n\nSe hai esperienze di <strong>sviluppo</strong> interfacce ed esperienze utente, prova e commenta <a href=\"https://github.com/italia/bootstrap-italia-next//\" target=\"_blank\" aria-label=\"il nuovo Bootstrap Italia 2.0 in costruzione (collegamento esterno)\">il nuovo Bootstrap Italia 2.0 in costruzione 🔗</a> basato su Bootstrap 5, o l'ultima versione di <a href=\"https://github.com/italia/bootstrap-italia/\" target=\"_blank\" aria-label=\"Bootstrap Italia 1.6.2 (collegamento esterno)\">Bootstrap Italia 1.6.2 🔗</a> basato su Bootstrap 4 e con importanti interventi sull'accessibilità, sulla scalabilità e l'usabilità.\n\nScopri il <a href=\"https://designers.italia.it/piano-attivita/\" target=\"_blank\" aria-label=\"piano attività di Designers Italia (collegamento esterno)\">piano attività di Designers Italia 🔗</a>.\n"
+              },
               {
                 "label": "Ho dei suggerimenti per migliorare gli strumenti di progettazione",
                 "content": "Vieni sui canali community e condividi i tuoi suggerimenti:\n\n## Slack\n<https://slack.developers.italia.it>\n\n## GitHub\n<https://github.com/italia/awesome-italia>\n"
@@ -124,7 +140,7 @@
               },
               {
                 "label": "Insegno in una scuola di design, vorrei usare i vostri strumenti",
-                "content": "Proponi ai tuoi studenti un progetto migliorativo che abbia un impatto sulla comunità.\n\nScrivici alla mail\n<a href=\"mailto:contatti@designers.italia.it\" target=\"_blank\" rel=\"noopener noreferrer\">contatti@designers.italia.it</a>\n"
+                "content": "Proponi agli studenti un progetto migliorativo che abbia un impatto sulla comunità.\n\nScrivici alla mail\n<a href=\"mailto:contatti@designers.italia.it\" target=\"_blank\" rel=\"noopener noreferrer\">contatti@designers.italia.it</a>\n"
               }
             ]
           },
@@ -134,16 +150,20 @@
             "question": "Cosa ti interessa di più?",
             "content": [
               {
+                "label": "Voglio conoscere le attività in corso sugli strumenti di progettazione e sul design system del Paese",
+                "content": "Scopri il <a href=\"https://designers.italia.it/piano-attivita/\" target=\"_blank\" aria-label=\"piano attività di Designers Italia (collegamento esterno)\">piano attività di Designers Italia 🔗</a>.\n"
+              },
+              {
                 "label": "Vorrei scoprire le linee guida per progettare un servizio pubblico digitale",
-                "content": "<a href=\"https://forum.italia.it/c/documenti-in-consultazione/linee-guida-di-design-per-i-servizi-web-della-pa/81\"\n     target=\"_blank\"\n     aria-label=\"Scopri e commenta le Linee guida in consultazione (collegamento esterno)\">\n     Scopri e commenta le Linee guida in consultazione 🔗\n    </a>\n"
+                "content": "<a href=\"https://forum.italia.it/c/documenti-in-consultazione/linee-guida-di-design-per-i-servizi-web-della-pa/81\"\n     target=\"_blank\"\n     aria-label=\"Scopri le nuove Linee guida di design dei servizi web della Pubblica amministrazione(collegamento esterno)\">\n     Scopri le nuove guida di design dei servizi web della Pubblica Amministrazione 🔗\n    </a>\n\n<em>Le nuove Linee guida sono in fase di stesura finale a valle della consultazione.</em>\n"
               },
               {
                 "label": "Mi interessa capire come fare ricerca e avviare un progetto con il piede giusto",
-                "content": "<a href=\"https://designers.italia.it/kit\"\n     target=\"_blank\"\n     aria-label=\"Scopri i kit, e in particolare la sezione capire (collegamento esterno)\">\n     Scopri i kit in particolare la sezione capire 🔗\n    </a>\n"
+                "content": "<a href=\"https://designers.italia.it/kit/#comprendere\"\n     target=\"_blank\"\n     aria-label=\"Scopri i kit, e in particolare quelli della fase comprendere (collegamento esterno)\">\n     Scopri i kit in particolare quelli della fase comprendere 🔗\n    </a>\n"
               },
               {
                 "label": "Vorrei avere gli strumenti giusti per costruire un'interfaccia",
-                "content": "<a href=\"https://designers.italia.it/kit\"\n    target=\"_blank\"\n    aria-label=\"Scopri i kit, e in particolare la sezione fare (collegamento esterno)\">\n    Scopri i kit in particolare la sezione fare 🔗\n   </a>\n"
+                "content": "<a href=\"https://designers.italia.it/kit/#realizzare\"\n    target=\"_blank\"\n    aria-label=\"Scopri i kit, e in particolare quelli della fase realizzare (collegamento esterno)\">\n    Scopri i kit, e in particolare quelli della fase realizzare 🔗\n   </a>\n\nSe hai competenze di <strong>progettazione</strong> interfacce ed esperienze utente, prova e commenta <a href=\"https://www.figma.com/community/file/1105848677422572920\" target=\"_blank\" aria-label=\"il nuovo UI kit in costruzione (collegamento esterno)\">il nuovo UI kit in costruzione 🔗</a> per Figma, e preparati a testare presto le versioni per altri strumenti come Sketch.\n\nSe hai esperienze di <strong>sviluppo</strong> interfacce ed esperienze utente, prova e commenta <a href=\"https://github.com/italia/bootstrap-italia-next//\" target=\"_blank\" aria-label=\"il nuovo Bootstrap Italia 2.0 in costruzione (collegamento esterno)\">il nuovo Bootstrap Italia 2.0 in costruzione 🔗</a> basato su Bootstrap 5, o l'ultima versione di <a href=\"https://github.com/italia/bootstrap-italia/\" target=\"_blank\" aria-label=\"Bootstrap Italia 1.6.2 (collegamento esterno)\">Bootstrap Italia 1.6.2 🔗</a> basato su Bootstrap 4 e con importanti interventi sull'accessibilità, sulla scalabilità e l'usabilità.\n\nDialoga nei canali #design-dev e #design-ui-kit della community su Slack.\n<https://slack.developers.italia.it>\n"
               },
               {
                 "label": "Insegno in una scuola di design, mi piacerebbe capire come usare i vostri strumenti in un contesto didattico",
@@ -204,12 +224,12 @@
                 ]
               },
               {
-                "label": "Vorrei migliorare i kit di sviluppo web",
-                "content": "<a href=\"https://designers.italia.it/kit/web-development-kit/\"\n      target=\"_blank\"\n      aria-label=\"Scopri i kit sul sito Designers Italia (collegamento esterno)\">\n     Scopri i kit sul sito Designers Italia 🔗\n     </a>\n\n## Github\n<a href=\"https://github.com/italia/bootstrap-italia/issues\"\n      target=\"_blank\"\n      aria-label=\"Contribuisci alle issue non risolte sul repo Bootstrap Italia (collegamento esterno)\">\n      Contribuisci alle issue non risolte sul repo Bootstrap Italia 🔗\n     </a>\n\n<a href=\"https://github.com/italia/design-react-kit/issues/\"\n      target=\"_blank\"\n      aria-label=\"Contribuisci alle issue non risolte sul repo React Italia (collegamento esterno)\">\n      Contribuisci alle issue non risolte sul repo React Italia 🔗\n     </a>\n"
+                "label": "Vorrei migliorare i kit di sviluppo interfaccia del design system del Paese",
+                "content": "<a href=\"https://designers.italia.it/kit/sviluppo-interfaccia/\"\n        target=\"_blank\"\n        aria-label=\"Scopri i kit sul sito Designers Italia (collegamento esterno)\">\n       Scopri i kit sul sito Designers Italia 🔗\n       </a>\n\nProva, commenta e fai una PR sul <a href=\"https://github.com/italia/bootstrap-italia-next//\" target=\"_blank\" aria-label=\"nuovo Bootstrap Italia 2.0 in costruzione (collegamento esterno)\">nuovo Bootstrap Italia 2.0 in costruzione 🔗</a> basato su Bootstrap 5, o sull'ultima versione di <a href=\"https://github.com/italia/bootstrap-italia/\" target=\"_blank\" aria-label=\"Bootstrap Italia 1.6.2 (collegamento esterno)\">Bootstrap Italia 1.6.2 🔗</a> basato su Bootstrap 4 e con importanti interventi sull'accessibilità, sulla scalabilità e l'usabilità.\n\nScopri il <a href=\"https://designers.italia.it/piano-attivita/\" target=\"_blank\" aria-label=\"piano attività di Designers Italia (collegamento esterno)\">piano attività di Designers Italia 🔗</a>.\n\n## Github\n<a href=\"https://github.com/italia/bootstrap-italia-next/issues\"\n      target=\"_blank\"\n        aria-label=\"Contribuisci alle issue non risolte sul repo Bootstrap Italia 2.0 in costruzione (collegamento esterno)\">\n        Contribuisci alle issue non risolte sul repo Bootstrap Italia 2.0 in costruzione 🔗\n       </a>\n\n<a href=\"https://github.com/italia/bootstrap-italia/issues\"\n       target=\"_blank\"\n       aria-label=\"Contribuisci alle issue non risolte sul repo Bootstrap Italia (collegamento esterno)\">\n       Contribuisci alle issue non risolte sul repo Bootstrap Italia 🔗\n      </a>\n\n<a href=\"https://github.com/italia/design-react-kit/issues/\"\n       target=\"_blank\"\n       aria-label=\"Contribuisci alle issue non risolte sul repo React Italia (collegamento esterno)\">\n       Contribuisci alle issue non risolte sul repo React Italia 🔗\n      </a>\n"
               },
               {
                 "label": "Mi piacerebbe fare parte della community",
-                "content": "Non vediamo l'ora di accoglierti! Qui i link principali:\n## Forum Italia\n<https://forum.italia.it>\n\n## Slack\n<https://slack.developers.italia.it>\n\n## GitHub\n<https://github.com/italia/awesome-italia>\n"
+                "content": "Non vediamo l'ora di accoglierti! Qui i link principali:\n\n## Forum Italia\n<https://forum.italia.it>\n\n## Slack\n<https://slack.developers.italia.it>\n\n## GitHub\n<https://github.com/italia/awesome-italia>\n"
               }
             ]
           },
@@ -224,6 +244,10 @@
               {
                 "label": "Posso leggere la Guida allo sviluppo e gestione di software open source e inviare i miei miglioramenti",
                 "content": "La guida è un documento in evoluzione e ha bisogno del contributo di tutti.\n\nQui trovi\n<a href=\"https://docs.italia.it/italia/developers-italia/guida-sviluppo-gestione-software-libero/it/stabile/sviluppatori.html\"\n   target=\"_blank\"\n   aria-label=\"Capitolo sviluppatori della Guida allo sviluppo e gestione di software open source (collegamento esterno)\">\n   il capitolo dedicato agli sviluppatori 🔗\n</a> e qui <a href=\"https://github.com/italia/guida-sviluppo-gestione-software-libero\"\n   target=\"_blank\"\n   aria-label=\"Sorgenti della Guida allo sviluppo e gestione di software open source (collegamento esterno)\">\n   i sorgenti 🔗\n</a>. Aspettiamo le tue PR!\n"
+              },
+              {
+                "label": "Voglio partecipare all'aggiornamento del design system del Paese",
+                "content": "Prova e commenta <a href=\"https://github.com/italia/bootstrap-italia-next//\" target=\"_blank\" aria-label=\"il nuovo Bootstrap Italia 2.0 in costruzione (collegamento esterno)\">il nuovo Bootstrap Italia 2.0 in costruzione 🔗</a> basato su Bootstrap 5, o l'ultima versione di <a href=\"https://github.com/italia/bootstrap-italia/\" target=\"_blank\" aria-label=\"Bootstrap Italia 1.6.2 (collegamento esterno)\">Bootstrap Italia 1.6.2 🔗</a> basato su Bootstrap 4 e con importanti interventi sull'accessibilità, sulla scalabilità e l'usabilità.\n\nScopri il <a href=\"https://designers.italia.it/piano-attivita/\" target=\"_blank\" aria-label=\"piano attività di Designers Italia (collegamento esterno)\">piano attività di Designers Italia 🔗</a>.\n\nDialoga nei canali #design-dev e #design-ui-kit della community su Slack.\n<https://slack.developers.italia.it>\n"
               },
               {
                 "label": "Voglio sapere come realizzare API pubbliche e come funziona il modello di interoperabilità!",
