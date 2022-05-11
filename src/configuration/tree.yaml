@@ -271,16 +271,8 @@ root:
           comment: "Va bene, ti aiutiamo a scoprirli!"
           question: "Cosa ti interessa di più?"
           content:
-            - label: "Voglio conoscere le attività in corso sugli strumenti di progettazione"
+            - label: "Voglio conoscere le attività in corso sugli strumenti di progettazione e sul design system del Paese"
               content: |
-                Scopri il <a href="https://designers.italia.it/piano-attivita/" target="_blank" aria-label="piano attività di Designers Italia (collegamento esterno)">piano attività di Designers Italia 🔗</a>.
-
-            - label: "Voglio contribuire alle attività di aggiornamento del design system del Paese"
-              content: |
-                Se hai competenze di <strong>progettazione</strong> interfacce ed esperienze utente, prova e commenta <a href="https://www.figma.com/community/file/1105848677422572920" target="_blank" aria-label="il nuovo UI kit in costruzione (collegamento esterno)">il nuovo UI kit in costruzione 🔗</a> per Figma, e preparati a testare presto le versioni per altri strumenti come Sketch.
-
-                Se hai esperienze di <strong>sviluppo</strong> interfacce ed esperienze utente, prova e commenta <a href="https://github.com/italia/bootstrap-italia-next//" target="_blank" aria-label="il nuovo Bootstrap Italia 2.0 in costruzione (collegamento esterno)">il nuovo Bootstrap Italia 2.0 in costruzione 🔗</a> basato su Bootstrap 5, o l'ultima versione di <a href="https://github.com/italia/bootstrap-italia/" target="_blank" aria-label="Bootstrap Italia 1.6.2 (collegamento esterno)">Bootstrap Italia 1.6.2 🔗</a> basato su Bootstrap 4 e con importanti interventi sull'accessibilità, sulla scalabilità e l'usabilità.
-
                 Scopri il <a href="https://designers.italia.it/piano-attivita/" target="_blank" aria-label="piano attività di Designers Italia (collegamento esterno)">piano attività di Designers Italia 🔗</a>.
 
             - label: "Vorrei scoprire le linee guida per progettare un servizio pubblico digitale"
@@ -308,6 +300,14 @@ root:
                     aria-label="Scopri i kit, e in particolare quelli della fase realizzare (collegamento esterno)">
                     Scopri i kit, e in particolare quelli della fase realizzare 🔗
                    </a>
+
+                Se hai competenze di <strong>progettazione</strong> interfacce ed esperienze utente, prova e commenta <a href="https://www.figma.com/community/file/1105848677422572920" target="_blank" aria-label="il nuovo UI kit in costruzione (collegamento esterno)">il nuovo UI kit in costruzione 🔗</a> per Figma, e preparati a testare presto le versioni per altri strumenti come Sketch.
+
+                Se hai esperienze di <strong>sviluppo</strong> interfacce ed esperienze utente, prova e commenta <a href="https://github.com/italia/bootstrap-italia-next//" target="_blank" aria-label="il nuovo Bootstrap Italia 2.0 in costruzione (collegamento esterno)">il nuovo Bootstrap Italia 2.0 in costruzione 🔗</a> basato su Bootstrap 5, o l'ultima versione di <a href="https://github.com/italia/bootstrap-italia/" target="_blank" aria-label="Bootstrap Italia 1.6.2 (collegamento esterno)">Bootstrap Italia 1.6.2 🔗</a> basato su Bootstrap 4 e con importanti interventi sull'accessibilità, sulla scalabilità e l'usabilità.
+
+                Dialoga nei canali #design-dev e #design-ui-kit della community su Slack.
+                <https://slack.developers.italia.it>
+            
 
             - label: "Insegno in una scuola di design, mi piacerebbe capire come usare i vostri strumenti in un contesto didattico"
               content: |
@@ -502,6 +502,9 @@ root:
               Prova e commenta <a href="https://github.com/italia/bootstrap-italia-next//" target="_blank" aria-label="il nuovo Bootstrap Italia 2.0 in costruzione (collegamento esterno)">il nuovo Bootstrap Italia 2.0 in costruzione 🔗</a> basato su Bootstrap 5, o l'ultima versione di <a href="https://github.com/italia/bootstrap-italia/" target="_blank" aria-label="Bootstrap Italia 1.6.2 (collegamento esterno)">Bootstrap Italia 1.6.2 🔗</a> basato su Bootstrap 4 e con importanti interventi sull'accessibilità, sulla scalabilità e l'usabilità.
 
               Scopri il <a href="https://designers.italia.it/piano-attivita/" target="_blank" aria-label="piano attività di Designers Italia (collegamento esterno)">piano attività di Designers Italia 🔗</a>.
+
+              Dialoga nei canali #design-dev e #design-ui-kit della community su Slack.
+              <https://slack.developers.italia.it>
 
           - label: "Voglio sapere come realizzare API pubbliche e come funziona il modello di interoperabilità!"
             content: |
