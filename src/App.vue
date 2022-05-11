@@ -145,8 +145,9 @@
         </div>
       </div>
       <div class="row justify-content-center">
+      <!-- correct url: https://raw.githubusercontent.com/italia/wizard-italia/feat-/src/configuration/tree.json -->
         <Wizard
-          configuration-url="https://raw.githubusercontent.com/italia/wizard-italia/main/src/configuration/tree.json"
+          configuration-url="https://raw.githubusercontent.com/Fupete/come-partecipo.italia.it/feat/design-system/src/configuration/tree.json"
           matomo-site-id="wBEpDzz0yL"
           label-back="Indietro"
           label-restart="Ricomincia"
