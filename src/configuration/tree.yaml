@@ -295,7 +295,7 @@ root:
 
             - label: "Vorrei avere gli strumenti giusti per costruire un'interfaccia"
               content: |
-                <a href="https://designers.italia.it/kit"
+                <a href="https://designers.italia.it/kit/#realizzare"
                     target="_blank"
                     aria-label="Scopri i kit, e in particolare quelli della fase realizzare (collegamento esterno)">
                     Scopri i kit, e in particolare quelli della fase realizzare 🔗
@@ -307,7 +307,7 @@ root:
 
                 Dialoga nei canali #design-dev e #design-ui-kit della community su Slack.
                 <https://slack.developers.italia.it>
-            
+
 
             - label: "Insegno in una scuola di design, mi piacerebbe capire come usare i vostri strumenti in un contesto didattico"
               content: |
