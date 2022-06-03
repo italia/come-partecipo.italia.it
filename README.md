@@ -22,12 +22,6 @@ yarn serve
 yarn build
 ```
 
-### Configure wizard
-
-```shell
-yarn transform-configuration
-```
-
 ### Lints and fixes files
 
 ```shell
