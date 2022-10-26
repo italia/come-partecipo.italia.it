@@ -181,19 +181,6 @@
               </div>
             </div>
           </div>
-          <div class="row pb-4">
-            <div class="col-12 small">
-              Per segnalazioni ed eventuali suggerimenti sull'accessibilità del
-              sito, scrivi a
-              <a
-                class="font-weight-semibold text-white"
-                href="mailto:accessibilita@innovazione.gov.it"
-                aria-label="accessibilita@innovazione.gov.it"
-              >
-                accessibilita@innovazione.gov.it
-              </a>
-            </div>
-          </div>
         </div>
       </div>
       <div class="it-footer-small-prints py-4">
