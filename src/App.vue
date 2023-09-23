@@ -146,7 +146,7 @@
       </div>
       <div class="row justify-content-center">
         <Wizard
-          configuration-url="https://raw.githubusercontent.com/italia/wizard-italia/main/src/configuration/tree.json"
+          :configuration-url="configuration_url"
           matomo-site-id="wBEpDzz0yL"
           label-back="Indietro"
           label-restart="Ricomincia"
@@ -240,6 +240,9 @@ export default {
     return {
       activeStep: 0,
     };
+  },
+  computed: {
+    configuration_url: () => ((process.env.NODE_ENV === 'development') ? '/tree.yaml' : '/tree.json'),
   },
   methods: {
     setTitle({ label, activeStep }) {
