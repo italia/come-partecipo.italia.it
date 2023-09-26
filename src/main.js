@@ -5,12 +5,12 @@ import '@fontsource/titillium-web';
 import '@oruga-ui/oruga/dist/oruga.css';
 import 'wizard-italia-component/dist/wizard-italia-component.css';
 
-import BootstrapItaliaIcon from '@/components/BootstrapItaliaIcon.vue';
+import BootstrapItaliaIcon from './components/BootstrapItaliaIcon.vue';
 import App from './App.vue';
 
 Vue.config.productionTip = false;
 
-Vue.component('bs-icon', BootstrapItaliaIcon);
+Vue.component('BsIcon', BootstrapItaliaIcon);
 
 Vue.use(Button);
 Vue.use(Icon);
