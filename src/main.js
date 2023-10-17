@@ -10,7 +10,7 @@ import App from './App.vue';
 
 Vue.config.productionTip = false;
 
-Vue.component('bs-icon', BootstrapItaliaIcon);
+Vue.component('BsIcon', BootstrapItaliaIcon);
 
 Vue.use(Button);
 Vue.use(Icon);
