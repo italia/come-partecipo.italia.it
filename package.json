@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "serve": "NODE_OPTIONS='--openssl-legacy-provider' vue-cli-service serve",
+    "build": "NODE_OPTIONS='--openssl-legacy-provider' vue-cli-service build",
     "lint": "vue-cli-service lint",
     "transform-configuration": "npx js-yaml ./src/configuration/tree.yaml > ./src/configuration/tree.json",
     "deploy": "gh-pages -u 'Deploy Bot <no-reply@teamdigitale.governo.it>' -d dist/",
@@ -21,18 +21,18 @@
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
-    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-eslint": "^5.0.8",
     "@vue/cli-service": "~4.5.13",
-    "@vue/eslint-config-airbnb": "^5.0.2",
+    "@vue/eslint-config-airbnb": "^7.0.0",
     "babel-eslint": "^10.1.0",
-    "eslint": "^6.7.2",
-    "eslint-plugin-import": "^2.20.2",
-    "eslint-plugin-vue": "^6.2.2",
+    "eslint": "^7",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-vue": "^9.17.0",
     "gh-pages": "^3.1.0",
     "js-yaml": "^4.1.0",
     "json-loader": "^0.5.7",
     "sass": "^1.42.1",
-    "sass-loader": "10.1.1",
+    "sass-loader": "^10",
     "vue-template-compiler": "^2.6.11"
   },
   "files": [
@@ -51,9 +51,12 @@
       "@vue/airbnb"
     ],
     "parserOptions": {
-      "parser": "babel-eslint"
+      "parser": "babel-eslint",
+      "ecmaVersion": 6
     },
-    "rules": {}
+    "rules": {
+      "vue/no-template-target-blank": "off"
+    }
   },
   "browserslist": [
     "> 1%",

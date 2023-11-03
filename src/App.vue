@@ -21,7 +21,7 @@
                     <a
                       class="d-none d-lg-block navbar-brand"
                       href="https://innovazione.gov.it/dipartimento/"
-                      rel="noopener"
+                      rel="noreferrer"
                       aria-label="Sito del Dipartimento per la Trasformazione Digitale"
                     >
                       Dipartimento per la Trasformazione Digitale
@@ -49,7 +49,7 @@
                               href="https://developers.italia.it"
                               target="_blank"
                               aria-label="Sito di Developers Italia (collegamento esterno)"
-                              rel="noopener"
+                              rel="noreferrer"
                             >
                               Developers
                               <o-icon
@@ -64,7 +64,7 @@
                               href="https://designers.italia.it"
                               target="_blank"
                               aria-label="Sito di Designers Italia (collegamento esterno)"
-                              rel="noopener"
+                              rel="noreferrer"
                             >
                               Designers
                               <o-icon
