@@ -1,12 +1,12 @@
 <template>
   <div id="app">
-    <div>
+    <div class="skiplinks">
       <a
-        class="sr-only sr-only-focusable"
+        class="visually-hidden-focusable"
         href="#content"
       >Vai al contenuto principale</a>
       <a
-        class="sr-only sr-only-focusable"
+        class="visually-hidden-focusable"
         href="#footer"
       >Vai a piè di pagina</a>
     </div>
