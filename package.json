@@ -14,7 +14,7 @@
   "dependencies": {
     "@fontsource/titillium-web": "^4.3.0",
     "@oruga-ui/oruga": "^0.3.6",
-    "bootstrap-italia": "^1.4.3",
+    "bootstrap-italia": "^2.13.2",
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
     "wizard-italia-component": "0.0.2"
